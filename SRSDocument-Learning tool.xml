@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>9b3f72ddc75430e6c12bdf31725fa1b1375e19ab5706fb10ed81d0d15b4b2300</job>
+    <base_name>vor</base_name>
+    <doi>http://dx.doi.org/10.1007/springerreference_8469</doi>
+    <warning>Name identification was not possible. </warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Automated Structure, Diagram Question Marking And Doubt Clarification System</article-title>
+      </title-group>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="2" confidence="possible" page="1" column="1">Student’s Doubt Clarification Module</h2>
+      </section>
+      <region class="DoCO:TextChunk" id="3" confidence="possible">Project ID:18-021 SRS Document P.S.Suriyaarachchi</region>
+      <region class="DoCO:TextChunk" id="4" confidence="possible">Bachelor of Science(Hons) in Information Technology Specializing in Software Engineering Department of Software Engineering Sri Lanka Institute of Information Technology Sri Lanka May,2018</region>
+      <region class="unknown" id="5">Automated Structure, Diagram Question Marking And Doubt Clarification System</region>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="6" confidence="possible" page="2" column="1">Student’s Doubt Clarification Module</h2>
+        <region class="unknown" id="7" page="2" column="1">Project ID:18-021 SRS Document</region>
+      </section>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="8" confidence="possible" page="2" column="1">Name: ID Number:</h2>
+        <region class="DoCO:TextChunk" id="9" confidence="possible" page="2" column="1">Pawani Saumya Suriyaarachchi IT15035868</region>
+        <region class="DoCO:TextChunk" id="10" confidence="possible" page="2" column="1">Bachelor of Science(Hons) in Information Technology Specializing in Software Engineering Department of Software Engineering May,2018</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="11" page="2" column="1">1</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="12" confidence="possible" page="3" column="1">Declaration</h2>
+        <region class="DoCO:TextChunk" id="13" confidence="possible" page="3" column="1">We declare that this is our own work and this proposal does not incorporate without acknowledgement any material previously submitted for a degree or diploma in any other university or Institute of higher learning and to the best of our knowledge and belief it does not contain any material previously published or written by another person except where the acknowledgement is made in the text. Name Student ID Signature P.S.Suriyaarachchi IT15035868 The supervisor/s should certify the proposal report with the following declaration.</region>
+        <region class="DoCO:TextChunk" id="14" page="3" column="1">The above candidates are carrying out research for the undergraduate Dissertation under my supervision.</region>
+        <region class="unknown" id="15" page="3" column="1">Signature of the supervisor: Date</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="16" page="3" column="1">2</outsider>
+      </section>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="17" page="4" column="1">TABLE OF CONTENTS</h1>
+        <region class="DoCO:TextChunk" id="18" confidence="possible" page="4" column="1">Declaration TABLE OF CONTENTS 1 INTRODUCTION 1.1 Purpose 1.2 Scope 1.3 Definitions, Acronyms, And Abbreviations 1.4 Overview 2 OVERALL DESCRIPTIONS 2.1 Product Perspective 2.1.1 System interfaces 2.1.2 User interfaces 2.1.3 Hardware interfaces 2.1.4 Software interfaces 2.1.5 Communication interfaces 2.1.6 Memory constraints 2.1.7 Operations 2.1.8 Site adaptation requirements 2.2 Product functions 2.3 User Characteristics 2.4 Constraints 2.5 Assumptions And Dependencies 2.6 Apportioning Of Requirements 3 SPECIFIC REQUIREMENTS(1) (FOR “OBJECT ORIENTED” PRODUCTS) 3.1 External Interface Requirements 3.1.1 User interfaces 3.1.2 Hardware interfaces 3.1.3 Software interfaces 3.1.4 Communication interfaces 3.2 Classes/Objects 3.3 Performance Requirements 3.4 Design Constraints 3.5 Software System Attributes 3.5.1 Reliability</region>
+        <region class="DoCO:TextChunk" id="19" confidence="possible" page="4" column="2">2 3 5 5 6 7 7 8 9 10 11 14 14 14 14 14 15 15 20 20 20 21 22 22 22 26 26 26 27 28 28 28 28</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="20" page="4" column="2">3</outsider>
+        <region class="unknown" id="21" page="5" column="1">3.5.2 Availability 3.5.3 Security 3.5.4 Maintainability 3.6 Other Requirements</region>
+        <region class="unknown" id="22" page="5" column="1">28 28 29 29</region>
+        <region class="DoCO:TextChunk" id="23" confidence="possible" page="5" column="1">4 SUPPORTING INFORMATION</region>
+        <region class="DoCO:TextChunk" id="24" confidence="possible" page="5" column="1">30</region>
+        <region class="unknown" id="25" page="5" column="1">4.1 Appendices</region>
+        <region class="unknown" id="26" page="5" column="1">30</region>
+        <region class="DoCO:TextChunk" id="27" confidence="possible" page="5" column="1">5 References</region>
+        <region class="DoCO:TextChunk" id="28" confidence="possible" page="5" column="1">35</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="29" page="5" column="1">4</outsider>
+        <region class="unknown" id="30" page="6" column="1">Structure of the SRS (Software Requirements Specification)</region>
+      </section>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="31" page="6" column="1">1 INTRODUCTION</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="32" page="6" column="1">1.1 Purpose</h2>
+          <region class="DoCO:TextChunk" id="33" page="6" column="1">The purpose of this Software Requirements Specification(SRS) document is to provide all the information about the doubt clarification feature. This is a legal contract between client/user and the developers. This SRS document includes all the user interfaces hardware requirements, software requirements, functional and non-functional requirements. All the points are written using simple English. Functional requirements describe the features and the steps of the system and the non-functional requirements explains the attributes of the system. Like security, reliability, performance. The main user of this system is teachers and the students of the school. End users and the developers can get a brief idea about the final product using srs document.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="34" page="6" column="1">5</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="35" page="7" column="1">1.2 Scope</h2>
+          <region class="DoCO:TextChunk" id="40" page="7" column="1">This document contains details of the doubt clarification module. The purpose of this SRS document is to guide developers in selecting system attributes. <marker type="block"/> When a student studying or answering to the past papers they can occur some problems about the subject. Then they can ask that question from the teacher or the internet based systems for more clarification. But the problem is student should go to the school to meet teachers and it takes some time to clarify their doubts. There are some existing internet-based systems to give an answer to users but it may too heavy or too poor for student’s knowledge. But this proposed system overcomes all these types of questions easily. This system finds the answers to student’s questions using references and student can mark their own answer to the same question by giving their answer to the system. It may take very few seconds to generate answers and to mark.<marker type="block"/> This product may give an answer for student’s subject related questions only and the system should have previously added references for a relevant subject and the question type, to answer the question. This feature may marks only structured type questions and question should be direct and fewer words. This system does not mark math questions and graph or diagram type questions.<marker type="block"/> Goals of this system are teachers should upload references books to the system with a subject and the grade and teachers can add most important chapters of the book also using this feature. The system should take the answer and the question of the student as system inputs. Then this module answer for the student’s subject related doubts according to references books added by the teachers to the system.<marker type="block"/> Finally, this system gives a correct, relevant and summarized answer for a student with a minimum time and effort.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="41" page="7" column="1">6</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="42" page="8" column="1">1.3 Definitions, Acronyms, And Abbreviations</h2>
+          <region class="DoCO:TextChunk" id="43" confidence="possible" page="8" column="1">Software Requirements Specification</region>
+          <region class="DoCO:TextChunk" id="44" confidence="possible" page="8" column="1">SRS NLP</region>
+          <region class="unknown" id="45" page="8" column="1">Natural Language Processing</region>
+          <region class="DoCO:TableBox" id="T1.3.1">
+            <caption class="deo:Caption" id="46" page="8" column="1">Table 1.3.1</caption>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="47" page="8" column="1">1.4 Overview</h2>
+          <region class="DoCO:TextChunk" id="48" page="8" column="1">The main goal of this student doubt clarification feature is to help students to clear up their subject related doubts. The system should identify the grade of the student and the subject of the question for further classifications. The student should add their question to</region>
+          <region class="DoCO:TextChunk" id="49" confidence="possible" page="8" column="1">the system and system should find the correct answer to student’s question . Firstly system gets correct reference books according to student added grade and the subjects. Then the system finds the correct chapters related to student’s question. And it takes relevant details from the reference book and summarized it. Finally, students can get related information to the</region>
+          <region class="DoCO:TextChunk" id="50" page="8" column="1">question. If the student has an own answer to that question they can mark that question</region>
+          <region class="DoCO:TextChunk" id="51" confidence="possible" page="8" column="1">using this module. Main users of this system are teachers and the students.</region>
+          <region class="DoCO:TextChunk" id="52" page="8" column="1">This document contains an overall description of a system, key interfaces, functional requirements, non-functional requirements and constraints of the system. The overall description gives a brief description of the proposed system. Constraint includes all the limitations of the system clearly. User Interfaces shows how system appear after developed. Functional requirements describe the functionalities of the system and the non-functional requirements outline the performance, maintainability, security, and</region>
+          <region class="DoCO:TextChunk" id="53" confidence="possible" page="8" column="1">reliability of the system.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="54" page="8" column="1">7</outsider>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="55" page="9" column="1">2 OVERALL DESCRIPTIONS</h1>
+        <region class="DoCO:TextChunk" id="56" page="9" column="1">Doubts clarification module is a sub-function of the Automated structure, diagram question marking and doubt clarification system. Using doubts clarification module students can clarify their subject related questions. The student has logins to the system. Login id and the password will be given by the school using admin function. The teacher also has access to this feature. Mainly teacher should use that login to add references books to the system. When teacher adds books, the system asks subject and the relevant grade of the references. The teacher can define important chapters using this system. When saving chapters system asks starting and ending page nos of the chapter. A student can add their questions and the answers to the system to get an answer to that questions. The system select references according to student grade and the subject. Then it finds related chapters from the references and summarized it. Finally, the summarized text will be shown to the student. If a student has an own answer to that question, the system will check how much it similar to the system generated an answer.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="57" page="9" column="1">8</outsider>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="58" page="10" column="1">2.1 Product Perspective</h2>
+          <region class="DoCO:TextChunk" id="61" page="10" column="1">There are some existing systems to clarify student’s subject related questions and the doubts, but those systems are not given a correct answer to students Because most of the existing systems get information using a web search. But the problem is, sometimes answer is too heavy or too poor for students knowledge and for the age. START Natural Language Question Answering System is one of the existing systems to answer users questions. It answers only for some set of questions. Most of the questions it gets an error message by saying “I don’t Know the answer” For this system, they use mainly use NLP . One of the very famous sites it StackOverflow. But the difference between stack overflow and the proposing system is, it doesn’t give the answer in same time. the student should wait much more time to get an answer. It can be a one day to many days. And there is no guarantee whether the answer is correct or not. There is another system called poweraqua which is providing answers to user questions. But it displays web answer for user’s questions. Therefore that system also shows some improper answers for users . Although several text classification algorithms have been tried out in previous researchers in the area of Information Retrieval and Filtering, since the hundred percent accuracy has not been achieved with the algorithms that have been used, more research can be done on the other Text Classification algorithms to figure out an algorithm that has much higher performance than achieved so far. For proposed doubt clarification feature, hope to try out NLP and the ontology mainly. First, need to convert pdf formatted references into XML format and need to extract correct pages related to the question. For that, there are some tools like PDFMiner, pdftoxml, pypdf2xml and etc. After analyzing best tool, wish to use it for the final product. For information retrieval part, plan to use NLP annotation algorithms. And to get the correct answer, the system should identify parts of speech, word senses, and the synonyms. After retrieving information system should summarize those answers. For summarization also plan to apply NLP algorithms. There are two approaches to <marker type="page" number="11"/><marker type="block"/> summarize a text. First one is extractive and the other one is an abstractive method. Extractive method summarize the text by ranking most relevant phrases. The abstractive method makes new sentences to capture the original text. To this system hope to use extractive method summarizing. Using named entity recognition approach plan to identify exact answer from the related information for direct questions.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="60" page="10" column="1">9</outsider>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="62" page="11" column="1">2.1.1 System interfaces</h3>
+            <region class="DoCO:TextChunk" id="63" confidence="possible" page="11" column="1">No system interfaces to this module.</region>
+            <outsider class="DoCO:TextBox" type="page_nr" id="64" page="11" column="1">10</outsider>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="65" page="12" column="1">2.1.2 User interfaces</h3>
+            <region class="DoCO:TextChunk" id="66" confidence="possible" page="12" column="1">● Home page</region>
+            <region class="DoCO:FigureBox" id="Fx67">
+              <image class="DoCO:Figure" src="vor.page_012.image_01.png" thmb="vor.page_012.image_01-thumb.png"/>
+            </region>
+            <region class="DoCO:TextChunk" id="68" confidence="possible" page="12" column="1">Figure 2.1.2.1 Homepage -interface ● Add references</region>
+            <region class="DoCO:FigureBox" id="Fx69">
+              <image class="DoCO:Figure" src="vor.page_012.image_02.png" thmb="vor.page_012.image_02-thumb.png"/>
+            </region>
+            <region class="DoCO:TextChunk" id="70" confidence="possible" page="12" column="1">Figure 2.1.2.2 Add references-interface</region>
+            <outsider class="DoCO:TextBox" type="page_nr" id="71" page="12" column="1">11</outsider>
+            <region class="DoCO:TextChunk" id="72" confidence="possible" page="13" column="1">● View reference details</region>
+            <region class="DoCO:FigureBox" id="Fx73">
+              <image class="DoCO:Figure" src="vor.page_013.image_03.png" thmb="vor.page_013.image_03-thumb.png"/>
+            </region>
+            <region class="DoCO:TextChunk" id="74" confidence="possible" page="13" column="1">Figure 2.1.2.3 View reference details-interface</region>
+            <region class="DoCO:TextChunk" id="75" confidence="possible" page="13" column="1">● Add chapter details for selected reference book</region>
+            <region class="DoCO:FigureBox" id="Fx76">
+              <image class="DoCO:Figure" src="vor.page_013.image_04.png" thmb="vor.page_013.image_04-thumb.png"/>
+            </region>
+            <outsider class="DoCO:TextBox" type="footer" id="77" page="13" column="1">Figure 2.1.2.4 Add chapter details for selected reference book-interface</outsider>
+            <outsider class="DoCO:TextBox" type="page_nr" id="78" page="13" column="1">12</outsider>
+            <region class="DoCO:TextChunk" id="79" confidence="possible" page="14" column="1">● Doubt classification page</region>
+            <region class="DoCO:FigureBox" id="Fx80">
+              <image class="DoCO:Figure" src="vor.page_014.image_05.png" thmb="vor.page_014.image_05-thumb.png"/>
+            </region>
+            <region class="DoCO:TextChunk" id="81" confidence="possible" page="14" column="1">Figure 2.1.2.5 Doubt classification page -interface</region>
+            <outsider class="DoCO:TextBox" type="page_nr" id="82" page="14" column="1">13</outsider>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="83" page="15" column="1">2.1.3 Hardware interfaces</h3>
+            <region class="DoCO:TextChunk" id="84" confidence="possible" page="15" column="1">This system does not require any special hardware interfaces or devices.</region>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="85" page="15" column="1">2.1.4 Software interfaces</h3>
+            <region class="DoCO:TextChunk" id="86" confidence="possible" page="15" column="1">● PhpMyAdmin - mysql database</region>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="87" page="15" column="1">2.1.5 Communication interfaces</h3>
+            <region class="DoCO:TextChunk" id="88" confidence="possible" page="15" column="1">There are no special communication interfaces required by this system.</region>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="89" page="15" column="1">2.1.6 Memory constraints</h3>
+            <region class="DoCO:TextChunk" id="90" confidence="possible" page="15" column="1">Client side</region>
+            <region class="DoCO:TextChunk" id="91" page="15" column="1">All heavy operations are running on the seperate servers, so end users does not need much memory to run this application. End users only need updated web browser.For one instance of updated web browser 30 mb of RAM is enough.</region>
+            <region class="DoCO:TextChunk" id="92" confidence="possible" page="15" column="1">Server side There are two main server side modules, 1. Python module - Recommended RAM 8GB ( Minimum RAM 4 GB) 2. Laravel php module - 2GB RAM</region>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="93" page="15" column="1">2.1.7 Operations</h3>
+            <region class="DoCO:TextChunk" id="94" confidence="possible" page="15" column="1">Interactive Operations ● Login to the System ● Add Question and Answer for Doubt Clarification ● Add new references for doubt clarification feature ● Add new chapters. Unattended Operations: ● Mark student’s answer in doubt clarification feature</region>
+            <outsider class="DoCO:TextBox" type="page_nr" id="95" page="15" column="1">14</outsider>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="96" page="16" column="1">2.1.8 Site adaptation requirements</h3>
+            <region class="DoCO:TextChunk" id="97" confidence="possible" page="16" column="1">● To access this web application need a web browser. ● The system will display the information only in english</region>
+          </section>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="98" page="16" column="1">2.2 Product functions</h2>
+          <region class="DoCO:FigureBox" id="Fx99">
+            <image class="DoCO:Figure" src="vor.page_016.image_06.png" thmb="vor.page_016.image_06-thumb.png"/>
+          </region>
+          <region class="DoCO:TextChunk" id="100" confidence="possible" page="16" column="1">Figure 2.2 Use case for the system</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="101" page="16" column="1">15</outsider>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="102" confidence="possible" page="17" column="1">1.</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="103" confidence="possible" page="17" column="1">2.</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="104" confidence="possible" page="17" column="1">3.</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="105" confidence="possible" page="17" column="1">4.</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="106" confidence="possible" page="17" column="1">Use Case: 001:- Login to the system before accessing features Goal in Context: Login to the system before access features Precondition: There should be an active connection to the system database. Successful end Go to the main menu condition: Fail end condition: Invalid username or password Primary Actor: Teacher Secondary Actor: Student Frequency: Any time user want to access system Main success scenario Step Action The system display the login page User enters the username and the password User presses the login button System navigates to the main menu.</h2>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="107" confidence="possible" page="17" column="1">Extensions: Step</h2>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="108" confidence="possible" page="17" column="1">Action</h2>
+          <outsider class="DoCO:TextBox" type="page_nr" id="109" page="17" column="1">16</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="110" confidence="possible" page="18" column="1">3.a</h2>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="111" confidence="possible" page="18" column="1">If the password or the user name invalid,Display a message “Invalid username or password”</h2>
+          <region class="DoCO:TextChunk" id="112" confidence="possible" page="18" column="1">Table 2.2.1 Use case scenario for Login to the system before accessing features</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="113" confidence="possible" page="18" column="1">Use Case: 002:- Add references Goal in Context: Add references and chapters to system Precondition: Teacher should successfully login to the system Successful end condition: Add reference books and the chapters to the system Fail end condition: Show an error message Primary Actor: Teacher Secondary Actor: No Frequency: Any time user want to add references to the system Main success scenario Step Action 1. System shows main menu. 2. Click on add reference feature on the main menu. 3. System navigate to the reference adding page. 4. User should fill all the</h2>
+          <outsider class="DoCO:TextBox" type="page_nr" id="114" page="18" column="1">17</outsider>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="115" confidence="possible" page="19" column="1">5.</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="116" confidence="possible" page="19" column="1">required fields(Grade, subject, chapter, page nos) Click add button</h2>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="117" confidence="possible" page="19" column="1">Extensions: Step 5.a</h2>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="118" confidence="possible" page="19" column="1">Action If it has some issues System shows an error message “Not added”</h2>
+          <region class="DoCO:TextChunk" id="119" confidence="possible" page="19" column="1">Table 2.2.2 Use case scenario for add references</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="120" confidence="possible" page="19" column="1">Use Case: 003:- Get answer for student’s question Goal in Context: Get an answer for student’s question according to references. Precondition: Teacher should add references to the system and student should successfully login to the system. Successful end condition: Display system answer for student. Fail end condition: Show a warning message Primary Actor: Student Secondary Actor: Parent Frequency: Any time user want to clarify the doubts.</h2>
+          <outsider class="DoCO:TextBox" type="page_nr" id="121" page="19" column="1">18</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="122" confidence="possible" page="20" column="1">Main success scenario Step</h2>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="123" confidence="possible" page="20" column="1">1.</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="124" confidence="possible" page="20" column="1">2.</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="125" confidence="possible" page="20" column="1">3.</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="126" confidence="possible" page="20" column="1">4.</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="127" confidence="possible" page="20" column="1">5. 6.</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="128" confidence="possible" page="20" column="1">Action System shows main menu. Click on question and answering feature on the main menu. System navigate to the question and answering page. Add question and the answer if have. Click search button System shows the founded answer</h2>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="129" confidence="possible" page="20" column="1">Extensions: Step 6.a</h2>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="130" confidence="possible" page="20" column="1">Action If it is fail system shows an error message.</h2>
+          <region class="DoCO:TextChunk" id="131" confidence="possible" page="20" column="1">Table 2.2.3 (Use case scenario for get answer for student’s question)</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="132" page="20" column="1">19</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="133" confidence="possible" page="21" column="1">2.3 User Characteristics</h2>
+          <region class="DoCO:TextChunk" id="134" page="21" column="1">Main users of this feature are students and teachers. Teachers should upload reference books to the system. Then the student can add their questions to the system to get a correct answer according to student age and the subject. To use this system student and teachers should have at least two years of computer and web usage experiences.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="135" confidence="possible" page="21" column="1">2.4 Constraints</h2>
+          <region class="DoCO:TextChunk" id="136" confidence="possible" page="21" column="1">● English will be the only language supported by the GUIs. ● In doubt clarification feature, it answer for the structured type questions only. And it doesn't mark graph type questions. ● For this feature, user should submit direct questions with few words. ● Structured type answers should have less than 5 lines. Other constraints: ● php and python will be the main implementation languages. ● The Internet connection is also a constraint for the application. Since the application fetches data from the database over the Internet, it is crucial that there is an Internet connection for the application to function.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="137" confidence="possible" page="21" column="1">2.5 Assumptions And Dependencies</h2>
+          <region class="DoCO:TextChunk" id="138" confidence="possible" page="21" column="1">● For doubts clarification feature teachers should submit correct and most relevant books as references to the system.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="139" page="21" column="1">20</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="140" confidence="possible" page="22" column="1">2.6 Apportioning Of Requirements Essential Requirements</h2>
+          <region class="DoCO:TextChunk" id="141" confidence="possible" page="22" column="1">● The teacher should be able to add references to the system according to age and the subject ● The student should be able to add a question to the system with or without the answer to the question. ● The system must answer the student's question. ● Teachers can delete and update the added references.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="142" confidence="possible" page="22" column="1">Desirable Requirements</h2>
+          <region class="DoCO:TextChunk" id="143" confidence="possible" page="22" column="1">● This feature should develop as moodle support plugin.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="144" confidence="possible" page="22" column="1">Other Requirements</h2>
+          <region class="DoCO:TextChunk" id="145" confidence="possible" page="22" column="1">● System Should keep track of students marks and the feedbacks to view students progress</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="146" page="22" column="1">21</outsider>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="147" page="23" column="1">3 SPECIFIC REQUIREMENTS (1) (FOR “OBJECT ORIENTED” PRODUCTS)</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="148" page="23" column="1">3.1 External Interface Requirements</h2>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="149" confidence="possible" page="23" column="1">Interface name purpose</h2>
+          <region class="DoCO:TextChunk" id="150" confidence="possible" page="23" column="1">Add references This interface is to add references to the system.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="151" confidence="possible" page="23" column="1">Source of inputs</h2>
+          <region class="DoCO:TextChunk" id="152" confidence="possible" page="23" column="1">Book Name, Author of the book, Subject, Year, Semester, Uploaded pdf</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="153" confidence="possible" page="23" column="1">Relationship to other input/outputs</h2>
+          <region class="DoCO:TextChunk" id="154" confidence="possible" page="23" column="1">Inputs of this interface will be use in answer retrivale section.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="155" confidence="possible" page="23" column="1">Data formats</h2>
+          <region class="DoCO:TextChunk" id="156" confidence="possible" page="23" column="1">Book Name:String Author:String Subject:String Year:int Semester:int uploaded path:String Table 3.1.1.1 Add references</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="157" page="23" column="1">22</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="158" confidence="possible" page="24" column="1">Interface name purpose</h2>
+          <region class="DoCO:TextChunk" id="159" confidence="possible" page="24" column="1">View references This interface is to view references details. It shows all available references and can filter out one reference. Book Name, Author of the book, Subject</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="160" confidence="possible" page="24" column="1">Source of inputs Source of outputs</h2>
+          <region class="DoCO:TextChunk" id="161" confidence="possible" page="24" column="1">Book Name, Author of the book, Subject, Year, Semester, Uploaded pdf</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="162" confidence="possible" page="24" column="1">Relationship to other input/outputs</h2>
+          <region class="DoCO:TextChunk" id="163" confidence="possible" page="24" column="1">This system shows details of the added reference book one by one.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="164" confidence="possible" page="24" column="1">Data formats</h2>
+          <region class="DoCO:TextChunk" id="165" confidence="possible" page="24" column="1">Table 3.1.1.2 View references</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="166" page="24" column="1">23</outsider>
+          <region class="DoCO:TextChunk" id="167" confidence="possible" page="25" column="1">Add chapters</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="168" confidence="possible" page="25" column="1">Interface name purpose</h2>
+          <region class="DoCO:TextChunk" id="169" confidence="possible" page="25" column="1">This interface is to add chapter details to the system.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="170" confidence="possible" page="25" column="1">Source of inputs</h2>
+          <region class="DoCO:TextChunk" id="171" confidence="possible" page="25" column="1">Chapter name,Starting page,Ending page</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="172" confidence="possible" page="25" column="1">Relationship to other input/outputs</h2>
+          <region class="DoCO:TextChunk" id="173" confidence="possible" page="25" column="1">Inputs of this interface will be use in answer retrivale section.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="174" confidence="possible" page="25" column="1">Data formats</h2>
+          <region class="DoCO:TextChunk" id="175" confidence="possible" page="25" column="1">Chapter name:String Starting page:int Ending page:int Table 3.1.1.3 Add chapters</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="176" page="25" column="1">24</outsider>
+          <region class="DoCO:TextChunk" id="177" confidence="possible" page="26" column="1">Doubt clarification</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="178" confidence="possible" page="26" column="1">Interface name purpose</h2>
+          <region class="DoCO:TextChunk" id="179" confidence="possible" page="26" column="1">Student should be add their doubts and the answer to the system using this interface and the system should display the answer for student’s question in this interface.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="180" confidence="possible" page="26" column="1">Source of inputs</h2>
+          <region class="DoCO:TextChunk" id="181" confidence="possible" page="26" column="1">Student’s question, Student’s answer, System generated answer</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="182" confidence="possible" page="26" column="1">Relationship to other input/outputs</h2>
+          <region class="DoCO:TextChunk" id="183" confidence="possible" page="26" column="1">This system get inputs of the add reference interface details and the add chapter interface details for processing.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="184" confidence="possible" page="26" column="1">Data formats</h2>
+          <region class="DoCO:TextChunk" id="185" confidence="possible" page="26" column="1">Question:String Answer:String System answer:String Table 3.1.1.4 Doubt clarification</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="186" page="26" column="1">25</outsider>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="187" page="27" column="1">3.1.2 Hardware interfaces</h3>
+            <region class="DoCO:TextChunk" id="188" confidence="possible" page="27" column="1">This system does not require any special hardware interfaces or devices.</region>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="189" page="27" column="1">3.1.3 Software interfaces</h3>
+            <region class="DoCO:TextChunk" id="190" confidence="possible" page="27" column="1">No software interfaces for this module.</region>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="191" page="27" column="1">3.1.4 Communication interfaces</h3>
+            <region class="DoCO:TextChunk" id="192" confidence="possible" page="27" column="1">There are no special communication interfaces required by this system.</region>
+            <outsider class="DoCO:TextBox" type="page_nr" id="193" page="27" column="1">26</outsider>
+            <region class="DoCO:TextChunk" id="194" confidence="possible" page="28" column="1">Book,Chapter, Teacher,Subject</region>
+          </section>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="195" page="28" column="1">3.2 Classes/Objects Essential classes: Essential functions:</h2>
+          <region class="unknown" id="196" page="28" column="1">Add reference, View Book Details, Add Chapters, Add Student’s Doubts and Answers, View System answers, Add Subject Details</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="197" confidence="possible" page="28" column="1">Desirable classes:</h2>
+          <region class="DoCO:TextChunk" id="198" confidence="possible" page="28" column="1">Student</region>
+          <region class="DoCO:TextChunk" id="199" page="28" column="1">Desirable functions: Update References, Update Chapter Details,Update Subject Details,Delete Subject details,Delete Reference Details, Update Reference Details, Delete Chapter Details, Delete Chapter Details</region>
+          <region class="DoCO:FigureBox" id="Fx200">
+            <image class="DoCO:Figure" src="vor.page_028.image_07.png" thmb="vor.page_028.image_07-thumb.png"/>
+          </region>
+          <region class="DoCO:TextChunk" id="201" confidence="possible" page="28" column="1">Figure 3.2.1 Class diagram of the system</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="202" page="28" column="1">27</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="203" page="29" column="1">3.3 Performance Requirements</h2>
+          <region class="DoCO:TextChunk" id="204" confidence="possible" page="29" column="1">This system running on remote web server ,therefore client side viewers doesn’t need much performance. 1. Updated web browser The system should allow multiple users to use the system simultaneously. The system make use of NLP tools such as Open information extraction, sentiment analysis, parts-of speech tagging. Therefore minimum internal memory of 4GB required.8GB is recommended.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="205" page="29" column="1">3.4 Design Constraints</h2>
+          <region class="DoCO:TextChunk" id="206" confidence="possible" page="29" column="1">This system is a web based application and it use by the student and the teachers of the school. Therefore interfaces of this system should be more user-friendly</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="207" page="29" column="1">3.5 Software System Attributes</h2>
+          <region class="DoCO:TextChunk" id="208" confidence="possible" page="29" column="1">● This feature shows answers for student’s questions with in short time period. ● The student doubt clarification feature will be test using several techniques to make sure system failures are very low.</region>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="209" page="29" column="1">3.5.2 Availability</h3>
+            <region class="DoCO:TextChunk" id="210" confidence="possible" page="29" column="1">● The system should be up and running all the time as this is a web-based solution.</region>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="211" page="29" column="1">3.5.3 Security</h3>
+            <region class="DoCO:TextChunk" id="212" confidence="possible" page="29" column="1">● This system ask user name and the password at the beginning of the process. And system will save password in encrypted format.</region>
+            <outsider class="DoCO:TextBox" type="page_nr" id="213" page="29" column="1">28</outsider>
+            <region class="DoCO:TextChunk" id="214" confidence="possible" page="30" column="1">● There should be proper mechanism to change or recover password. ● Maintain the backup of data in order to prevent data loss. ● The system should ensure that the ability to access should be limited to one login at a time for each account.</region>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="215" page="30" column="1">3.5.4 Maintainability</h3>
+            <region class="DoCO:TextChunk" id="216" confidence="possible" page="30" column="1">● Proper coding standards and the naming conventions will be used to develop this system.</region>
+          </section>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="217" page="30" column="1">3.6 Other Requirements</h2>
+          <outsider class="DoCO:TextBox" type="page_nr" id="218" page="30" column="1">29</outsider>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="219" page="31" column="1">4 SUPPORTING INFORMATION</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="220" page="31" column="1">4.1 Appendices</h2>
+          <region class="DoCO:FigureBox" id="Fx221">
+            <image class="DoCO:Figure" src="vor.page_031.image_08.png" thmb="vor.page_031.image_08-thumb.png"/>
+          </region>
+          <region class="DoCO:TextChunk" id="222" confidence="possible" page="31" column="1">Figure 4.1.1 ER diagram of the student’s doubt clarification module</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="223" page="31" column="1">30</outsider>
+          <region class="DoCO:FigureBox" id="Fx224">
+            <image class="DoCO:Figure" src="vor.page_032.image_09.png" thmb="vor.page_032.image_09-thumb.png"/>
+          </region>
+          <region class="DoCO:TextChunk" id="225" confidence="possible" page="32" column="1">Figure 4.1.2 Activity diagram of the add references</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="226" page="32" column="1">31</outsider>
+          <region class="DoCO:FigureBox" id="Fx227">
+            <image class="DoCO:Figure" src="vor.page_033.image_10.png" thmb="vor.page_033.image_10-thumb.png"/>
+          </region>
+          <region class="DoCO:TextChunk" id="228" confidence="possible" page="33" column="1">Figure 4.1.3 Activity diagram of the student’s doubt clarification module</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="229" page="33" column="1">32</outsider>
+          <region class="DoCO:FigureBox" id="Fx230">
+            <image class="DoCO:Figure" src="vor.page_034.image_11.png" thmb="vor.page_034.image_11-thumb.png"/>
+          </region>
+          <region class="DoCO:TextChunk" id="231" confidence="possible" page="34" column="1">Figure 4.1.4 Sequence diagram for references adding</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="232" page="34" column="1">33</outsider>
+          <region class="DoCO:FigureBox" id="Fx233">
+            <image class="DoCO:Figure" src="vor.page_035.image_12.png" thmb="vor.page_035.image_12-thumb.png"/>
+          </region>
+          <region class="DoCO:TextChunk" id="234" confidence="possible" page="35" column="1">Figure 4.1.5 Sequence diagram for doubt clarification</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="235" page="35" column="1">34</outsider>
+        </section>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="236" confidence="possible" page="36" column="1">5 References</h1>
+        <section class="DoCO:Section">
+          <h3 class="DoCO:SectionTitle" id="237" page="36" column="1">3.1.1 User interfaces</h3>
+          <ref-list class="DoCO:BiblioGraphicReferenceList">
+            <ref rid="R1" class="deo:BibliographicReference" id="239" confidence="possible" page="36" column="1">[1] Rufus Pollock, “Tools for Extracting Data and Text from PDFs - A Review - Open Knowledge Labs,” 2016. [Online]. Available: <ext-link ext-link-type="uri" href="http://okfnlabs.org/blog/2016/04/19/pdf-tools-extract-text-and-data-from-pdfs.html." id="238">http://okfnlabs.org/blog/2016/04/19/pdf-tools-extract-text-and-data-from-pdfs.html.</ext-link> [Accessed: 15-May-2018]. [2] B. Biplab Ch Das and P. Bhattacharyya, “A Survey on Question Answering System.”</ref>
+            <ref rid="R2" class="deo:BibliographicReference" id="240" confidence="possible" page="36" column="1">[3] Jason Brownlee, “A Gentle Introduction to Text Summarization,” 2017. [Online]. Available: https://machinelearningmastery.com/gentle-introduction-text-summarization/. [Accessed: 15-May-2018].</ref>
+            <ref rid="R3" class="deo:BibliographicReference" id="242" confidence="possible" page="36" column="1">[4] “PDFMiner,” unixuser , 2013. [Online]. Available: <ext-link ext-link-type="uri" href="http://www.unixuser.org/" id="241">http://www.unixuser.org/</ext-link>~euske/python/pdfminer/. [Accessed: 15-May-2018]. [5] M. Allahyari et al. , “Text Summarization Techniques: A Brief Survey,” 2017.</ref>
+            <ref rid="R4" class="deo:BibliographicReference" id="243" confidence="possible" page="36" column="1">[6] C. Monz, “Machine learning for query formulation in question answering,” Nat. Lang. Eng. , vol. 17, no. 4, pp. 425–454, 2011.</ref>
+          </ref-list>
+        </section>
+        <section class="DoCO:Section">
+          <h3 class="DoCO:SectionTitle" id="244" page="36" column="1">3.5.1 Reliability</h3>
+          <outsider class="DoCO:TextBox" type="page_nr" id="245" page="36" column="1">35</outsider>
+        </section>
+      </section>
+    </body>
+  </article>
+</pdfx>

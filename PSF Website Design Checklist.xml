@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>453fdf6d7be5bc256390ba1bad5f8f5b08b2d409e7a711eff4b125b8336204c4</job>
+    <base_name>vz4</base_name>
+    <doi>http://dx.doi.org/10.1520/c1513-12</doi>
+    <warning>Name identification was not possible. </warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">Sheet1</outsider>
+      <region class="DoCO:FigureBox" id="Fx2">
+        <image class="DoCO:Figure" src="vz4.page_001.image_01.png" thmb="vz4.page_001.image_01-thumb.png"/>
+      </region>
+      <title-group>
+        <article-title class="DoCO:Title" id="3">Project For Precision Steel Framing</article-title>
+      </title-group>
+      <region class="DoCO:TextChunk" id="4" confidence="possible">To be successful for this project, Spies Web solutions needs to develop a website that brings a mass number of traffic to the site, with low rates of drop off. GENERAL INFORMATION | The big picture your website developer needs to know</region>
+      <abstract class="DoCO:Abstract" id="5" confidence="possible">Identify the intended URL Website Address Facebook Instagram Google + Associated Other</abstract>
+      <region class="DoCO:TextChunk" id="6" confidence="possible">https://www.psfsteel.com https://www.facebook.com/psfQld/?ref=bookmarks None None None</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="7" page="1" column="1">Describe the concept Spies Web Solutions is to provide a lead capturing / high conversion, Google – Page 1 listed website for Precision Steel Framing, who have an exciting new product range to release nationally in Australia. Precision Steel Framings focus will be on the new product range.</region>
+      <region class="DoCO:FigureBox" id="Fx8">
+        <image class="DoCO:Figure" src="vz4.page_001.image_02.png" thmb="vz4.page_001.image_02-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="9" page="1" column="1">The proposed new Website is to promote the product in a way to capture new market share and provide opportunities for high conversions. The website is to provide - - A design that is Dynamic with an easy CMS: The client is to easily manage content through an intuitive dashboard - Search Engine friendly and optimised with keywords etc applicable to their industry - Responsive: Optimal View on all devices - Mobile, Desktop and Tabs for SEO and better user experience - Lead Management / CRM tools - Automated e-mail marketing tools - Agile Website Development - The ability to manage all content on pages including images and add pages. - Usage and analytic data available for review</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="10" page="1" column="1">Identify the primary contacts Business Owner Steven Spies Marketing Manager Steven Spies Sales Manager Steven Spies Lead Developer Steven Spies Content Provider Steven Spies</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="11" page="1" column="1">Page 1</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="12" page="2" column="1">Sheet1</outsider>
+      <region class="DoCO:FigureBox" id="Fx13">
+        <image class="DoCO:Figure" src="vz4.page_002.image_03.png" thmb="vz4.page_002.image_03-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="14" confidence="possible" page="2" column="1">Identify your intended launch date for the site Deadline 10 Working Days Establish your budget Project Budget $700.00 GOALS &amp; OBJECTIVES | Your benchmarks of success for what you want to achieve Identify the main business problem Precision Steel Framing is now offering a solution to the industry for more aesthetically pleasing sheds, and sheds that offer more functionality. The new shed ranges offer- Different Roof Styles - Makes the sheds look great (match the look of existing house) Dutch Gable Roofs Hip Roofs Roof Overhangs available to each roof. Ease of Installation</region>
+      <outsider class="DoCO:TextBox" type="footer" id="15" page="2" column="1">Roof panel system, enables client to have clearly labeled items to screw together Different Wall cladding Styles Vertical / Horizontally sheeted with Corrugate Colorbond Metal Colorbond Weatherboard Profiles Owners can provide there own claddings to suit i.e Brick, Blue Board, Other Hardies products etc. Able to line the inside Closer stud centres means the client can line the inside of the shed to make it into games rooms, childrens retreats, granny flats.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="16" page="2" column="1">Prioritize your primary short-term/long-term online business objectives for the website marketing/branding awareness, increased lead generation, direct online sales, fewer customer service calls, etc.).</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="17" page="2" column="1">List any special opportunities or potential problems</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="18" page="2" column="1">Precision Steel Framing will need to implement a Email Marketing system to improve sales presence and help increase customer awareness of new offers and products. Also an eCommerce site will need to be linked to achieve more sales online, without creating more service calls</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="19" page="2" column="1">Page 2</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="20" page="3" column="1">Sheet1</outsider>
+      <region class="DoCO:FigureBox" id="Fx21">
+        <image class="DoCO:Figure" src="vz4.page_003.image_04.png" thmb="vz4.page_003.image_04-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="22" page="3" column="1">The eCommerce site will need to be made to suit industry standard units of measure and calculation for pricing.</region>
+      <region class="DoCO:TextChunk" id="23" confidence="possible" page="3" column="1">Identify any specific eCommerce requirements The eCommerce site will need to be made to suit industry standard units of measure and calculation for pricing.</region>
+      <region class="DoCO:TextChunk" id="24" page="3" column="1">Units of measure required additional to the existing per m per m2 per kilometer per unit (eg 100, 500 Whatever qty they like) set length (e.g 6000mm) Ability to add colour selection of Colorbond colors, not load each item and seperate colour per night per hour &lt; Rules &gt; Rules % of Total</region>
+      <outsider class="DoCO:TextBox" type="footer" id="25" page="3" column="1">Delivery table by set area – eg Toowoomba $155, Warwick $350 etc.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="26" page="3" column="1">Industry standard unit of measure is mm – ie when ordering sheeting Qty 6 Length 7600mm</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="27" page="3" column="1">TARGET AUDIENCE | Outlining the right approach for the right reaction. Map out your intended audience The audience for these ranges will be general public consumers who are looking to buy a kit only, and arrange for a builder to look after the rest. Also this product range is a prestigous item to have, so will attrack a market looking for the best product, best service – Total Quality</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="28" page="3" column="1">POSITIONING/IMAGE | Defining the desired end-user experience Use adjectives to describe the new website’s desired look, feel, and functionalit The new website it to portray - prestigious, informative, friendly, corporate, forward thinking, innovative, and cutting edge</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="29" page="3" column="1">How does your organization try to differentiate itself from competitors or alternatives? No other businesses have these products in there ranges. Precision Steel Framing is unique, whilst being diverse and cost effectinve. Precision Steel Framing develops their own software in house which enables them to focus on customers needs, with new Ranges continually being developed.</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="30" page="3" column="1">Page 3</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="31" page="4" column="1">Sheet1</outsider>
+      <region class="DoCO:FigureBox" id="Fx32">
+        <image class="DoCO:Figure" src="vz4.page_004.image_05.png" thmb="vz4.page_004.image_05-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="34" confidence="possible" page="4" column="1">Identify your competitors’ URLs Titan Sheds https://www.titangarages.com.au/ Widespan sheds https://www.sheds.com.au/kit-homes/ Fair Dinkum Sheds <ext-link ext-link-type="uri" href="http://www.fairdinkumsheds.com.au/" id="33">http://www.fairdinkumsheds.com.au/</ext-link> Stratco https://www.stratco.com.au/products/building-construction/steel-wall- framing/ URLs of other relevant websites for new Look and feel Site Client Likes https://www.ranbuild.com.au/ DESIGN | Establishing the look-and-feel of your new website List any organizational graphic standards Modern Fonts and browser friendly. Use industry standards for visual impact. Identify all visual elements or content Logo Current Logo to remain Colour Scheme Up to designer – must be visually pleasing and professional Navigation Navbar to be done same as Ranbuild eg. Items to populate navbar will be provided seperate Intuitive layout design for easy navigation and organisation</region>
+      <outsider class="DoCO:TextBox" type="footer" id="35" page="4" column="1">Images Current website images to be incorpated. We can add to a dropbox file if required. Some new images will be provide where required by Precision Steel Framing, for carports and where required additional. No video required at this point Do you need to accommodate visitors Factors Currency – Australia Language English</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="36" page="4" column="1">CONTENT | Managing expectations for the substance of your website Outline your vision for the website’s structure/content Menu Items Products I will send more information DIY About News Contact</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="37" page="4" column="1">Will the site use existing content?</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="38" page="4" column="1">Existing content can be used from the existing website. It would be desireable that some copyright content be added where required to get relevant message and Call to actions at top of clients awareness Approval of content will be by Steven Spies.</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="39" page="4" column="1">Page 4</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="40" page="5" column="1">Sheet1</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="41" page="5" column="1">How often do you intend to update your site</outsider>
+      <region class="DoCO:FigureBox" id="Fx42">
+        <image class="DoCO:Figure" src="vz4.page_005.image_06.png" thmb="vz4.page_005.image_06-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="43" confidence="possible" page="5" column="1">Precision Steel Framing would like to be able to update, through an agile site – an intuitive Dashboard, news and Contact sections Identify any regulatory issues No disclaimers required TECHNOLOGY | Identifying structural requirements to guide optimal execution List any mandatory or primary functionality or technology requirement Email marketing, Content management, eCommerce, Google Analytic, Seo Optimised Site Map Outline additional desired functionality requirements Site Security - Standard security applicable to basic website required SEO – Keywords for Page 1 listing</region>
+      <outsider class="DoCO:TextBox" type="footer" id="44" page="5" column="1">Describe, in detail, any currently used software None</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="45" page="5" column="1">Describe any business application(s Hosting Client will host on their own Hostpapa account PSF has all the relevant logins and authourity No other internal software to consider.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="46" page="5" column="1">Domain</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="47" page="5" column="1">Client owns domain – No transfer required.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="48" page="5" column="1">Identify any existing technology limitations None</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="49" page="5" column="1">MARKETING | Preparing your new website for maximum exposure and success</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="50" page="5" column="1">How do most people find out about your existing website?</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="51" page="5" column="1">Precision Steel Framing will be offering a unique rewards programme Facebook Facebook adds</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="52" page="5" column="1">Page 5</outsider>
+    </body>
+  </article>
+</pdfx>
