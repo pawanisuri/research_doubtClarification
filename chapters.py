@@ -13,7 +13,7 @@ def pdf_splitter(path,spage,epage):
         output_filename = '{}_chaperts.pdf'.format(
             fname)
         with open(output_filename, 'wb') as out:
-           out.append()   
+            pdf_writer.write(out)
         # merger = PdfFileMerger()
         # merger.append(PdfFileReader(file(x, 'rb')))
         # merger.write("document-output.pdf")

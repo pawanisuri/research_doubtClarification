@@ -29,7 +29,7 @@ def get_only_text(url):
  
   
 print ('Summary:')
-print (summarize(text, ratio=0.01))
+print (summarize(text, ratio=0.1))
  
 print ('\nKeywords:')
 print (keywords(text, ratio=0.01))
