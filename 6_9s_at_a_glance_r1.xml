@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>2ebf69039f3967dcb5b56149b3bcbf0d8a93d85802c4ea32ad5d062059049147</job>
+    <base_name>zjb</base_name>
+    <doi>http://dx.doi.org/10.1787/888932675804</doi>
+    <warning>Name identification was not possible. </warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">MACHINE LEARNING THAN DELIVERS GREATER AVAILABILITY SIX-NINES</article-title>
+      </title-group>
+      <abstract class="DoCO:Abstract" id="2" confidence="possible">THAN AVAILABILITY Every week InfoSight analyzes more than a trillion data points from more than 9,000 customers. How does this translate into true business value? By reducing your business risk with over Six-Nines of measured availability. By providing you with an infrastructure that gets “smarter” every single day. By empowering IT staff to focus on business priorities instead of mundane maintenance.</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="3" page="1" column="1">Reducing Your Business Risk Every year, enterprises struggle to ensure that critical applications keep up with the pace of business. If not, there is a tangible financial risk to core business operations. Nimble has found that delays and downtime cost companies $7.6B in lost productivity. Thankfully, InfoSight has been engineered to reduce downtime and speed up applications through groundbreaking predictive analytics.</region>
+      <region class="DoCO:TextChunk" id="4" confidence="possible" page="1" column="1">100 AVAILABILITY 99.9999 99.9998 99.9997 • Measured availability of greater than Six-Nines: 99.999928% 99.9996 99.9995 • This translates to an impact of less than 25 seconds per year 99.9994 99.9993 • Over 97% of Nimble arrays run with zero downtime</region>
+      <region class="DoCO:TextChunk" id="5" confidence="possible" page="1" column="2">”Our risk management approach is: if a problem is known to us, it should never happen to you.” Rod Bagg, VP, Analytics &amp; Customer Support, Nimble Storage</region>
+      <region class="DoCO:TextChunk" id="6" page="1" column="2">Methodology The pioneering InfoSight analytics framework, built into our architecture from inception, gives Nimble a unique and unmatched ability to measure and observe the actual availability of each and every system – and not to have to rely on synthetic statistical analyses or lab-generated availability numbers. • Nimble observed thousands of systems with over 315 million hours of collective uptime • And over 400 billion data points collected every day</region>
+      <outsider class="DoCO:TextBox" type="footer" id="7" page="1" column="2">AVAILABILITY</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="8" page="1" column="2">99.9992 99.9991 99.999 99.9989 99.9998 99.9988 2013 2014 2015 2015 2016 2016</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="9" page="2" column="1">“ NIMBLE STORAGE’S DEMONSTRATED “SIX NINES PLUS” AVAILABILITY GIVES     THEIR CUSTOMERS THE CONFIDENCE TO DEPLOY THESE SOLUTIONS FOR     EVEN THE MOST DEMANDING APPLICATIONS. ”    - ERIC BURGENER, RESEARCH DIRECTOR, IDC</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="10" page="2" column="1">Simplify Your Life InfoSight can make the life of your administrators far more simple, allowing them to focus on driving your business forward rather than ‘keeping the lights on”. The highest cost to running a data center is management – imagine how much more productive your staff can be if:</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="11" page="2" column="1">• Over 92% of support cases are automatically opened   before administrators are even aware of the issue</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="12" page="2" column="1">Smarter Infrastructure through Machine Learning The machine learning that occurs as more and more Nimble systems are deployed makes the entire installed base “smarter” about heading off potential issues before they occur. If an issue is detected in one system, InfoSight can proactively and automatically innoculate hundreds or thousands of other systems at risk from the same issue. This ability contributes to ever-increasing availability: 100 99.9999</outsider>
+      <region class="unknown" id="13" page="2" column="1">99.9998 99.9997 99.9996 99.9995 99.9994 99.9993 99.9992 99.9991 99.999 99.9989 99.9988 2013 2014 2015 2015 2016 2016</region>
+      <region class="DoCO:TextChunk" id="14" confidence="possible" page="2" column="2">• Over 86% of support cases are automatically resolved by InfoSight • 54% of issues that InfoSight resolves are not directly related to storage • When a call to Nimble Support is required, it takes less than 1 min on average to talk to a Level 3 engineer</region>
+      <outsider class="DoCO:TextBox" type="footer" id="15" page="2" column="2">© 2016, Nimble Storage Inc., Nimble Storage, the “Nimble Storage” logo, InfoSight, SmartStack, CASL, NimbleConnect, Timeless Storage, Data Velocity Delivered, Unified Flash Fabric, and other names are registered trademarks or trademarks of Nimble Storage in the United States and/or other jurisdictions. Other trade names, trademarks, and service marks are the property of their respective owners.</outsider>
+    </body>
+  </article>
+</pdfx>

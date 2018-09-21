@@ -4,8 +4,8 @@ from gensim.summarization import keywords
 import requests
  
 # getting text document from Internet
-text = requests.get('http://rare-technologies.com/the_matrix_synopsis.txt').text
- 
+# text = requests.get('NBQSA_Essay_Descriptions.txt').text
+text="Machine learning is a subset of artificial intelligence in the field of computer science. My name is pawani and i am 7 years old"
  
 # getting text document from file
 # fname="C:\\Users\\TextRank-master\\wikipedia_deep_learning.txt"
@@ -29,13 +29,13 @@ def get_only_text(url):
  
   
 print ('Summary:')
-print (summarize(text, ratio=0.1))
+print (summarize(text, ratio=0.5))
  
 print ('\nKeywords:')
 print (keywords(text, ratio=0.01))
  
-url="https://en.wikipedia.org/wiki/Deep_learning"
-text = get_only_text(url)
+# url="https://en.wikipedia.org/wiki/Deep_learning"
+# text = get_only_text(url)
  
 print ('Summary:')   
 print (summarize(str(text), ratio=0.01))

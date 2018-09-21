@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>1a63b3ebb4f5c27a83ee500bb9ebf9e460aaab2956d7f62ecbb0a0e9ae1ea7f2</job>
+    <base_name>1198</base_name>
+    <doi>http://dx.doi.org/10.1017/cbo9780511804779.005</doi>
+    <warning>Name identification was not possible. </warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Machine Learning Basic Concepts</article-title>
+      </title-group>
+      <region class="unknown" id="2">' Feature'2</region>
+      <outsider class="DoCO:TextBox" type="footer" id="3">Feature'1 '</outsider>
+      <region class="DoCO:FigureBox" id="Fx4">
+        <image class="DoCO:Figure" src="1198.page_001.image_01.png" thmb="1198.page_001.image_01-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="5" confidence="possible">Terminology Machine Learning, Data Science, Data Mining, Data Analysis, Statistical Learning, Knowledge Discovery in Databases, Pattern Discovery.</region>
+      <region class="DoCO:FigureBox" id="Fx6">
+        <image class="DoCO:Figure" src="1198.page_002.image_02.png" thmb="1198.page_002.image_02-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="7" confidence="possible">Data everywhere! 1. Google: processes 24 peta bytes of data per day. 2. Facebook: 10 million photos uploaded every hour. 3. Youtube: 1 hour of video uploaded every second. 4. Twitter: 400 million tweets per day. 5. Astronomy: Satellite data is in hundreds of PB. 6. . . . 7. “By 2020 the digital universe will reach 44 zettabytes...”</region>
+      <outsider class="DoCO:TextBox" type="footer" id="8">The Digital Universe of Opportunities: Rich Data and the Increasing Value of the Internet of Things, April 2014. That’s 44 trillion gigabytes!</outsider>
+      <region class="DoCO:TextChunk" id="9" confidence="possible">Data types Data comes in different sizes and also flavors (types): Texts Numbers Clickstreams Graphs Tables Images</region>
+      <outsider class="DoCO:TextBox" type="footer" id="10">Transactions Videos Some or all of the above!</outsider>
+      <region class="DoCO:TextChunk" id="11" confidence="possible">Smile, we are ’DATAFIED’ ! • Wherever we go, we are “datafied”. • Smartphones are tracking our locations. • We leave a data trail in our web browsing. • Interaction in social networks. • Privacy is an important issue in Data Science.</region>
+      <region class="unknown" id="12">The Data Science process</region>
+      <region class="DoCO:FigureBox" id="Fx13">
+        <image class="DoCO:Figure" src="1198.page_006.image_05.png" thmb="1198.page_006.image_05-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_006.image_04.png" thmb="1198.page_006.image_04-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_006.image_07.png" thmb="1198.page_006.image_07-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="14" confidence="possible">Descriptive statistics, Clustering Research questions?</region>
+      <region class="DoCO:FigureBox" id="Fx15">
+        <image class="DoCO:Figure" src="1198.page_006.image_03.png" thmb="1198.page_006.image_03-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="16" confidence="possible">Application deployment</region>
+      <region class="DoCO:TextChunk" id="17" confidence="possible">Classification, scoring, predictive models, clustering, density estimation, etc.</region>
+      <region class="DoCO:TextChunk" id="18" confidence="possible">Data-driven decisions</region>
+      <region class="DoCO:FigureBox" id="Fx19">
+        <image class="DoCO:Figure" src="1198.page_006.image_08.png" thmb="1198.page_006.image_08-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="20" confidence="possible">Applications of ML • We all use it on a daily basis. Examples:</region>
+      <region class="DoCO:FigureBox" id="Fx21">
+        <image class="DoCO:Figure" src="1198.page_007.image_09.png" thmb="1198.page_007.image_09-thumb.png"/>
+      </region>
+      <region class="unknown" id="22">Machine Learning • Spam filtering • Credit card fraud detection • Digit recognition on checks, zip codes • Detecting faces in images • MRI image analysis • Recommendation system • Search engines • Handwriting recognition</region>
+      <outsider class="DoCO:TextBox" type="footer" id="23">• Scene classification • etc...</outsider>
+      <region class="DoCO:TextChunk" id="24" confidence="possible">Interdisciplinary field</region>
+      <region class="DoCO:FigureBox" id="Fx25">
+        <image class="DoCO:Figure" src="1198.page_009.image_10.png" thmb="1198.page_009.image_10-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="26" confidence="possible">ML versus Statistics Statistics: • Hypothesis testing • Experimental design • Anova • Linear regression • Logistic regression • GLM • PCA</region>
+      <region class="unknown" id="27">Machine Learning:</region>
+      <region class="unknown" id="28">• Decision trees • Rule induction • Neural Networks • SVMs • Clustering method • Association rules • Feature selection • Visualization • Graphical models</region>
+      <outsider class="DoCO:TextBox" type="footer" id="29">• Genetic algorithm</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="31"> <ext-link ext-link-type="uri" href="http://statweb.stanford.edu/" id="30">http://statweb.stanford.edu/</ext-link>~jhf/ftp/dm-stat.pdf</outsider>
+      <region class="DoCO:TextChunk" id="33" confidence="possible">Machine Learning definition “How do we create computer programs that improve with experi- ence?” Tom Mitchell <ext-link ext-link-type="uri" href="http://videolectures.net/mlas06_mitchell_itm/" id="32">http://videolectures.net/mlas06_mitchell_itm/</ext-link></region>
+      <region class="DoCO:TextChunk" id="35" confidence="possible">Machine Learning definition “How do we create computer programs that improve with experi- ence?” Tom Mitchell <ext-link ext-link-type="uri" href="http://videolectures.net/mlas06_mitchell_itm/" id="34">http://videolectures.net/mlas06_mitchell_itm/</ext-link> “A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P , if its performance at tasks in T , as measured by P , improves with experience E . ”</region>
+      <outsider class="DoCO:TextBox" type="footer" id="36">Tom Mitchell. Machine Learning 1997.</outsider>
+      <region class="DoCO:TextChunk" id="37" confidence="possible">Supervised vs. Unsupervised Given: Training data: ( x 1 , y 1 ) , . . . , ( x n , y n ) / x i ∈ R d and y i is the label. example x 1 → x 11 x 12 ... x 1 d y 1 ← label ... ... ... ... ... ... example x i → x i 1 x i 2 ... x id y i ← label ... ... ... ... ... ... example x n → x n 1 x n 2 ... x nd y n ← label</region>
+      <region class="DoCO:TextChunk" id="38" confidence="possible">Supervised vs. Unsupervised Given: Training data: ( x 1 , y 1 ) , . . . , ( x n , y n ) / x i ∈ R d and y i is the label. example x 1 → x 11 x 12 ... x 1 d y 1 ← label ... ... ... ... ... ... example x i → x i 1 x i 2 ... x id y i ← label ... ... ... ... ... ... example x n → x n 1 x n 2 ... x nd y n ← label</region>
+      <region class="DoCO:FigureBox" id="Fx39">
+        <image class="DoCO:Figure" src="1198.page_014.image_11.png" thmb="1198.page_014.image_11-thumb.png"/>
+      </region>
+      <region class="unknown" id="40">Supervised vs. Unsupervised</region>
+      <region class="DoCO:FigureBox" id="Fx41">
+        <image class="DoCO:Figure" src="1198.page_015.image_12.png" thmb="1198.page_015.image_12-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="42" confidence="possible">Unsupervised learning: Learning a model from unlabeled data.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="43">Supervised learning: Learning a model from labeled data.</outsider>
+      <region class="DoCO:TextChunk" id="44" confidence="possible">Unsupervised Learning Training data :“examples” x . x 1 , . . . , x n , x i ∈ X ⊂ R n • Clustering/segmentation: f : R d −→ { C 1 , . . . C k } (set of clusters). Example: Find clusters in the population, fruits, species.</region>
+      <region class="DoCO:TextChunk" id="45" confidence="possible">Unsupervised learning</region>
+      <region class="unknown" id="46">' Feature'2</region>
+      <outsider class="DoCO:TextBox" type="footer" id="47">Feature'1 '</outsider>
+      <region class="DoCO:TextChunk" id="48" confidence="possible">Unsupervised learning</region>
+      <region class="unknown" id="49">' Feature'2</region>
+      <outsider class="DoCO:TextBox" type="footer" id="50">Feature'1 '</outsider>
+      <region class="unknown" id="51">Unsupervised learning</region>
+      <region class="unknown" id="52">' Feature'2</region>
+      <outsider class="DoCO:TextBox" type="footer" id="53">Feature'1 ' Methods : K-means, gaussian mixtures, hierarchical clustering, spectral clustering, etc.</outsider>
+      <region class="DoCO:TextChunk" id="54" confidence="possible">Supervised learning Training data :“examples” x with “labels” y . ( x 1 , y 1 ) , . . . , ( x n , y n ) / x i ∈ R d • Classification: y is discrete. To simplify, y ∈ {− 1 , +1 } f : R d −→ {− 1 , +1 } f is called a binary classifier . Example: Approve credit yes/no, spam/ham, banana/orange.</region>
+      <region class="DoCO:TextChunk" id="55" confidence="possible">Supervised learning</region>
+      <region class="DoCO:FigureBox" id="Fx56">
+        <image class="DoCO:Figure" src="1198.page_021.image_13.png" thmb="1198.page_021.image_13-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="57">!"#$%&amp;"') '</outsider>
+      <region class="DoCO:TextChunk" id="58" confidence="possible">Supervised learning</region>
+      <region class="DoCO:FigureBox" id="Fx59">
+        <image class="DoCO:Figure" src="1198.page_022.image_14.png" thmb="1198.page_022.image_14-thumb.png"/>
+      </region>
+      <region class="unknown" id="60">Supervised learning</region>
+      <region class="DoCO:FigureBox" id="Fx61">
+        <image class="DoCO:Figure" src="1198.page_023.image_15.png" thmb="1198.page_023.image_15-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="62">Methods: Support Vector Machines, neural networks, decision trees, K-nearest neighbors, naive Bayes, etc.</outsider>
+      <region class="DoCO:TextChunk" id="63" confidence="possible">Supervised learning Classification:</region>
+      <region class="unknown" id="64">' !"#$%&amp;"'(</region>
+      <region class="DoCO:FigureBox" id="Fx65">
+        <image class="DoCO:Figure" src="1198.page_024.image_16.png" thmb="1198.page_024.image_16-thumb.png"/>
+      </region>
+      <region class="unknown" id="66">!"#$%&amp;"'('</region>
+      <region class="DoCO:FigureBox" id="Fx67">
+        <image class="DoCO:Figure" src="1198.page_024.image_20.png" thmb="1198.page_024.image_20-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_024.image_19.png" thmb="1198.page_024.image_19-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_024.image_17.png" thmb="1198.page_024.image_17-thumb.png"/>
+      </region>
+      <region class="unknown" id="68">!"#$%&amp;"') '</region>
+      <region class="unknown" id="69">' !"#$%&amp;"'(</region>
+      <region class="DoCO:FigureBox" id="Fx70">
+        <image class="DoCO:Figure" src="1198.page_024.image_18.png" thmb="1198.page_024.image_18-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="71">!"#$%&amp;"') '</outsider>
+      <region class="DoCO:TextChunk" id="72" confidence="possible">Supervised learning Non linear classification</region>
+      <region class="DoCO:FigureBox" id="Fx73">
+        <image class="DoCO:Figure" src="1198.page_025.image_21.png" thmb="1198.page_025.image_21-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="74" confidence="possible">Supervised learning Training data :“examples” x with “labels” y . ( x 1 , y 1 ) , . . . , ( x n , y n ) / x i ∈ R d • Regression: y is a real value, y ∈ R f : R d −→ R f is called a regressor . Example: amount of credit, weight of fruit.</region>
+      <region class="unknown" id="75">Supervised learning Regression: !"</region>
+      <region class="DoCO:FigureBox" id="Fx76">
+        <image class="DoCO:Figure" src="1198.page_027.image_22.png" thmb="1198.page_027.image_22-thumb.png"/>
+      </region>
+      <region class="unknown" id="77">#$%&amp;'($") "</region>
+      <outsider class="DoCO:TextBox" type="footer" id="78">Example: Income in function of age, weight of the fruit in function of its length.</outsider>
+      <region class="DoCO:TextChunk" id="79" confidence="possible">Supervised learning Regression: !"</region>
+      <region class="DoCO:FigureBox" id="Fx80">
+        <image class="DoCO:Figure" src="1198.page_028.image_23.png" thmb="1198.page_028.image_23-thumb.png"/>
+      </region>
+      <region class="unknown" id="81">#$%&amp;'($") "</region>
+      <region class="DoCO:TextChunk" id="82" confidence="possible">Supervised learning Regression: !"</region>
+      <region class="DoCO:FigureBox" id="Fx83">
+        <image class="DoCO:Figure" src="1198.page_029.image_24.png" thmb="1198.page_029.image_24-thumb.png"/>
+      </region>
+      <region class="unknown" id="84">#$%&amp;'($")</region>
+      <outsider class="DoCO:TextBox" type="footer" id="85">"</outsider>
+      <region class="DoCO:TextChunk" id="86" confidence="possible">Supervised learning Regression: !"</region>
+      <region class="DoCO:FigureBox" id="Fx87">
+        <image class="DoCO:Figure" src="1198.page_030.image_25.png" thmb="1198.page_030.image_25-thumb.png"/>
+      </region>
+      <region class="unknown" id="88">#$%&amp;'($") "</region>
+      <region class="DoCO:TextChunk" id="89" confidence="possible">Training and Testing !"#$%$%&amp;'()*'</region>
+      <region class="DoCO:FigureBox" id="Fx90">
+        <image class="DoCO:Figure" src="1198.page_031.image_26.png" thmb="1198.page_031.image_26-thumb.png"/>
+      </region>
+      <region class="unknown" id="91">+,'-.&amp;/"$*01'</region>
+      <region class="DoCO:FigureBox" id="Fx92">
+        <image class="DoCO:Figure" src="1198.page_031.image_27.png" thmb="1198.page_031.image_27-thumb.png"/>
+      </region>
+      <region class="unknown" id="93">+/2).'345'</region>
+      <region class="DoCO:TextChunk" id="94" confidence="possible">Training and Testing !"#$%$%&amp;'()*'</region>
+      <region class="unknown" id="95">+,'-.&amp;/"$*01'</region>
+      <region class="unknown" id="96">6%7/1)8'' &amp;)%2)"8''</region>
+      <region class="unknown" id="97">+/2).'345'</region>
+      <region class="DoCO:FigureBox" id="Fx98">
+        <image class="DoCO:Figure" src="1198.page_032.image_30.png" thmb="1198.page_032.image_30-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_032.image_28.png" thmb="1198.page_032.image_28-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_032.image_29.png" thmb="1198.page_032.image_29-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_032.image_31.png" thmb="1198.page_032.image_31-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="99" confidence="possible">K-nearest neighbors • Not every ML method builds a model! • Our first ML method: KNN. • Main idea: Uses the similarity between examples. • Assumption: Two similar examples should have same labels. • Assumes all examples (instances) are points in the d dimen- sional space R d .</region>
+      <region class="DoCO:TextChunk" id="100" confidence="possible">K-nearest neighbors • KNN uses the standard Euclidian distance neighbors. Given two examples x i and x j : d d ( x i , x j ) = x ik − x jk 2 k =1</region>
+      <region class="DoCO:TextChunk" id="101" confidence="possible">to define nearest</region>
+      <region class="DoCO:TextChunk" id="102" confidence="possible">( )</region>
+      <region class="DoCO:TextChunk" id="103" confidence="possible">K-nearest neighbors Training algorithm: Add each training example ( x, y ) to the dataset D . x ∈ R d , y ∈ { +1 , − 1 } .</region>
+      <region class="DoCO:TextChunk" id="104" confidence="possible">K-nearest neighbors Training algorithm: Add each training example ( x, y ) to the dataset D . x ∈ R d , y ∈ { +1 , − 1 } . Classification algorithm: Given an example x q to be classified. Suppose N k ( x q ) is the set of the K-nearest neighbors of x q . y q = sign ( y i )</region>
+      <outsider class="DoCO:TextBox" type="footer" id="105">x i ∈ N k ( x q )</outsider>
+      <region class="DoCO:TextChunk" id="106" confidence="possible">K-nearest neighbors</region>
+      <region class="DoCO:FigureBox" id="Fx107">
+        <image class="DoCO:Figure" src="1198.page_037.image_32.png" thmb="1198.page_037.image_32-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="108">3-NN. Credit: Introduction to Statistical Learning.</outsider>
+      <region class="unknown" id="109">K-nearest neighbors</region>
+      <region class="DoCO:FigureBox" id="Fx110">
+        <image class="DoCO:Figure" src="1198.page_038.image_33.png" thmb="1198.page_038.image_33-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="111">3-NN. Credit: Introduction to Statistical Learning.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="112">Question: Draw an approximate decision boundary for K = 3 ?</outsider>
+      <region class="DoCO:TextChunk" id="113" confidence="possible">K-nearest neighbors</region>
+      <region class="DoCO:FigureBox" id="Fx114">
+        <image class="DoCO:Figure" src="1198.page_039.image_34.png" thmb="1198.page_039.image_34-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="115">Credit: Introduction to Statistical Learning.</outsider>
+      <region class="DoCO:TextChunk" id="116" confidence="possible">K-nearest neighbors Question: What are the pros and cons of K-NN?</region>
+      <region class="unknown" id="117">K-nearest neighbors</region>
+      <region class="DoCO:TextChunk" id="120">Question: What are the pros and cons of K-NN? Pros: + Simple to implement. + Works well in practice. + Does not require to build a model, make assumptions, tune parameters. + Can be extended easily with news examples. <marker type="page" number="42"/><marker type="block"/> Question: What are the pros and cons of K-NN? Pros: + Simple to implement. + Works well in practice. + Does not require to build a model, make assumptions, tune parameters. + Can be extended easily with news examples.</region>
+      <region class="unknown" id="119">K-nearest neighbors</region>
+      <region class="unknown" id="121">Cons: - Requires large space to store the entire training dataset.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="122">- Slow! Given n examples and d features. The method takes O ( n × d ) to run. - Suffers from the curse of dimensionality .</outsider>
+      <region class="DoCO:TextChunk" id="123" confidence="possible">Applications of K-NN 1. Information retrieval.</region>
+      <region class="DoCO:TextChunk" id="125">2. Handwritten character classification using nearest neighbor in large databases. <marker type="block"/> 3. Recommender systems (user like you may like similar movies).</region>
+      <region class="DoCO:TextChunk" id="126" confidence="possible">4. Breast cancer diagnosis. 5. Medical data mining (similar patient symptoms). 6. Pattern recognition in general.</region>
+      <region class="unknown" id="127">Training and Testing !"#$%$%&amp;'()*'</region>
+      <region class="unknown" id="128">+,'-.&amp;/"$*01'</region>
+      <region class="unknown" id="129">6%7/1)8'' &amp;)%2)"8''</region>
+      <region class="DoCO:FigureBox" id="Fx130">
+        <image class="DoCO:Figure" src="1198.page_044.image_35.png" thmb="1198.page_044.image_35-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_044.image_36.png" thmb="1198.page_044.image_36-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="131">#&amp;)8''</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="132">+/2).'345'</outsider>
+      <region class="DoCO:FigureBox" id="Fx133">
+        <image class="DoCO:Figure" src="1198.page_044.image_38.png" thmb="1198.page_044.image_38-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_044.image_37.png" thmb="1198.page_044.image_37-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="134">Question: How can we be confident about f ?</outsider>
+      <region class="DoCO:TextChunk" id="135" confidence="possible">Training and Testing • We calculate E train the in-sample error (training error or em- pirical error/risk). n E train ( f ) = oss ( y i , f ( x i )) i =1</region>
+      <region class="DoCO:TextChunk" id="136" confidence="possible">Training and Testing • We calculate E train the in-sample error (training error or em- pirical error/risk). n E train ( f ) = oss ( y i , f ( x i )) i =1 • Examples of loss functions: – Classification error: oss ( y i , f ( x i )) = 0 1 otherwise if sign ( y i ) = sign ( f ( x i ))</region>
+      <region class="DoCO:TextChunk" id="137" confidence="possible">Training and Testing • We calculate E train the in-sample error (training error or em- pirical error/risk). n E train ( f ) = oss ( y i , f ( x i )) i =1 • Examples of loss functions: – Classification error: oss ( y i , f ( x i )) = 0 1 otherwise if sign ( y i ) = sign ( f ( x i ))</region>
+      <outsider class="DoCO:TextBox" type="footer" id="138">– Least square loss: oss ( y i , f ( x i )) = ( y i − f ( x i )) 2</outsider>
+      <region class="DoCO:TextChunk" id="139" confidence="possible">Training and Testing • We calculate E train the in-sample error (training error or em- pirical error/risk). n E train ( f ) = oss ( y i , f ( x i )) i =1 • We aim to have E train ( f ) small, i.e., minimize E train ( f )</region>
+      <region class="DoCO:TextChunk" id="140" confidence="possible">Training and Testing • We calculate E train the in-sample error (training error or em- pirical error/risk). n E train ( f ) = oss ( y i , f ( x i )) i =1 • We aim to have E train ( f ) small, i.e., minimize E train ( f ) • We hope that E test ( f ), the out-sample error (test/true error), will be small too.</region>
+      <region class="unknown" id="141">Overfitting/underfitting</region>
+      <region class="DoCO:FigureBox" id="Fx142">
+        <image class="DoCO:Figure" src="1198.page_050.image_39.png" thmb="1198.page_050.image_39-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="143">An intuitive example</outsider>
+      <region class="DoCO:TextChunk" id="144" confidence="possible">Structural Risk Minimization High*Bias****** * * * * * * * ***Low*Bias** Low*Variance* * * * * * * * *High*Variance * * Predic'on*Error</region>
+      <region class="unknown" id="145">____Test*error**** ____Training*error*</region>
+      <region class="DoCO:TextChunk" id="146" confidence="possible">UnderfiAng****************Good*models** *</region>
+      <region class="DoCO:TextChunk" id="147" confidence="possible">* *OverfiAng * ********** *</region>
+      <region class="DoCO:FigureBox" id="Fx148">
+        <image class="DoCO:Figure" src="1198.page_051.image_40.png" thmb="1198.page_051.image_40-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_051.image_41.png" thmb="1198.page_051.image_41-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="149" confidence="possible">Low*******************************************Complexity*of*the*model*************************************High*</region>
+      <region class="DoCO:FigureBox" id="Fx150">
+        <image class="DoCO:Figure" src="1198.page_051.image_42.png" thmb="1198.page_051.image_42-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="151" confidence="possible">Training and Testing</region>
+      <region class="unknown" id="152">!"#$%&amp;'</region>
+      <region class="DoCO:FigureBox" id="Fx153">
+        <image class="DoCO:Figure" src="1198.page_052.image_43.png" thmb="1198.page_052.image_43-thumb.png"/>
+      </region>
+      <region class="unknown" id="154">()&amp; '</region>
+      <region class="unknown" id="155">!"#$%&amp;'</region>
+      <region class="DoCO:FigureBox" id="Fx156">
+        <image class="DoCO:Figure" src="1198.page_052.image_45.png" thmb="1198.page_052.image_45-thumb.png"/>
+      </region>
+      <region class="unknown" id="157">!"#$%&amp;'</region>
+      <region class="DoCO:FigureBox" id="Fx158">
+        <image class="DoCO:Figure" src="1198.page_052.image_44.png" thmb="1198.page_052.image_44-thumb.png"/>
+      </region>
+      <region class="unknown" id="159">()&amp; '</region>
+      <outsider class="DoCO:TextBox" type="footer" id="160">()&amp; '</outsider>
+      <region class="unknown" id="161">Training and Testing</region>
+      <region class="unknown" id="162">!"#$%&amp;'</region>
+      <region class="unknown" id="163">!"#$%&amp;'</region>
+      <region class="DoCO:FigureBox" id="Fx164">
+        <image class="DoCO:Figure" src="1198.page_053.image_46.png" thmb="1198.page_053.image_46-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_053.image_47.png" thmb="1198.page_053.image_47-thumb.png"/>
+      </region>
+      <region class="unknown" id="165">()&amp; '</region>
+      <region class="unknown" id="166">()&amp; '</region>
+      <region class="DoCO:TextChunk" id="167" confidence="possible">High bias (underfitting)</region>
+      <region class="unknown" id="168">!"#$%&amp;'</region>
+      <region class="DoCO:FigureBox" id="Fx169">
+        <image class="DoCO:Figure" src="1198.page_053.image_48.png" thmb="1198.page_053.image_48-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="170">()&amp; '</outsider>
+      <region class="unknown" id="171">Training and Testing</region>
+      <region class="unknown" id="172">!"#$%&amp;'</region>
+      <region class="unknown" id="173">!"#$%&amp;'</region>
+      <region class="DoCO:FigureBox" id="Fx174">
+        <image class="DoCO:Figure" src="1198.page_054.image_49.png" thmb="1198.page_054.image_49-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="175" confidence="possible">()&amp; ' High bias (underfitting)</region>
+      <region class="unknown" id="176">!"#$%&amp;'</region>
+      <region class="DoCO:FigureBox" id="Fx177">
+        <image class="DoCO:Figure" src="1198.page_054.image_51.png" thmb="1198.page_054.image_51-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_054.image_50.png" thmb="1198.page_054.image_50-thumb.png"/>
+      </region>
+      <region class="unknown" id="178">()&amp; '</region>
+      <outsider class="DoCO:TextBox" type="footer" id="179">()&amp; ' High variance (overfitting)</outsider>
+      <region class="unknown" id="180">Training and Testing</region>
+      <region class="unknown" id="181">!"#$%&amp;'</region>
+      <region class="unknown" id="182">!"#$%&amp;'</region>
+      <region class="DoCO:FigureBox" id="Fx183">
+        <image class="DoCO:Figure" src="1198.page_055.image_52.png" thmb="1198.page_055.image_52-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_055.image_53.png" thmb="1198.page_055.image_53-thumb.png"/>
+      </region>
+      <region class="unknown" id="184">()&amp; '</region>
+      <region class="unknown" id="185">()&amp; '</region>
+      <region class="DoCO:TextChunk" id="186" confidence="possible">High bias (underfitting)</region>
+      <region class="DoCO:TextChunk" id="187" confidence="possible">Just right!</region>
+      <region class="unknown" id="188">!"#$%&amp;'</region>
+      <region class="DoCO:FigureBox" id="Fx189">
+        <image class="DoCO:Figure" src="1198.page_055.image_54.png" thmb="1198.page_055.image_54-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="190">()&amp; ' High variance (overfitting)</outsider>
+      <region class="DoCO:TextChunk" id="191" confidence="possible">Avoid overfitting In general, use simple models! • Reduce the number of features manually or do feature selection. • Do a model selection (ML course). • Use regularization (keep the features but reduce their impor- tance by setting small parameter values) (ML course). • Do a cross-validation to estimate the test error.</region>
+      <region class="DoCO:TextChunk" id="192" confidence="possible">Regularization: Intuition We want to minimize: Classification term + C × Regularization term n oss ( y i , f ( x i )) + C × R ( f ) i =1</region>
+      <region class="unknown" id="193">Regularization: Intuition</region>
+      <region class="unknown" id="194">!"#$%&amp;'</region>
+      <region class="unknown" id="195">!"#$%&amp;'</region>
+      <region class="DoCO:FigureBox" id="Fx196">
+        <image class="DoCO:Figure" src="1198.page_058.image_55.png" thmb="1198.page_058.image_55-thumb.png"/>
+        <image class="DoCO:Figure" src="1198.page_058.image_56.png" thmb="1198.page_058.image_56-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="197" confidence="possible">()&amp; ' f ( x ) = λ 0 + λ 1 x ... (1) f ( x ) = λ 0 + λ 1 x + λ 2 x 2 ... (2) f ( x ) = λ 0 + λ 1 x + λ 2 x 2 + λ 3 x 3 + λ 4 x 4</region>
+      <region class="unknown" id="198">!"#$%&amp;'</region>
+      <region class="DoCO:FigureBox" id="Fx199">
+        <image class="DoCO:Figure" src="1198.page_058.image_57.png" thmb="1198.page_058.image_57-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="200" confidence="possible">()&amp; ' ()&amp; ' ... (3)</region>
+      <outsider class="DoCO:TextBox" type="footer" id="201">Hint: Avoid high-degree polynomials.</outsider>
+      <region class="DoCO:TextChunk" id="202" confidence="possible">Train, Validation and Test TRAIN VALIDATION TEST Example: Split the data randomly into 60% for training, 20% for validation and 20% for testing.</region>
+      <region class="unknown" id="203">Train, Validation and Test TRAIN VALIDATION TEST</region>
+      <region class="DoCO:TextChunk" id="215">1. Training set is a set of examples used for learning a model (e.g., a classification model). <marker type="page" number="61"/><marker type="block"/> 1. Training set is a set of examples used for learning a model (e.g., a classification model).<marker type="block"/> 2. Validation set is a set of examples that cannot be used for learning the model but can help tune model parameters (e.g., selecting K in K-NN). Validation helps control overfitting.<marker type="page" number="62"/><marker type="block"/> 1. Training set is a set of examples used for learning a model (e.g., a classification model).<marker type="block"/> 2. Validation set is a set of examples that cannot be used for learning the model but can help tune model parameters (e.g., selecting K in K-NN). Validation helps control overfitting.<marker type="block"/> 3. Test set is used to assess the performance of the final model and provide an estimation of the test error.<marker type="page" number="63"/><marker type="block"/> 1. Training set is a set of examples used for learning a model (e.g., a classification model).<marker type="block"/> 2. Validation set is a set of examples that cannot be used for learning the model but can help tune model parameters (e.g., selecting K in K-NN). Validation helps control overfitting.<marker type="block"/> 3. Test set is used to assess the performance of the final model and provide an estimation of the test error.</region>
+      <region class="unknown" id="205">Train, Validation and Test TRAIN VALIDATION TEST</region>
+      <region class="unknown" id="208">Train, Validation and Test TRAIN VALIDATION TEST</region>
+      <region class="unknown" id="212">Train, Validation and Test TRAIN VALIDATION TEST</region>
+      <outsider class="DoCO:TextBox" type="footer" id="216">Note: Never use the test set in any way to further tune the parameters or revise the model .</outsider>
+      <region class="DoCO:TextChunk" id="217" confidence="possible">K-fold Cross Validation A method for estimating test error using training data. Algorithm: Given a learning algorithm A and a dataset D Step 1: Randomly partition D into k equal-size subsets D 1 , . . . , D k Step 2: For j = 1 to k Train A on all D i , i ∈ 1 , . . . k and i = j , and get f j . Apply f j to D j and compute E D j</region>
+      <outsider class="DoCO:TextBox" type="footer" id="218">Step 3: Average error over all folds. k ( E D j ) j =1</outsider>
+      <region class="DoCO:TextChunk" id="219" confidence="possible">Confusion matrix 34*#/0%;/&lt;$0% !"#$%$&amp;' (')*%$&amp;' &amp;"$=)4*$=%;/&lt;$0 !"#$%$&amp;' !"#$%&amp;'()*)+$%,!&amp;- ./0($%&amp;'()*)+$%,.&amp;- (')*%$&amp;' ./0($%1$2/*)+$%,.1- !"#$%1$2/*)+$%,!1- 344#"/45 +,!-.-,(/-0-+,!-.-,(-.-1!-.-1(/ ,2'-3'45'6%*)'-"7-34'8$5%$"6#-%2*%-*4'-5"44'5% ,2'-3'45'6%*)'-"7-3"#$%$&amp;'-34'8$5%$"6#-%2*%-*4'- &amp;"$4)()'6 ,!-0-+,!-.-1!/ 5"44'5% ,2'-3'45'6%*)'-"7-3"#$%$&amp;'-5*#'#-%2*%-9'4'- 7$6()*)+)*5%,8$4/00- ,!-0-+,!-.-1(/ 34'8$5%'8-*#-3"#$%$&amp;'</region>
+      <outsider class="DoCO:TextBox" type="footer" id="220">79$4):)4)*5</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="221">,(-0-+,(-.-1!/</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="222">,2'-3'45'6%*)'-"7-6')*%$&amp;'-5*#'#-%2*%-9'4'- 34'8$5%'8-*#-6')*%$&amp;'</outsider>
+      <region class="DoCO:TextChunk" id="223" confidence="possible">Evaluation metrics</region>
+      <region class="unknown" id="224">&amp;"$=)4*$=%;/&lt;$0 !"#$%$&amp;' (')*%$&amp;' 344#"/45 +,!-.-,(/-0-+,!-.-,(-.-1!-.-1(/ &amp;"$4)()'6 ,!-0-+,!-.-1!/ 7$6()*)+)*5%,8$4/00- ,!-0-+,!-.-1(/</region>
+      <region class="unknown" id="225">34*#/0%;/&lt;$0% !"#$%$&amp;' (')*%$&amp;' !"#$%&amp;'()*)+$%,!&amp;- ./0($%&amp;'()*)+$%,.&amp;- ./0($%1$2/*)+$%,.1- !"#$%1$2/*)+$%,!1- ,2'-3'45'6%*)'-"7-34'8$5%$"6#-%2*%-*4'-5"44'5% ,2'-3'45'6%*)'-"7-3"#$%$&amp;'-34'8$5%$"6#-%2*%-*4'- 5"44'5% ,2'-3'45'6%*)'-"7-3"#$%$&amp;'-5*#'#-%2*%-9'4'- 34'8$5%'8-*#-3"#$%$&amp;'</region>
+      <outsider class="DoCO:TextBox" type="footer" id="226">79$4):)4)*5</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="227">,(-0-+,(-.-1!/</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="228">,2'-3'45'6%*)'-"7-6')*%$&amp;'-5*#'#-%2*%-9'4'- 34'8$5%'8-*#-6')*%$&amp;'</outsider>
+      <region class="DoCO:TextChunk" id="229" confidence="possible">Terminology review Review the concepts and terminology: Instance, example, feature, label, supervised learning, unsu- pervised learning, classification, regression, clustering, prediction, training set, validation set, test set, K-fold cross validation, classification error, loss function, overfitting, underfitting, regularization.</region>
+      <region class="DoCO:TextChunk" id="230" confidence="possible">Machine Learning Books 1. Tom Mitchell, Machine Learning.</region>
+      <region class="DoCO:TextChunk" id="233">2. Abu-Mostafa, Yaser S. and Magdon-Ismail, Malik and Lin, Hsuan-Tien, Learning From Data, AMLBook. <marker type="block"/> 3. The elements of statistical learning. Data mining, inference, and prediction T. Hastie, R. Tibshirani, J. Friedman.<marker type="block"/> 4. Christopher Bishop. Pattern Recognition and Machine Learning.</region>
+      <region class="DoCO:TextChunk" id="234" confidence="possible">5. Richard O. Duda, Peter E. Hart, David G. Stork. Pattern</region>
+      <outsider class="DoCO:TextBox" type="footer" id="235">Classification. Wiley.</outsider>
+      <region class="DoCO:TextChunk" id="238" confidence="possible">Machine Learning Resources • Major journals/conferences: ICML, NIPS, UAI, ECML/PKDD, JMLR, MLJ, etc. • Machine learning video lectures: <ext-link ext-link-type="uri" href="http://videolectures.net/Top/Computer_Science/Machine_Learning/" id="236">http://videolectures.net/Top/Computer_Science/Machine_Learning/</ext-link> • Machine Learning (Theory): <ext-link ext-link-type="uri" href="http://hunch.net/" id="237">http://hunch.net/</ext-link> • LinkedIn ML groups: “Big Data” Scientist, etc. • Women in Machine Learning:</region>
+      <outsider class="DoCO:TextBox" type="footer" id="239">https://groups.google.com/forum/#!forum/women-in-machine-learning</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="241">• KDD nuggets <ext-link ext-link-type="uri" href="http://www.kdnuggets.com/" id="240">http://www.kdnuggets.com/</ext-link></outsider>
+      <region class="DoCO:TextChunk" id="242" confidence="possible">Credit • The elements of statistical learning. Data mining, inference, and prediction. 10th Edition 2009. T. Hastie, R. Tibshirani, J. Friedman. • Machine Learning 1997. Tom Mitchell.</region>
+    </front>
+    <body class="DoCO:BodyMatter"/>
+  </article>
+</pdfx>

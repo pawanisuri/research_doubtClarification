@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>63cf4ca30326a1ac478433e00945dab5711b6785be162276fa4412edefefa418</job>
+    <base_name>10kx</base_name>
+    <doi confidence="possible">http://dx.doi.org/10.1017/cbo9781139923651.027</doi>
+    <warning>Name identification was not possible. </warning>
+    <warning>The font used for 'body text' does not predominate across pages. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <region class="DoCO:FigureBox" id="Fx1">
+        <image class="DoCO:Figure" src="10kx.page_001.image_01.png" thmb="10kx.page_001.image_01-thumb.png"/>
+        <image class="DoCO:Figure" src="10kx.page_002.image_02.png" thmb="10kx.page_002.image_02-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="header" id="2">What is Machine Learning?</outsider>
+      <region class="unknown" id="3">comes naturally to Machine learning algorithms directly from data a model. The algorithms number of samples available</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="4">Machine learning teaches computers to do what humans and animals: learn from experience. use computational methods to “learn” information without relying on a predetermined equation as adaptively improve their performance as the for learning increases.</outsider>
+      <region class="DoCO:FigureBox" id="Fx5">
+        <image class="DoCO:Figure" src="10kx.page_003.image_03.png" thmb="10kx.page_003.image_03-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="header" id="6">Real-World Applications With the rise in big data, machine learning has become particularly important for solving problems in areas like these:</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="7">More Data, More Questions, Better Answers</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="8">Machine learning algorithms find natural patterns in data that generate insight and help you make better decisions and predictions. They are used every day to make critical decisions in medical diagnosis, stock trading, energy load forecasting, and more. Media sites rely on machine learning to sift through millions of options to give you song or movie recommendations. Retailers use it to gain insight into their customers’ purchasing behavior.</outsider>
+      <region class="DoCO:TextChunk" id="9">•  Computational finance, for credit      scoring and algorithmic trading •  Image processing and computer vision,      for face recognition, motion detection, and     object detection •  Computational biology, for tumor      detection, drug discovery, and DNA     sequencing •  Energy production, for price and load     forecasting •  Automotive, aerospace, and       manufacturing, for predictive maintenance •  Natural language processing</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="10">3</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="11">Introducing Machine Learning</outsider>
+      <region class="DoCO:FigureBox" id="Fx12">
+        <image class="DoCO:Figure" src="10kx.page_004.image_04.png" thmb="10kx.page_004.image_04-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="header" id="13">How Machine Learning Works</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="14">Machine learning uses two types of techniques: supervised learning, which trains a model on known input and output data so that it can predict future outputs, and unsupervised learning, which finds hidden patterns or intrinsic structures in input data.</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="15">Machine Learning Techniques</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="16">UNSUPERVISED LEARNING Group and interpret data based only on input data</outsider>
+      <region class="unknown" id="17">CLUSTERING</region>
+      <outsider class="DoCO:TextBox" type="footer" id="18">MACHINE LEARNING</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="19">CLASSIFICATION</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="20">SUPERVISED LEARNING Develop predictive model based on both input and output data</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="21">REGRESSION</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="22">4</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="23">Introducing Machine Learning</outsider>
+      <region class="DoCO:FigureBox" id="Fx24">
+        <image class="DoCO:Figure" src="10kx.page_005.image_05.png" thmb="10kx.page_005.image_05-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="header" id="25">Using Supervised Learning to Predict Heart Attacks</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="26">Supervised Learning</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="27">Suppose clinicians want to predict whether</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="28">The aim of supervised machine learning is to build a model that makes predictions based on evidence in the presence of uncertainty. A supervised learning algorithm takes a known set of input data and known responses to the data (output) and trains a model to generate reasonable predictions for the response to new data. Supervised learning uses classification and regression techniques to develop predictive models. •  Classification techniques predict discrete responses—for     example, whether an email is genuine or spam, or whether     a tumor is cancerous or benign. Classification models      classify input data into categories. Typical applications      include medical imaging, speech recognition, and   credit scoring.</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="29">age,</outsider>
+      <region class="unknown" id="30">someone will have a heart attack within a year. They have data on previous patients, including weight, height, and blood pressure. They know whether the previous patients had heart attacks within a year. So the problem is combining the existing data into a model that can predict whether a new person will have a heart attack within a year.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="31">•  Regression techniques predict continuous responses—     for example, changes in temperature or fluctuations in      power demand. Typical applications include       electricity load forecasting and algorithmic trading.</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="32">5</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="33">Introducing Machine Learning</outsider>
+      <region class="DoCO:FigureBox" id="Fx34">
+        <image class="DoCO:Figure" src="10kx.page_006.image_06.png" thmb="10kx.page_006.image_06-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="header" id="35">Unsupervised Learning</outsider>
+      <region class="unknown" id="36">Clustering Patterns in the Data</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="37">Unsupervised learning finds hidden patterns or intrinsic structures in data. It is used to draw inferences from datasets consisting of input data without labeled responses. Clustering is the most common unsupervised learning technique. It is used for exploratory data analysis to find hidden patterns or groupings in data. Applications for clustering include gene sequence analysis, market research, and object recognition.</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="38">6</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="39">Introducing Machine Learning</outsider>
+      <region class="DoCO:FigureBox" id="Fx40">
+        <image class="DoCO:Figure" src="10kx.page_007.image_07.png" thmb="10kx.page_007.image_07-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="header" id="41">Selecting an Algorithm</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="42">MACHINE LEARNING</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="43">How Do You Decide Which Algorithm to Use?</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="44">Choosing the right algorithm can seem overwhelming—there are dozens of supervised and unsupervised machine learning algorithms, and each takes a different approach to learning. There is no best method or one size fits all. Finding the right algorithm is partly just trial and error—even highly experienced data scientists can’t tell whether an algorithm will work without trying it out. But algorithm selection also depends on the size and type of data you’re working with, the insights you want to get from the data, and how those insights will be used.</outsider>
+      <region class="unknown" id="45">SUPERVISED UNSUPERVISED LEARNING LEARNING CLASSIFICATION REGRESSION CLUSTERING</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="46">Support</outsider>
+      <region class="unknown" id="47">Vector Machines</region>
+      <region class="unknown" id="48">Linear Regression, K-Means, K-Medoids GLM Fuzzy C-Means</region>
+      <outsider class="DoCO:TextBox" type="footer" id="49">Discriminant Analysis</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="50">SVR, GPR</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="51">Hierarchical</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="52">Naive Bayes</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="53">Ensemble Methods</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="54">Gaussian Mixture</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="55">Nearest Neighbor</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="56">Decision Trees</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="57">Neural Networks</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="58">Neural Networks</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="59">Hidden Markov Model</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="60">7</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="61">Introducing Machine Learning</outsider>
+      <region class="DoCO:FigureBox" id="Fx62">
+        <image class="DoCO:Figure" src="10kx.page_008.image_08.png" thmb="10kx.page_008.image_08-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="63">When Should You Use Machine Learning?</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="64">Consider using machine learning when you have a complex task or problem involving a large amount of data and lots of variables, but no existing formula or equation. For example, machine learning is a good option if you need to handle situations like these:</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="65">Hand-written rules and equations are too complex—as in face recognition and speech recognition.</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="66">The rules of a task are constantly changing—as in fraud detection from transaction records.</outsider>
+      <region class="DoCO:TextChunk" id="67" confidence="possible">The nature of the data keeps changing, and the program needs to adapt—as in automated trading, energy demand forecasting, and predicting shopping trends.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="68">8</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="69">Introducing Machine Learning</outsider>
+      <region class="DoCO:FigureBox" id="Fx70">
+        <image class="DoCO:Figure" src="10kx.page_009.image_09.png" thmb="10kx.page_009.image_09-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="header" id="71">Real-World Examples</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="72">Creating Algorithms that Can Analyze Works of Art Researchers at the Art and Artificial Intelligence Laboratory at Rutgers University wanted to see whether a computer algorithm could classify paintings by style, genre, and artist as easily as a human. They began by identifying visual features for classifying a painting’s style. The algorithms they developed classified the styles of paintings in the database with 60% accuracy, outperforming typical non-expert humans. The researchers hypothesized that visual features useful for style classification (a supervised learning problem) could also be used to determine artistic influences (an unsupervised problem). They used classification algorithms trained on Google images to identify specific objects. They tested the algorithms on more than 1,700 paintings from 66 different artists working over a span of 550 years. The algorithm readily identified connected works, including the influence of Diego Velazquez’s “Portrait of Pope Innocent X” on Francis Bacon’s “Study After Velazquez’s Portrait of Pope Innocent X.”</outsider>
+      <region class="DoCO:FigureBox" id="Fx73">
+        <image class="DoCO:Figure" src="10kx.page_009.image_10.png" thmb="10kx.page_009.image_10-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="74">9</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="75">Introducing Machine Learning</outsider>
+      <region class="DoCO:FigureBox" id="Fx76">
+        <image class="DoCO:Figure" src="10kx.page_010.image_11.png" thmb="10kx.page_010.image_11-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="header" id="77">Real-World Examples</outsider>
+      <region class="DoCO:FigureBox" id="Fx78">
+        <image class="DoCO:Figure" src="10kx.page_010.image_12.png" thmb="10kx.page_010.image_12-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="79">Optimizing HVAC Energy Usage in Large Buildings The heating, ventilation, and air-conditioning (HVAC) systems in office buildings, hospitals, and other large- scale commercial buildings are often inefficient because they do not take into account changing weather patterns, variable energy costs, or the building’s thermal properties. Building IQ’s cloud-based software platform addresses this problem. The platform uses advanced algorithms and machine learning methods to continuously process gigabytes of information from power meters, thermometers, and HVAC pressure sensors, as well as weather and energy cost. In particular, machine learning is used to segment data and determine the relative contributions of gas, electric, steam, and solar power to heating and cooling processes. The building IQ platform reduces HVAC energy consumption in large- scale commercial buildings by 10% - 25% during normal operation.</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="80">10</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="81">Introducing Machine Learning</outsider>
+      <region class="DoCO:FigureBox" id="Fx82">
+        <image class="DoCO:Figure" src="10kx.page_011.image_13.png" thmb="10kx.page_011.image_13-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="header" id="83">Real-World Examples</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="84">Detecting Low-Speed Car Crashes With more than 8 million members, the RAC is one of the UK’s largest motoring organizations, providing roadside assistance, insurance, and other services to private and business motorists. To enable rapid response to roadside incidents, reduce crashes, and mitigate insurance costs, the RAC developed an onboard crash sensing system that uses advanced machine learning algorithms to detect low- speed collisions and distinguish these events from more common driving events, such as driving over speed bumps or potholes. Independent tests showed the RAC system to be 92% accurate in detecting test crashes.</outsider>
+      <region class="DoCO:FigureBox" id="Fx85">
+        <image class="DoCO:Figure" src="10kx.page_011.image_14.png" thmb="10kx.page_011.image_14-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="86">11</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="87">Introducing Machine Learning</outsider>
+      <region class="DoCO:FigureBox" id="Fx88">
+        <image class="DoCO:Figure" src="10kx.page_012.image_15.png" thmb="10kx.page_012.image_15-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="header" id="89">Learn More</outsider>
+      <region class="unknown" id="90">Ready for a deeper dive? Explore these resources to learn more about machine learning methods, examples, and tools.</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="91">Watch Machine Learning Made Easy 34:34 Signal Processing and Machine Learning Techniques for Sensor Data Read Machine Learning Blog Posts: Social Network Analysis, Text Mining, Bayesian The Netflix Prize and Production Machine Learning Systems: An Insider Machine Learning Challenges: Choosing the Best Model and Avoiding Explore</outsider>
+      <region class="unknown" id="92">Analytics 42:45</region>
+      <region class="unknown" id="93">Reasoning, and more Look Overfitting</region>
+      <outsider class="DoCO:TextBox" type="footer" id="94">MATLAB Machine Learning Examples Machine Learning Solutions Classify Data with the Classification Learner App</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="95">© 2016 The MathWorks, Inc. MATLAB and Simulink are registered trademarks of The MathWorks, Inc. See mathworks.com/trademarks for a list of additional trademarks. Other product or brand names may be trademarks or registered trademarks of their respective holders.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="96">92991v00</outsider>
+    </front>
+    <body class="DoCO:BodyMatter"/>
+  </article>
+</pdfx>
