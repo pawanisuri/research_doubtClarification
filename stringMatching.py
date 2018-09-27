@@ -93,8 +93,8 @@ def is_ci_token_stopword_set_match(a, b, threshold=0.5):
          # print(b[x])
         i=i+1
      maximum_ratio=get_most_matching_topic(allRations)
-    #  print("max",maximum_ratio)
+     print("max",maximum_ratio)
      return (ratio >= threshold)     
      # return 0
 
-print(is_ci_token_stopword_set_match("How is a machine learning works",["machine learning works",],0.1))
+print(is_ci_token_stopword_set_match("satisfication document",["document satisfication","document"],0.1))

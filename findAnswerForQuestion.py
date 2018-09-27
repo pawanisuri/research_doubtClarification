@@ -10,7 +10,7 @@ from gensim.summarization import summarize
 # from stringMatching import is_ci_token_stopword_set_match
 # xmlFile = parse("SRSDocument-Learning tool.xml")
 
-def findAnswer(XmlDocumentset,startPage,endPage,keywords):
+def findAnswer(XmlDocumentset,keywords):
     extractedSentences=[None]*10000
     txt = ""
     status="notFound"
@@ -19,7 +19,8 @@ def findAnswer(XmlDocumentset,startPage,endPage,keywords):
     # tree = ET.parse(xmlFile)
     h="DoCO:SectionTitle"
     
-    for XmlDocument in XmlDocumentset:     
+    for XmlDocument in XmlDocumentset:   
+        print("xml Document",XmlDocument)  
         xmlFile = parse(XmlDocument)   
         if(xmlFile.getElementsByTagName("h1")!=[]):
             j=0
@@ -169,40 +170,13 @@ def findAnswer(XmlDocumentset,startPage,endPage,keywords):
             # summarizationProcess(text)
     if(text==""):
         print('Informaation Not Found!!!')
+        return "Not found"
     else:
         print('found!!!')      
             # jk=filtered_sentence1
         jk=' '.join(filtered_sentence1)
-            # print(jk) 
-        summarizationProcess(jk)  
-# text ="Thomas A. Anderson is a man living two lives. By day he is an " + \
-#     "average computer programmer and by night a hacker known as " + \
-#     "Neo. Neo has always questioned his reality, but the truth is " + \
-#     "far beyond his imagination. Neo finds himself targeted by the " + \
-#     "police when he is contacted by Morpheus, a legendary computer " + \
-#     "hacker branded a terrorist by the government. Morpheus awakens " + \
-#     "Neo to the real world, a ravaged wasteland where most of " + \
-#     "humanity have been captured by a race of machines that live " + \
-#     "off of the humans' body heat and electrochemical energy and " + \
-#     "who imprison their minds within an artificial reality known as " + \
-#     "the Matrix. As a rebel against the machines, Neo must return to " + \
-#     "the Matrix and confront the agents: super-powerful computer " + \
-#     "programs devoted to snuffing out Neo and the entire human " + \
-#     "rebellion. "+\
-#     "Thomas A. Anderson is a man living two lives. By day he is an " + \
-#     "average computer programmer and by night a hacker known as " + \
-#     "Neo. Neo has always questioned his reality, but the truth is " + \
-#     "far beyond his imagination. Neo finds himself targeted by the " + \
-#     "police when he is contacted by Morpheus, a legendary computer " + \
-#     "hacker branded a terrorist by the government. Morpheus awakens " + \
-#     "Neo to the real world, a ravaged wasteland where most of " + \
-#     "humanity have been captured by a race of machines that live " + \
-#     "off of the humans' body heat and electrochemical energy and " + \
-#     "who imprison their minds within an artificial reality known as " + \
-#     "the Matrix. As a rebel against the machines, Neo must return to " + \
-#     "the Matrix and confront the agents: super-powerful computer " + \
-#     "programs devoted to snuffing out Neo and the entire human " + \
-#     "rebellion. "
+            # print(jk)           
+        return summarizationProcess(jk)
 
 def summarizationProcess(extractedInfo):
     sentence=split_sentences(extractedInfo)
@@ -220,6 +194,7 @@ def summarizationProcess(extractedInfo):
         summarizedText=summarize(extractedInfo, split=True)
         return summarizedText
     else:
+        print('Summarized information',extractedInfo)
         return extractedInfo
-findAnswer(['Data Communication Networking.xml','android_tutorial.xml'],2,3,["Summary","Ring Topology","5. ANDROID Hello World Example Android", "If not, there is a tangible financial risk to core business operations."])
+findAnswer(['MLBOOKchapter.xml','android_tutorial.xml'],['Evaluable Predicates','toplogy'])
 
