@@ -167,6 +167,41 @@ def findAnswer(XmlDocumentset,keywords):
                                     if(txt2=='6'):
                                         print("pawi")         
                 j=j+1
+
+        if(xmlFile.getElementsByTagName("region")!=[]):   
+            j=0 
+            i=0
+            for node1 in xmlFile.getElementsByTagName("region"):
+                x = xmlFile.getElementsByTagName("region")
+                txt=x[j].getAttribute('class') 
+                if(txt=='unknown'):
+                    for node2 in node1.childNodes:
+                        if(node2.nodeType == Node.TEXT_NODE) :
+                            i=i+1
+                            if(sim(keywords,node2.data.encode("utf-8"))==1):
+                                idNo=x[j].getAttribute('id')
+                                no=int(idNo)
+                                no=no+1
+                                idNumber=str(no)
+                                # print(idNumber)
+                                r=0
+                                for f in xmlFile.getElementsByTagName("region"):
+                                    y = xmlFile.getElementsByTagName("region")
+                                    Tags=y[r].getAttribute('id') 
+                                    # tages2=Tags.childNodes
+                                    r=r+1
+                                    # print(Tags)
+                                    for tages2 in f.childNodes:
+                                        if(Tags==idNumber):
+                                            print(tages2.data.encode("utf-8"))
+                                            text=tages2.data.encode("utf-8")
+                                            filtered_sentence1.append(tages2.data.encode("utf-8"))
+                                for node1 in xmlFile.nodeName:
+                                    # for(i = 0; i < x.length; i=i+1 ){ 
+                                    txt2=x[j].getAttribute('id')
+                                    if(txt2=='6'):
+                                        print("pawi")         
+                j=j+1        
             # summarizationProcess(text)
     if(text==""):
         print('Informaation Not Found!!!')
@@ -196,5 +231,5 @@ def summarizationProcess(extractedInfo):
     else:
         print('Summarized information',extractedInfo)
         return extractedInfo
-findAnswer(['MLBOOKchapter.xml','android_tutorial.xml'],['Evaluable Predicates','toplogy'])
+findAnswer(['McGrawHill - Machine Learning -Tom Mitchellchapter.xml','android_tutorial.xml'],['1.2.2 Choosing the Target Function','Summary'])
 

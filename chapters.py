@@ -59,7 +59,7 @@ def pdf_splitter(path,spage,epage):
                     # print('Created: {}'.format(output_filename))
                 # outputStream.close()
 if __name__ == '__main__':
-    path = 'Introduction_to_Software_Engineering'
-    spage=[77]
-    epage=[83]
+    path = 'McGrawHill - Machine Learning -Tom Mitchell'
+    spage=[14]
+    epage=[23]
     pdf_splitter(path,spage,epage)  

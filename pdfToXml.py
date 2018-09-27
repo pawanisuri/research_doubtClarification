@@ -19,7 +19,13 @@ def pypdfx(filename):
 	fout.close()
 	print('Written to', filename + '.xml')
 
+	if( r.status_code==200):
+		print('successfully converted')
+	else:
+		print('XML convertion faild')	
+
+
 if __name__ == '__main__':
   # self promotion - get the pdf file here: http://onlinelibrary.wiley.com/doi/10.1111/j.1558-5646.2012.01576.x/abstract
-	filename = 'MLBOOKchapter'
+	filename = 'McGrawHill - Machine Learning -Tom Mitchellchapter'
 	pypdfx(filename)

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
   <meta>
-    <job>b967975fa4ff08a2697c2b4c10a5d4366384e047722e1b5f7507d277668705a9</job>
-    <base_name>10ku</base_name>
+    <job>19cbc99afdea378ddda276a65d6c919dad9169543b2f6d23c3025fe54e3ac449</job>
+    <base_name>11ex</base_name>
     <doi>http://dx.doi.org/10.1007/978-94-007-7155-0_7</doi>
     <warning>Name identification was not possible. </warning>
   </meta>
@@ -24,13 +24,13 @@
         <region class="DoCO:TextChunk" id="12" confidence="possible" page="2" column="1">1. <ext-link ext-link-type="uri" href="http://googleblog" id="9">http://googleblog</ext-link> . blogspot . com/2008/07/we-knew-web-was-big . html 2. Source: <ext-link ext-link-type="uri" href="http://www" id="10">http://www</ext-link> . youtube . com/t/press_statistics . 3. Rob Tibshirani, a statistician at Stanford university, has created an amusing comparison between machine learning and statistics, available at <ext-link ext-link-type="uri" href="http://www-stat" id="11">http://www-stat</ext-link> . stanford . edu/~tibs/stat315a/glossary . pdf .</region>
         <outsider class="DoCO:TextBox" type="page_nr" id="13" page="3" column="1">2</outsider>
         <outsider class="DoCO:TextBox" type="header" id="14" page="3" column="1">Chapter 1. Introduction</outsider>
-        <region class="DoCO:TextChunk" id="18" page="3" column="1">It should be noted, however, that even when one has an apparently massive data set, the e ￿ ective number of data points for certain cases of interest might be quite small. In fact, data across a variety of domains exhibits a property known as the long tail , which means that a few things (e.g., words) are very common, but most things are quite rare (see Section 2.4.7 for details). For example, 20% of Google searches each day have never been seen before 4 . This means that the core statistical issues that we discuss in this book, concerning generalizing from relatively small samples sizes, are still very relevant even in the big data era. <marker type="block"/> Types of machine learning Machine learning is usually divided into two main types. In the predictive or supervised learning approach, the goal is to learn a mapping from inputs x to outputs y , given a labeled set of input-output pairs D = { ( x i , y i ) } i N =1 . Here D is called the training set , and N is the number of training examples. In the simplest setting, each training input x i is a D -dimensional vector of numbers, representing, say, the height and weight of a person. These are called features , attributes or covariates . In general, however, x i could be a complex structured object, such as an image, a sentence, an email message, a time series, a molecular shape, a graph, etc. Similarly the form of the output or response variable can in principle be anything, but most methods assume that y i is a categorical or nominal variable from some finite set, y i ∈ { 1 , . . . , C } (such as male or female), or that y i is a real-valued scalar (such as income level). When y i is categorical, the problem is known as classification or pattern recognition , and when y i is real-valued, the problem is known as regression . Another variant, known as ordinal regression , occurs where label space Y has some natural ordering, such as grades A–F. The second main type of machine learning is the descriptive or unsupervised learning approach. Here we are only given inputs, D = { x i } i N =1 , and the goal is to find “interesting patterns” in the data. This is sometimes called knowledge discovery . This is a much less well-defined problem, since we are not told what kinds of patterns to look for, and there is no obvious error metric to use (unlike supervised learning, where we can compare our prediction of y for a given x to the observed value). There is a third type of machine learning, known as reinforcement learning , which is somewhat less commonly used. This is useful for learning how to act or behave when given occasional reward or punishment signals. (For example, consider how a baby learns to walk.) Unfortunately, RL is beyond the scope of this book, although we do discuss decision theory in Section 5.7, which is the basis of RL. See e.g., (Kaelbling et al. 1996; Sutton and Barto 1998; Russell and Norvig 2010; Szepesvari 2010; Wiering and van Otterlo 2012) for more information on RL. 4. <ext-link ext-link-type="uri" href="http://certifiedknowledge" id="17">http://certifiedknowledge</ext-link> . org/blog/are-search-queries-becoming-even-more-unique-statistic s-from-google .</region>
+        <region class="DoCO:TextChunk" id="18" page="3" column="1">It should be noted, however, that even when one has an apparently massive data set, the e ￿ ective number of data points for certain cases of interest might be quite small. In fact, data across a variety of domains exhibits a property known as the long tail , which means that a few things (e.g., words) are very common, but most things are quite rare (see Section 2.4.7 for details). For example, 20% of Google searches each day have never been seen before 4 . This means that the core statistical issues that we discuss in this book, concerning generalizing from relatively small samples sizes, are still very relevant even in the big data era. <marker type="block"/> Types of machine learning Machine learning is usually divided into two main types. In the predictive or supervised learning approach, the goal is to learn a mapping from inputs x to outputs y , given a labeled set of input-output pairs D = { ( x i , y i ) } N i =1 . Here D is called the training set , and N is the number of training examples. In the simplest setting, each training input x i is a D -dimensional vector of numbers, representing, say, the height and weight of a person. These are called features , attributes or covariates . In general, however, x i could be a complex structured object, such as an image, a sentence, an email message, a time series, a molecular shape, a graph, etc. Similarly the form of the output or response variable can in principle be anything, but most methods assume that y i is a categorical or nominal variable from some finite set, y i ∈ { 1 , . . . , C } (such as male or female), or that y i is a real-valued scalar (such as income level). When y i is categorical, the problem is known as classification or pattern recognition , and when y i is real-valued, the problem is known as regression . Another variant, known as ordinal regression , occurs where label space Y has some natural ordering, such as grades A–F. The second main type of machine learning is the descriptive or unsupervised learning approach. Here we are only given inputs, D = { x i } N i =1 , and the goal is to find “interesting patterns” in the data. This is sometimes called knowledge discovery . This is a much less well-defined problem, since we are not told what kinds of patterns to look for, and there is no obvious error metric to use (unlike supervised learning, where we can compare our prediction of y for a given x to the observed value). There is a third type of machine learning, known as reinforcement learning , which is somewhat less commonly used. This is useful for learning how to act or behave when given occasional reward or punishment signals. (For example, consider how a baby learns to walk.) Unfortunately, RL is beyond the scope of this book, although we do discuss decision theory in Section 5.7, which is the basis of RL. See e.g., (Kaelbling et al. 1996; Sutton and Barto 1998; Russell and Norvig 2010; Szepesvari 2010; Wiering and van Otterlo 2012) for more information on RL. 4. <ext-link ext-link-type="uri" href="http://certifiedknowledge" id="17">http://certifiedknowledge</ext-link> . org/blog/are-search-queries-becoming-even-more-unique-statistic s-from-google .</region>
         <outsider class="DoCO:TextBox" type="sidenote" id="16" page="3" column="1">1.1.1</outsider>
         <outsider class="DoCO:TextBox" type="header" id="19" page="4" column="1">1.2. Supervised learning</outsider>
         <outsider class="DoCO:TextBox" type="page_nr" id="20" page="4" column="1">3</outsider>
         <region class="DoCO:FigureBox" id="Fx21">
-          <image class="DoCO:Figure" src="10ku.page_004.image_01.png" thmb="10ku.page_004.image_01-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_004.image_02.png" thmb="10ku.page_004.image_02-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_004.image_01.png" thmb="11ex.page_004.image_01-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_004.image_02.png" thmb="11ex.page_004.image_02-thumb.png"/>
         </region>
         <region class="unknown" id="22" page="4" column="1">(a) (b)</region>
         <region class="DoCO:FigureBox" id="F1.1">
@@ -39,7 +39,7 @@
         <region class="DoCO:TextChunk" id="24" confidence="possible" page="4" column="1">Left: Some labeled training examples of colored shapes, along with 3 unlabeled test cases. Right: Representing the training data as an N × D design matrix. Row i represents the feature vector x i . The last column is the label, y i ∈ { 0 , 1 } . Based on a figure by Leslie Kaelbling.</region>
         <outsider class="DoCO:TextBox" type="sidenote" id="25" page="4" column="1">1.2</outsider>
         <region class="unknown" id="26" page="4" column="1">Supervised learning</region>
-        <region class="DoCO:TextChunk" id="39" page="4" column="1">We begin our investigation of machine learning by discussing supervised learning, which is the form of ML most widely used in practice. <marker type="block"/> Classification In this section, we discuss classification. Here the goal is to learn a mapping from inputs x to outputs y , where y ∈ { 1 , . . . , C } , with C being the number of classes. If C = 2 , this is called binary classification (in which case we often assume y ∈ { 0 , 1 } ); if C &gt; 2 , this is called multiclass classification . If the class labels are not mutually exclusive (e.g., somebody may be classified as tall and strong), we call it multi-label classification , but this is best viewed as predicting multiple related binary class labels (a so-called multiple output model ). When we use the term “classification”, we will mean multiclass classification with a single output, unless we state otherwise. One way to formalize the problem is as function approximation . We assume y = f ( x ) for some unknown function f , and the goal of learning is to estimate the function f given a labeled training set, and then to make predictions using y = f ˆ ( x ) . (We use the hat symbol to denote an estimate.) Our main goal is to make predictions on novel inputs, meaning ones that we have not seen before (this is called generalization ), since predicting the response on the training set is easy (we can just look up the answer).<marker type="block"/> Example As a simple toy example of classification, consider the problem illustrated in <xref ref-type="fig" rid="F1.1" id="31" class="deo:Reference">Figure 1.1</xref>(a). We have two classes of object which correspond to labels 0 and 1. The inputs are colored shapes. These have been described by a set of D features or attributes, which are stored in an N × D design matrix X , shown in <xref ref-type="fig" rid="F1.1" id="32" class="deo:Reference">Figure 1.1</xref>(b). The input features x can be discrete, continuous or a combination of the two. In addition to the inputs, we have a vector of training labels y . In <xref ref-type="fig" rid="F1.1" id="33" class="deo:Reference">Figure 1.1</xref>, the test cases are a blue crescent, a yellow circle and a blue arrow. None of these have been seen before. Thus we are required to generalize beyond the training set. A<marker type="page" number="5"/><marker type="block"/> reasonable guess is that blue crescent should be y = 1 , since all blue shapes are labeled 1 in the training set. The yellow circle is harder to classify, since some yellow things are labeled y = 1 and some are labeled y = 0 , and some circles are labeled y = 1 and some y = 0 . Consequently it is not clear what the right label should be in the case of the yellow circle. Similarly, the correct label for the blue arrow is unclear.<marker type="block"/> The need for probabilistic predictions To handle ambiguous cases, such as the yellow circle above, it is desirable to return a probability. The reader is assumed to already have some familiarity with basic concepts in probability. If not, please consult Chapter 2 for a refresher, if necessary. We will denote the probability distribution over possible labels, given the input vector x and training set D by p ( y | x , D ) . In general, this represents a vector of length C . (If there are just two classes, it is su ￿ cient to return the single number p ( y = 1 | x , D ) , since p ( y = 1 | x , D ) + p ( y = 0 | x , D ) = 1 .) In our notation, we make explicit that the probability is conditional on the test input x , as well as the training set D , by putting these terms on the right hand side of the conditioning bar | . We are also implicitly conditioning on the form of model that we use to make predictions. When choosing between di ￿ erent models, we will make this assumption explicit by writing p ( y | x , D , M ) , where M denotes the model. However, if the model is clear from context, we will drop M from our notation for brevity. Given a probabilistic output, we can always compute our “best guess” as to the “true label” using</region>
+        <region class="DoCO:TextChunk" id="39" page="4" column="1">We begin our investigation of machine learning by discussing supervised learning, which is the form of ML most widely used in practice. <marker type="block"/> Classification In this section, we discuss classification. Here the goal is to learn a mapping from inputs x to outputs y , where y ∈ { 1 , . . . , C } , with C being the number of classes. If C = 2 , this is called binary classification (in which case we often assume y ∈ { 0 , 1 } ); if C gt; 2 , this is called multiclass classification . If the class labels are not mutually exclusive (e.g., somebody may be classified as tall and strong), we call it multi-label classification , but this is best viewed as predicting multiple related binary class labels (a so-called multiple output model ). When we use the term “classification”, we will mean multiclass classification with a single output, unless we state otherwise. One way to formalize the problem is as function approximation . We assume y = f ( x ) for some unknown function f , and the goal of learning is to estimate the function f given a labeled training set, and then to make predictions using y = f ˆ ( x ) . (We use the hat symbol to denote an estimate.) Our main goal is to make predictions on novel inputs, meaning ones that we have not seen before (this is called generalization ), since predicting the response on the training set is easy (we can just look up the answer).<marker type="block"/> Example As a simple toy example of classification, consider the problem illustrated in <xref ref-type="fig" rid="F1.1" id="31" class="deo:Reference">Figure 1.1</xref>(a). We have two classes of object which correspond to labels 0 and 1. The inputs are colored shapes. These have been described by a set of D features or attributes, which are stored in an N × D design matrix X , shown in <xref ref-type="fig" rid="F1.1" id="32" class="deo:Reference">Figure 1.1</xref>(b). The input features x can be discrete, continuous or a combination of the two. In addition to the inputs, we have a vector of training labels y . In <xref ref-type="fig" rid="F1.1" id="33" class="deo:Reference">Figure 1.1</xref>, the test cases are a blue crescent, a yellow circle and a blue arrow. None of these have been seen before. Thus we are required to generalize beyond the training set. A<marker type="page" number="5"/><marker type="block"/> reasonable guess is that blue crescent should be y = 1 , since all blue shapes are labeled 1 in the training set. The yellow circle is harder to classify, since some yellow things are labeled y = 1 and some are labeled y = 0 , and some circles are labeled y = 1 and some y = 0 . Consequently it is not clear what the right label should be in the case of the yellow circle. Similarly, the correct label for the blue arrow is unclear.<marker type="block"/> The need for probabilistic predictions To handle ambiguous cases, such as the yellow circle above, it is desirable to return a probability. The reader is assumed to already have some familiarity with basic concepts in probability. If not, please consult Chapter 2 for a refresher, if necessary. We will denote the probability distribution over possible labels, given the input vector x and training set D by p ( y | x , D ) . In general, this represents a vector of length C . (If there are just two classes, it is su ￿ cient to return the single number p ( y = 1 | x , D ) , since p ( y = 1 | x , D ) + p ( y = 0 | x , D ) = 1 .) In our notation, we make explicit that the probability is conditional on the test input x , as well as the training set D , by putting these terms on the right hand side of the conditioning bar | . We are also implicitly conditioning on the form of model that we use to make predictions. When choosing between di ￿ erent models, we will make this assumption explicit by writing p ( y | x , D , M ) , where M denotes the model. However, if the model is clear from context, we will drop M from our notation for brevity. Given a probabilistic output, we can always compute our “best guess” as to the “true label” using</region>
         <outsider class="DoCO:TextBox" type="sidenote" id="28" page="4" column="1">1.2.1</outsider>
         <outsider class="DoCO:TextBox" type="sidenote" id="30" page="4" column="1">1.2.1.1</outsider>
         <outsider class="DoCO:TextBox" type="page_nr" id="35" page="5" column="1">4</outsider>
@@ -54,7 +54,7 @@
         <outsider class="DoCO:TextBox" type="page_nr" id="44" page="6" column="1">5</outsider>
         <region class="unknown" id="45" page="6" column="1">100 200 300 400 documents 500 600 700 800 900</region>
         <region class="DoCO:FigureBox" id="Fx46">
-          <image class="DoCO:Figure" src="10ku.page_006.image_03.png" thmb="10ku.page_006.image_03-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_006.image_03.png" thmb="11ex.page_006.image_03-thumb.png"/>
         </region>
         <region class="unknown" id="47" page="6" column="1">1000 10 20 30 40 50 60 70 80 90 100 words</region>
         <region class="DoCO:FigureBox" id="F1.2">
@@ -66,9 +66,9 @@
         <outsider class="DoCO:TextBox" type="page_nr" id="55" page="7" column="1">6</outsider>
         <outsider class="DoCO:TextBox" type="header" id="56" page="7" column="1">Chapter 1. Introduction</outsider>
         <region class="DoCO:FigureBox" id="Fx57">
-          <image class="DoCO:Figure" src="10ku.page_007.image_04.png" thmb="10ku.page_007.image_04-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_007.image_05.png" thmb="10ku.page_007.image_05-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_007.image_06.png" thmb="10ku.page_007.image_06-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_007.image_04.png" thmb="11ex.page_007.image_04-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_007.image_05.png" thmb="11ex.page_007.image_05-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_007.image_06.png" thmb="11ex.page_007.image_06-thumb.png"/>
         </region>
         <region class="unknown" id="58" page="7" column="1">(a) (b) (c)</region>
         <region class="DoCO:FigureBox" id="F1.3">
@@ -85,30 +85,30 @@
         <outsider class="DoCO:TextBox" type="page_nr" id="69" page="8" column="1">7</outsider>
         <region class="unknown" id="70" page="8" column="1">true class = 7 true class = 2 true class = 1 true class = 7 true class = 2 true class = 1</region>
         <region class="DoCO:FigureBox" id="Fx71">
-          <image class="DoCO:Figure" src="10ku.page_008.image_07.png" thmb="10ku.page_008.image_07-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_08.png" thmb="10ku.page_008.image_08-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_09.png" thmb="10ku.page_008.image_09-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_10.png" thmb="10ku.page_008.image_10-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_11.png" thmb="10ku.page_008.image_11-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_12.png" thmb="10ku.page_008.image_12-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_07.png" thmb="11ex.page_008.image_07-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_08.png" thmb="11ex.page_008.image_08-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_09.png" thmb="11ex.page_008.image_09-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_10.png" thmb="11ex.page_008.image_10-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_11.png" thmb="11ex.page_008.image_11-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_12.png" thmb="11ex.page_008.image_12-thumb.png"/>
         </region>
         <region class="unknown" id="72" page="8" column="1">true class = 0 true class = 4 true class = 1 true class = 0 true class = 4 true class = 1</region>
         <region class="DoCO:FigureBox" id="Fx73">
-          <image class="DoCO:Figure" src="10ku.page_008.image_13.png" thmb="10ku.page_008.image_13-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_14.png" thmb="10ku.page_008.image_14-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_15.png" thmb="10ku.page_008.image_15-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_16.png" thmb="10ku.page_008.image_16-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_17.png" thmb="10ku.page_008.image_17-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_18.png" thmb="10ku.page_008.image_18-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_13.png" thmb="11ex.page_008.image_13-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_14.png" thmb="11ex.page_008.image_14-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_15.png" thmb="11ex.page_008.image_15-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_16.png" thmb="11ex.page_008.image_16-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_17.png" thmb="11ex.page_008.image_17-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_18.png" thmb="11ex.page_008.image_18-thumb.png"/>
         </region>
         <region class="unknown" id="74" page="8" column="1">true class = 4 true class = 9 true class = 5 true class = 4 true class = 9 true class = 5</region>
         <region class="DoCO:FigureBox" id="Fx75">
-          <image class="DoCO:Figure" src="10ku.page_008.image_19.png" thmb="10ku.page_008.image_19-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_20.png" thmb="10ku.page_008.image_20-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_21.png" thmb="10ku.page_008.image_21-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_22.png" thmb="10ku.page_008.image_22-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_23.png" thmb="10ku.page_008.image_23-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_008.image_24.png" thmb="10ku.page_008.image_24-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_19.png" thmb="11ex.page_008.image_19-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_20.png" thmb="11ex.page_008.image_20-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_21.png" thmb="11ex.page_008.image_21-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_22.png" thmb="11ex.page_008.image_22-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_23.png" thmb="11ex.page_008.image_23-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_008.image_24.png" thmb="11ex.page_008.image_24-thumb.png"/>
         </region>
         <region class="unknown" id="76" page="8" column="1">(a) (b)</region>
         <region class="DoCO:FigureBox" id="F1.5">
@@ -120,8 +120,8 @@
         <outsider class="DoCO:TextBox" type="page_nr" id="85" page="9" column="1">8</outsider>
         <outsider class="DoCO:TextBox" type="header" id="86" page="9" column="1">Chapter 1. Introduction</outsider>
         <region class="DoCO:FigureBox" id="Fx87">
-          <image class="DoCO:Figure" src="10ku.page_009.image_25.png" thmb="10ku.page_009.image_25-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_009.image_26.png" thmb="10ku.page_009.image_26-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_009.image_25.png" thmb="11ex.page_009.image_25-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_009.image_26.png" thmb="11ex.page_009.image_26-thumb.png"/>
         </region>
         <region class="unknown" id="88" page="9" column="1">(a) (b)</region>
         <region class="DoCO:FigureBox" id="F1.6">
@@ -165,8 +165,8 @@
         <outsider class="DoCO:TextBox" type="page_nr" id="130" page="13" column="1">12</outsider>
         <outsider class="DoCO:TextBox" type="header" id="131" page="13" column="1">Chapter 1. Introduction</outsider>
         <region class="DoCO:FigureBox" id="Fx132">
-          <image class="DoCO:Figure" src="10ku.page_013.image_27.png" thmb="10ku.page_013.image_27-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_013.image_28.png" thmb="10ku.page_013.image_28-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_013.image_27.png" thmb="11ex.page_013.image_27-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_013.image_28.png" thmb="11ex.page_013.image_28-thumb.png"/>
         </region>
         <region class="unknown" id="133" page="13" column="1">(a) (b)</region>
         <region class="DoCO:FigureBox" id="F1.10">
@@ -178,7 +178,7 @@
         <outsider class="DoCO:TextBox" type="page_nr" id="139" page="14" column="1">13</outsider>
         <region class="DoCO:FigureBox" id="F1.11">
           <caption class="deo:Caption" id="140" page="14" column="1">Figure 1.11</caption>
-          <image class="DoCO:Figure" src="10ku.page_014.image_29.png" thmb="10ku.page_014.image_29-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_014.image_29.png" thmb="11ex.page_014.image_29-thumb.png"/>
         </region>
         <region class="DoCO:TextChunk" id="141" confidence="possible" page="14" column="1">A sparse lasso (Section 26.7.2) applied to some flow cytometry data (from (Sachs et al. 2005)), which measures the phosphorylation status of 11 proteins. Figure generated by ggmLassoDemo .</region>
         <outsider class="DoCO:TextBox" type="sidenote" id="142" page="14" column="1">1.3.3</outsider>
@@ -187,8 +187,8 @@
         <outsider class="DoCO:TextBox" type="page_nr" id="146" page="15" column="1">14</outsider>
         <outsider class="DoCO:TextBox" type="header" id="147" page="15" column="1">Chapter 1. Introduction</outsider>
         <region class="DoCO:FigureBox" id="Fx148">
-          <image class="DoCO:Figure" src="10ku.page_015.image_30.png" thmb="10ku.page_015.image_30-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_015.image_31.png" thmb="10ku.page_015.image_31-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_015.image_30.png" thmb="11ex.page_015.image_30-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_015.image_31.png" thmb="11ex.page_015.image_31-thumb.png"/>
         </region>
         <region class="unknown" id="149" page="15" column="1">(a) (b)</region>
         <region class="DoCO:FigureBox" id="F1.12">
@@ -211,8 +211,8 @@
         <outsider class="DoCO:TextBox" type="page_nr" id="171" page="17" column="1">16</outsider>
         <outsider class="DoCO:TextBox" type="header" id="172" page="17" column="1">Chapter 1. Introduction</outsider>
         <region class="DoCO:FigureBox" id="Fx173">
-          <image class="DoCO:Figure" src="10ku.page_017.image_32.png" thmb="10ku.page_017.image_32-thumb.png"/>
-          <image class="DoCO:Figure" src="10ku.page_017.image_33.png" thmb="10ku.page_017.image_33-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_017.image_32.png" thmb="11ex.page_017.image_32-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_017.image_33.png" thmb="11ex.page_017.image_33-thumb.png"/>
         </region>
         <region class="unknown" id="174" page="17" column="1">(a) (b)</region>
         <region class="DoCO:FigureBox" id="F1.14">
@@ -240,11 +240,11 @@
         <region class="unknown" id="199" page="18" column="1">− 1 20</region>
         <region class="unknown" id="200" page="18" column="1">0.1</region>
         <region class="DoCO:FigureBox" id="Fx201">
-          <image class="DoCO:Figure" src="10ku.page_018.image_34.png" thmb="10ku.page_018.image_34-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_018.image_34.png" thmb="11ex.page_018.image_34-thumb.png"/>
         </region>
         <region class="unknown" id="202" page="18" column="1">− 2 0 − 3 − 2 − 1 0 1 2 3 20 40 60 80 100 (a) (b) p(y=2|data,K=10) predicted label, K=10 1 120 5 0.9</region>
         <region class="DoCO:FigureBox" id="Fx203">
-          <image class="DoCO:Figure" src="10ku.page_018.image_35.png" thmb="10ku.page_018.image_35-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_018.image_35.png" thmb="11ex.page_018.image_35-thumb.png"/>
         </region>
         <region class="unknown" id="204" page="18" column="1">100 0.8 4 0.7 3 80 0.6 2 0.5 60 0.4 1 40 0.3 0 0.2 20 − 1 c1 0.1 c2 c3 0 − 2 20 40 60 80 100 − 3 − 2 − 1 0 1 2 3 (c) (d)</region>
         <region class="DoCO:FigureBox" id="F1.15">
@@ -274,7 +274,7 @@
         <outsider class="DoCO:TextBox" type="page_nr" id="226" page="20" column="1">19</outsider>
         <region class="unknown" id="227" page="20" column="1">PDF 0.4 0.35 0.3 0.25 0.2 0.15 0.1 0.05 0 − 3 − 2 − 1 0 1 2 3</region>
         <region class="DoCO:FigureBox" id="Fx228">
-          <image class="DoCO:Figure" src="10ku.page_020.image_36.png" thmb="10ku.page_020.image_36-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_020.image_36.png" thmb="11ex.page_020.image_36-thumb.png"/>
         </region>
         <region class="unknown" id="229" page="20" column="1">(a) (b)</region>
         <region class="DoCO:FigureBox" id="F1.17">
@@ -348,7 +348,7 @@
         <region class="DoCO:TextChunk" id="285" page="23" column="1">where x i is the SAT 10 score of student i and y i is whether they passed or failed a class. The solid black dots show the training data, and the red circles plot p ( y = 1 | x i , w ˆ ) , where w ˆ are the parameters estimated from the training data (we discuss how to compute these estimates in Section 8.3.4). If we threshold the output probability at 0.5, we can induce a decision rule of the form</region>
         <disp-formula class="DoCO:FormulaBox" id="F1.13">
           <label class="DoCO:Label" id="286">1.13</label>
-          <content class="DoCO:Formula" id="287" page="23" column="1">y ( x ) = 1 ⇐⇒ p ( y = 1 | x ) &gt; 0 . 5</content>
+          <content class="DoCO:Formula" id="287" page="23" column="1">y ( x ) = 1 ⇐⇒ p ( y = 1 | x ) gt; 0 . 5</content>
         </disp-formula>
         <region class="DoCO:TextChunk" id="296" page="23" column="1">By looking at <xref ref-type="fig" rid="F1.19" id="288" class="deo:Reference">Figure 1.19</xref>(b), we see that sigm( w 0 + w 1 x ) = 0 . 5 for x ≈ 545 = x ∗ . We can imagine drawing a vertical line at x = x ∗ ; this is known as a decision boundary. Everything to the left of this line is classified as a 0, and everything to the right of the line is classified as a 1. We notice that this decision rule has a non-zero error rate even on the training set. This is because the data is not linearly separable , i.e., there is no straight line we can draw to separate the 0s from the 1s. We can create models with non-linear decision boundaries using basis function expansion, just as we did with non-linear regression. We will see many examples of this later in the book.<marker type="block"/> Overfitting When we fit highly flexible models, we need to be careful that we do not overfit the data, that is, we should avoid trying to model every minor variation in the input, since this is more likely to be noise than true signal. This is illustrated in <xref ref-type="fig" rid="F1.18" id="291" class="deo:Reference">Figure 1.18</xref>(b), where we see that using a high degree polynomial results in a curve that is very “wiggly”. It is unlikely that the true function has such extreme oscillations. Thus using such a model might result in accurate predictions of future outputs. As another example, consider the KNN classifier. The value of K can have a large e ￿ ect on the behavior of this model. When K = 1 , the method makes no errors on the training set (since we just return the labels of the original training points), but the resulting prediction surface is very “wiggly” (see <xref ref-type="fig" rid="F1.20" id="292" class="deo:Reference">Figure 1.20</xref>(a)). Therefore the method may not work well at predicting future data. In <xref ref-type="fig" rid="F1.20" id="293" class="deo:Reference">Figure 1.20</xref>(b), we see that using K = 5 results in a smoother prediction surface, because we are averaging over a larger neighborhood. As K increases, the predictions becomes smoother until, in the limit of K = N , we end up predicting the majority label of the whole data set. Below we discuss how to pick the “right” value of K .<marker type="block"/> Model selection When we have a variety of models of di ￿ erent complexity (e.g., linear or logistic regression models with di ￿ erent degree polynomials, or KNN classifiers with di ￿ erent values of K ), how should we pick the right one? A natural approach is to compute the misclassification rate on</region>
         <outsider class="DoCO:TextBox" type="sidenote" id="290" page="23" column="1">1.4.7</outsider>
@@ -371,7 +371,7 @@
         <outsider class="DoCO:TextBox" type="header" id="311" page="25" column="1">Chapter 1. Introduction</outsider>
         <region class="unknown" id="312" page="25" column="1">0.35 train test 0.3 rate 0.25 0.2 misclassification 0.15 0.1 0.05 0 0 20 40 60 80 100 120 K</region>
         <region class="DoCO:FigureBox" id="Fx313">
-          <image class="DoCO:Figure" src="10ku.page_025.image_37.png" thmb="10ku.page_025.image_37-thumb.png"/>
+          <image class="DoCO:Figure" src="11ex.page_025.image_37.png" thmb="11ex.page_025.image_37-thumb.png"/>
         </region>
         <region class="unknown" id="314" page="25" column="1">(a) (b)</region>
         <region class="DoCO:FigureBox" id="F1.21">
