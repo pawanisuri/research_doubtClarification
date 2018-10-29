@@ -3,6 +3,7 @@ from PyPDF2 import PdfFileReader, PdfFileWriter,PdfFileMerger
  
  
 def pdf_splitter(path,spage,epage):
+    print(path)
     pathToOriginalPDF=path+'.pdf'
     pathTochapterPDF=path+'chapter.pdf'
     # exists = os.path.isfile(pathTochapterPDF)
@@ -58,8 +59,8 @@ def pdf_splitter(path,spage,epage):
     return("Success")
                     # print('Created: {}'.format(output_filename))
                 # outputStream.close()
-if __name__ == '__main__':
-    path = 'McGrawHill - Machine Learning -Tom Mitchell'
-    spage=[14]
-    epage=[23]
-    pdf_splitter(path,spage,epage)  
+# if __name__ == '__main__':
+#     path = 'McGrawHill - Machine Learning -Tom Mitchell'
+#     spage=[14]
+#     epage=[23]
+#     pdf_splitter(path,spage,epage)  

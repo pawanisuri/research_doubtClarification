@@ -17,7 +17,8 @@ def hello():
 
 @webapp.route("/doubts",methods=['POST'])
 def doubts():
-    # documents = request.form.getlist('documents')
+    documents = request.form.getlist('documents')
+    keywords = request.form.getlist('keywords')
     # print(documents)
     # for line in documents:
     #     line = line[2:]
@@ -27,8 +28,10 @@ def doubts():
     # endPage = request.form['endPage'] 
     # print("line ",line)
     # keywords = request.form['keywords'] 
-    documents=['Data Communication Networking.xml','android_tutorial.xml']
-    keywords=['Summary','Ring Topology']
+    # spage = request.form['spage']
+    # epage = request.form['epage']
+    # documents=['Data Communication Networking.xml','android_tutorial.xml']
+    # keywords=['Summary','Ring Topology']
     # l = documents.split(']')[0]
     # l = l.split('[')[1]
     # l = l.encode("utf-8")
@@ -62,9 +65,12 @@ def doubts():
 @webapp.route("/chapter",methods=['POST'])
 def chapter():
     # s = request.form['s']    
-    spage = request.form['spage']
-    epage = request.form['epage']
-    pdfoutput=pdf_splitter('deeplearning',spage,epage)
+    spage = request.form.getlist('spage')
+    epage = request.form.getlist('epage')
+    path = request.form('path')
+    # spage = request.form['spage']
+    # epage = request.form['epage']
+    pdfoutput=pdf_splitter(path,spage,epage)
     return jsonify({"status":"1","result":pdfoutput})    
 
 if __name__ == '__main__':

@@ -323,5 +323,5 @@ def summarizationProcess(extractedInfo):
     else:
         print('Summarized information',extractedInfo)
         return extractedInfo
-findAnswer(['Data Communication Networking.xml','SRSDocument-Learning tool.xml'],['Network Topologies' ,'asadadass'])
+# findAnswer(['Data Communication Networking.xml','SRSDocument-Learning tool.xml'],['Network Topologies' ,'asadadass'])
 
