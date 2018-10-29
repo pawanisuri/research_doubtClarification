@@ -17,8 +17,8 @@ def hello():
 
 @webapp.route("/doubts",methods=['POST'])
 def doubts():
-    documents = request.form.getlist('documents')
-    print(documents)
+    # documents = request.form.getlist('documents')
+    # print(documents)
     # for line in documents:
     #     line = line[2:]
     # data = request.data
@@ -27,7 +27,7 @@ def doubts():
     # endPage = request.form['endPage'] 
     # print("line ",line)
     # keywords = request.form['keywords'] 
-    # documents=['Data Communication Networking.xml','android_tutorial.xml']
+    documents=['Data Communication Networking.xml','android_tutorial.xml']
     keywords=['Summary','Ring Topology']
     # l = documents.split(']')[0]
     # l = l.split('[')[1]

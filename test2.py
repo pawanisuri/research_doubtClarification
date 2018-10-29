@@ -7,9 +7,9 @@ example_sent2 = "qwe"
 def sim(keywords, heading):
     for k in keywords:
         stop_words = set(stopwords.words('english'))
-        # result = ''.join([i for i in heading if not i.isdigit()])
+        result = ''.join([i for i in heading if not i.isdigit()])
         word_tokens1 = word_tokenize(k.lower())
-        word_tokens2 = word_tokenize(heading.lower())
+        word_tokens2 = word_tokenize(result.lower())
 
         # filtered_sentence1 = [w for w in word_tokens1 if not w in stop_words]
         # filtered_sentence2 = [w for w in word_tokens2 if not w in stop_words]

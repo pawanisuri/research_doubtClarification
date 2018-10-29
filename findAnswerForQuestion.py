@@ -9,12 +9,13 @@ from gensim.summarization import summarize
 
 # from stringMatching import is_ci_token_stopword_set_match
 # xmlFile = parse("SRSDocument-Learning tool.xml")
-
+filtered_sentence1 = []
 def findAnswer(XmlDocumentset,keywords):
-    extractedSentences=[None]*10000
+    extractedSentences=[None]*1000000
     txt = ""
+    state="not found"
     status="notFound"
-    filtered_sentence1 = []
+    
     text=""
     # tree = ET.parse(xmlFile)
     h="DoCO:SectionTitle"
@@ -22,6 +23,64 @@ def findAnswer(XmlDocumentset,keywords):
     for XmlDocument in XmlDocumentset:   
         print("xml Document",XmlDocument)  
         xmlFile = parse(XmlDocument)   
+        if(xmlFile.getElementsByTagName("region")!=[]):
+            j=0
+            i=0
+            for node1 in xmlFile.getElementsByTagName("region"):
+                x = xmlFile.getElementsByTagName("region")
+                txt=x[j].getAttribute('class') 
+                if(txt=='unknown'):
+                    for node2 in node1.childNodes:
+                        if(node2.nodeType == Node.TEXT_NODE) :
+                            i=i+1
+                            ww=node2.data.encode('utf-8')
+                            # print(ww)
+                            if(sim(keywords,ww)==1):
+                                idNumber=x[j].getAttribute('id')
+                                print(idNumber)
+                                while state != 'found':
+                                    no=int(idNumber)
+                                    no=no+1
+                                    idNumber=str(no)
+                                    print("id no " ,idNumber)
+                                    r=0
+                                    # xmlFile = parse(XmlDocument) 
+                                    for f in xmlFile.getElementsByTagName("region"):
+                                        y = xmlFile.getElementsByTagName("region")
+                                        Tags=y[r].getAttribute('id') 
+                                        r=r+1
+                                        for tages2 in f.childNodes:
+                                            if(Tags==idNumber):
+                                                no=no+1
+                                                idNumber=str(no)
+                                                print(tages2.data.encode("utf-8"))
+                                                text=tages2.data.encode("utf-8")
+                                                filtered_sentence1.append(tages2.data.encode("utf-8"))
+                                                state="found"
+                                    
+                                        # for f in xmlFile.getElementsByTagName("region"):
+                                        #     y = xmlFile.getElementsByTagName("region")
+                                        #     Tags=y[r].getAttribute('id') 
+                                        #     r=r+1
+                                        # for tages2 in f.childNodes:
+                                        #     if(Tags==idNumber):
+                                        #         no=no+1
+                                        #         idNumber=str(no)
+                                        #         print(tages2.data.encode("utf-8"))
+                                        #         text=tages2.data.encode("utf-8")
+                                        #         filtered_sentence1.append(tages2.data.encode("utf-8"))
+                                        #         state="found"
+                                        # no=int(idNumber)
+                                        # no=no+1
+                                        # idNumber=str(no)
+                                        # print("NOt found ",idNumber)
+                                        # getInfo(XmlDocument,r,idNumber,no)                    
+                                for node1 in xmlFile.nodeName:
+                                    txt2=x[j].getAttribute('id')
+                                    if(txt2=='6'):
+                                        print("pawi")         
+                j=j+1
+
         if(xmlFile.getElementsByTagName("h1")!=[]):
             j=0
             i=0
@@ -55,7 +114,7 @@ def findAnswer(XmlDocumentset,keywords):
                                     txt2=x[j].getAttribute('id')
                                     if(txt2=='6'):
                                         print("pawi")         
-                j=j+1
+                j=j+1        
             # summarizationProcess(text)    
         if(xmlFile.getElementsByTagName("h2")!=[]):
             j=0
@@ -144,64 +203,84 @@ def findAnswer(XmlDocumentset,keywords):
                         if(node2.nodeType == Node.TEXT_NODE) :
                             i=i+1
                             if(sim(keywords,node2.data.encode("utf-8"))==1):
-                                idNo=x[j].getAttribute('id')
-                                no=int(idNo)
-                                no=no+1
-                                idNumber=str(no)
-                                # print(idNumber)
-                                r=0
-                                for f in xmlFile.getElementsByTagName("region"):
-                                    y = xmlFile.getElementsByTagName("region")
-                                    Tags=y[r].getAttribute('id') 
-                                    # tages2=Tags.childNodes
-                                    r=r+1
-                                    # print(Tags)
-                                    for tages2 in f.childNodes:
-                                        if(Tags==idNumber):
-                                            print(tages2.data.encode("utf-8"))
-                                            text=tages2.data.encode("utf-8")
-                                            filtered_sentence1.append(tages2.data.encode("utf-8"))
+                                idNumber=x[j].getAttribute('id')
+                                while state != 'found':
+                                    no=int(idNumber)
+                                    no=no+1
+                                    idNumber=str(no)
+                                    print("id no " ,idNumber)
+                                    r=0
+                                    # xmlFile = parse(XmlDocument) 
+                                    for f in xmlFile.getElementsByTagName("region"):
+                                        y = xmlFile.getElementsByTagName("region")
+                                        Tags=y[r].getAttribute('id') 
+                                        r=r+1
+                                        for tages2 in f.childNodes:
+                                            if(Tags==idNumber):
+                                                no=no+1
+                                                idNumber=str(no)
+                                                print(tages2.data.encode("utf-8"))
+                                                text=tages2.data.encode("utf-8")
+                                                filtered_sentence1.append(tages2.data.encode("utf-8"))
+                                                state="found"
+                                    
+                                        # for f in xmlFile.getElementsByTagName("region"):
+                                        #     y = xmlFile.getElementsByTagName("region")
+                                        #     Tags=y[r].getAttribute('id') 
+                                        #     r=r+1
+                                        # for tages2 in f.childNodes:
+                                        #     if(Tags==idNumber):
+                                        #         no=no+1
+                                        #         idNumber=str(no)
+                                        #         print(tages2.data.encode("utf-8"))
+                                        #         text=tages2.data.encode("utf-8")
+                                        #         filtered_sentence1.append(tages2.data.encode("utf-8"))
+                                        #         state="found"
+                                        # no=int(idNumber)
+                                        # no=no+1
+                                        # idNumber=str(no)
+                                        # print("NOt found ",idNumber)
+                                        # getInfo(XmlDocument,r,idNumber,no)                    
                                 for node1 in xmlFile.nodeName:
-                                    # for(i = 0; i < x.length; i=i+1 ){ 
                                     txt2=x[j].getAttribute('id')
                                     if(txt2=='6'):
-                                        print("pawi")         
+                                         print("pawi") 
                 j=j+1
 
-        if(xmlFile.getElementsByTagName("region")!=[]):   
-            j=0 
-            i=0
-            for node1 in xmlFile.getElementsByTagName("region"):
-                x = xmlFile.getElementsByTagName("region")
-                txt=x[j].getAttribute('class') 
-                if(txt=='unknown'):
-                    for node2 in node1.childNodes:
-                        if(node2.nodeType == Node.TEXT_NODE) :
-                            i=i+1
-                            if(sim(keywords,node2.data.encode("utf-8"))==1):
-                                idNo=x[j].getAttribute('id')
-                                no=int(idNo)
-                                no=no+1
-                                idNumber=str(no)
-                                # print(idNumber)
-                                r=0
-                                for f in xmlFile.getElementsByTagName("region"):
-                                    y = xmlFile.getElementsByTagName("region")
-                                    Tags=y[r].getAttribute('id') 
-                                    # tages2=Tags.childNodes
-                                    r=r+1
-                                    # print(Tags)
-                                    for tages2 in f.childNodes:
-                                        if(Tags==idNumber):
-                                            print(tages2.data.encode("utf-8"))
-                                            text=tages2.data.encode("utf-8")
-                                            filtered_sentence1.append(tages2.data.encode("utf-8"))
-                                for node1 in xmlFile.nodeName:
-                                    # for(i = 0; i < x.length; i=i+1 ){ 
-                                    txt2=x[j].getAttribute('id')
-                                    if(txt2=='6'):
-                                        print("pawi")         
-                j=j+1        
+        # if(xmlFile.getElementsByTagName("region")!=[]):   
+        #     j=0 
+        #     i=0
+        #     for node1 in xmlFile.getElementsByTagName("region"):
+        #         x = xmlFile.getElementsByTagName("region")
+        #         txt=x[j].getAttribute('class') 
+        #         if(txt=='unknown'):
+        #             for node2 in node1.childNodes:
+        #                 if(node2.nodeType == Node.TEXT_NODE) :
+        #                     i=i+1
+        #                     if(sim(keywords,node2.data.encode("utf-8"))==1):
+        #                         idNo=x[j].getAttribute('id')
+        #                         no=int(idNo)
+        #                         no=no+1
+        #                         idNumber=str(no)
+        #                         # print(idNumber)
+        #                         r=0
+        #                         for f in xmlFile.getElementsByTagName("region"):
+        #                             y = xmlFile.getElementsByTagName("region")
+        #                             Tags=y[r].getAttribute('id') 
+        #                             # tages2=Tags.childNodes
+        #                             r=r+1
+        #                             # print(Tags)
+        #                             for tages2 in f.childNodes:
+        #                                 if(Tags==idNumber):
+        #                                     print(tages2.data.encode("utf-8"))
+        #                                     text=tages2.data.encode("utf-8")
+        #                                     filtered_sentence1.append(tages2.data.encode("utf-8"))
+        #                         for node1 in xmlFile.nodeName:
+        #                             # for(i = 0; i < x.length; i=i+1 ){ 
+        #                             txt2=x[j].getAttribute('id')
+        #                             if(txt2=='6'):
+        #                                 print("pawi")         
+        #         j=j+1        
             # summarizationProcess(text)
     if(text==""):
         print('Informaation Not Found!!!')
@@ -212,7 +291,20 @@ def findAnswer(XmlDocumentset,keywords):
         jk=' '.join(filtered_sentence1)
             # print(jk)           
         return summarizationProcess(jk)
-
+def getInfo(XmlDocument,r,idNumber,no):
+    xmlFile = parse(XmlDocument) 
+    for f in xmlFile.getElementsByTagName("region"):
+                                    y = xmlFile.getElementsByTagName("region")
+                                    Tags=y[r].getAttribute('id') 
+                                    r=r+1
+                                    for tages2 in f.childNodes:
+                                        if(Tags==idNumber):
+                                            no=no+1
+                                            idNumber=str(no)
+                                            print(tages2.data.encode("utf-8"))
+                                            text=tages2.data.encode("utf-8")
+                                            filtered_sentence1.append(tages2.data.encode("utf-8"))
+                                            state="found"
 def summarizationProcess(extractedInfo):
     sentence=split_sentences(extractedInfo)
     # print(sentence)
@@ -231,5 +323,5 @@ def summarizationProcess(extractedInfo):
     else:
         print('Summarized information',extractedInfo)
         return extractedInfo
-findAnswer(['McGrawHill - Machine Learning -Tom Mitchellchapter.xml','android_tutorial.xml'],['1.2.2 Choosing the Target Function','Summary'])
+findAnswer(['Data Communication Networking.xml','SRSDocument-Learning tool.xml'],['Network Topologies' ,'asadadass'])
 
