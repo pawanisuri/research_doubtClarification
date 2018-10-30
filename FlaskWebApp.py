@@ -82,4 +82,4 @@ def chapter():
     return jsonify({"status":"1","result":pdfoutput})    
 
 if __name__ == '__main__':
- webapp.run(port=3500,debug=True)    
+ webapp.run(host='104.248.53.134', debug=True)    #port=3500,
