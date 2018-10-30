@@ -1,9 +1,9 @@
-from flask import Flask,jsonify
+from flask import Flask,jsonify,render_template,flash
 from findAnswerForQuestion import findAnswer
 # from findAnswerClass import findAnswerClass
 # from testClass
 from chapters import pdf_splitter
-from flask import request
+from flask import request,url_for,redirect
 import re
 import json
 webapp = Flask(__name__)
@@ -17,8 +17,11 @@ def hello():
 
 @webapp.route("/doubts",methods=['POST'])
 def doubts():
-    documents = request.form.getlist('documents')
-    keywords = request.form.getlist('keywords')
+    # documents = request.form.getlist('documents')
+    # keywords = request.form.getlist('keywords')
+    req_data = request.get_json()
+    documents=req_data['documents']
+    keywords=req_data['keywords']
     # print(documents)
     # for line in documents:
     #     line = line[2:]
@@ -42,8 +45,10 @@ def doubts():
     # ll = ll.split('[')[1]
     # ll=ll.encode("utf-8")
     # print ll
-
-#    print(documents) 
+    li_u_removed = [str(i) for i in documents]
+    li_u_removedss = [str(i) for i in keywords]
+    print("asdad",li_u_removed) 
+    print(li_u_removedss) 
 #    print(a) 
     
     # output = findAnswer([l.replace('"', '')],startPage,endPage,[ll])
@@ -65,9 +70,12 @@ def doubts():
 @webapp.route("/chapter",methods=['POST'])
 def chapter():
     # s = request.form['s']    
-    spage = request.form.getlist('spage')
-    epage = request.form.getlist('epage')
-    path = request.form('path')
+    req_data = request.get_json()
+    path=req_data['path']
+    print(path)
+    spage = req_data['spage']
+    epage = req_data['epage']
+    # path = request.form['path']
     # spage = request.form['spage']
     # epage = request.form['epage']
     pdfoutput=pdf_splitter(path,spage,epage)
