@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>064d5264612a01fb423942507bfb0de385b51411254178926ee2687f4d3f332a</job>
+    <base_name>143d</base_name>
+    <doi>http://dx.doi.org/10.2307/4442195</doi>
+    <warning>Name identification was not possible. </warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Grade 9 Science (10F)</article-title>
+      </title-group>
+      <region class="DoCO:TextChunk" id="2" confidence="possible">A Course for Independent Study</region>
+      <region class="DoCO:FigureBox" id="Fx3">
+        <image class="DoCO:Figure" src="143d.page_001.image_01.png" thmb="143d.page_001.image_01-thumb.png"/>
+      </region>
+      <region class="unknown" id="4">G radE 9 S ciEncE a course for independent Study</region>
+      <region class="unknown" id="5">(10F)</region>
+      <region class="unknown" id="6">2011 Mani t oba E duc at</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="7">ion</outsider>
+      <region class="DoCO:TextChunk" id="8" confidence="possible">Manitoba Education cataloguing in Publication data Grade 9 science (10F) : a course for independent study includes bibliographical references. iSBn: 978-0-7711-4896-5 1. Science—Programmed instruction. 2. Science—Study and teaching (Secondary). 3. Science—Study and teaching (Secondary)—Manitoba. 4. correspondence schools and courses—Manitoba. 5. distance education—Manitoba. i. Manitoba. Manitoba Education. 500 copyright © 2011, the Government of Manitoba, represented by the Minister of Education. Manitoba Education School Programs division Winnipeg, Manitoba, canada Every effort has been made to acknowledge original sources and to comply with copyright law. if cases are identified where this has not been done, please notify Manitoba Education. Errors or omissions will be corrected in a future edition. Sincere thanks to the authors, artists, and publishers who allowed their original material to be used. all images found in this document are copyright protected and should not be extracted, accessed, or reproduced for any purpose other than for their intended educational use in this document. any websites referenced in this document are subject to change.</region>
+      <region class="unknown" id="9">c ontEntS</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Acknowledgements">
+        <h1 class="DoCO:SectionTitle" id="10" confidence="possible" page="5" column="1">Acknowledgements</h1>
+      </section>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="11" confidence="possible" page="5" column="1">Introduction</h1>
+        <region class="DoCO:TextChunk" id="12" confidence="possible" page="5" column="1">Overview What Will You Learn? What Will You Need? How Will You Know How You Are Doing? What Is a Typical Lesson Like? Who Can Help You with This Course? How Much Time Will You Need? How and When Do You Send Assignments to Your Tutor/Marker? What Are Guide Graphics For? Cover Sheets</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="13" confidence="possible" page="5" column="1">Module 1: Reproduction</h1>
+        <region class="DoCO:TextChunk" id="14" confidence="possible" page="5" column="1">Introduction Lesson 1: Introduction to the Cell Lesson 2: Cell Division Lesson 3: Asexual Reproduction Lesson 4: Sexual Reproduction Lesson 5: Sexual Reproduction in Plants and Animals Lesson 6: Reproductive Success Assignment 1.1: Dual Option Assignment Lesson 7: Human Reproduction—The Male Reproductive System Lesson 8: Human Reproduction—The Female Reproductive System Lesson 9: Conception through Birth Assignment 1.2: From Conception to Birth Lesson 10: Single Trait Inheritance contents</region>
+        <region class="DoCO:TextChunk" id="16" page="5" column="2">ix ix ix x xiii xv xvi xvii xviii xxi xxiii <marker type="column" number="3"/><marker type="block"/> vii</region>
+        <region class="DoCO:TextChunk" id="17" confidence="possible" page="5" column="3">1 3 7 15 25 31 41 47 57 61 69 77 81 83</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="18" confidence="possible" page="5" column="3">iii</h1>
+        <region class="DoCO:TextChunk" id="19" page="6" column="1">89 101 111 117 125</region>
+        <region class="DoCO:TextChunk" id="20" confidence="possible" page="6" column="1">Lesson 11: Single Trait Inheritance—A Closer Look Lesson 12: Inheritance of Sex-Linked Traits Lesson 13: Sex-Linked Traits and Your Pedigree Lesson 14: Genetic Mutation—Choices and Environmental Factors Assignment 1.3: Mutagens Investigation Lesson 15: Canadian and International Contributions to Genetics and Reproduction Lesson 16: Potential Applications and Implications of Biotechnology Assignment 1.4: Research into Genetics Lesson 17: Reproduction Review Module 1: Learning Activity Answer Key</region>
+        <region class="DoCO:TextChunk" id="21" page="6" column="1">127 137 143 149 163</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="22" confidence="possible" page="6" column="1">Module 2: Atoms and Elements</h1>
+        <region class="DoCO:TextChunk" id="23" confidence="possible" page="6" column="1">Introduction Lesson 1: Safety Procedures Lesson 2: What is WHMIS? Lesson 3: Science in Ancient Times Lesson 4: Dalton’s Atomic Theory Lesson 5: Bohr’s Atomic Model Assignment 2.1: Atomic Timeline Lesson 6: A History of the Elements Lesson 7: Modern Atomic Theory Lesson 8: Bohr Atoms Assignment 2.2: Subatomic Particles and the Bohr Model Lesson 9: Mendeleev’s Periodic Table Lesson 10: Modern Periodic Table Lesson 11: Metals, Non-metals, and Metalloids Lesson 12: Reactivity and Stability of Chemical Families Assignment 2.3: Chemical Reactivity on the Periodic Table Lesson 13: What Is a Compound? Lesson 14: Chemical Formulas Lesson 15: Properties of Substances</region>
+        <region class="DoCO:TextChunk" id="24" page="6" column="1">1 3 7 9 21 25 31 39 41 53 59 61 65 71 81 87 91 95 99 107</region>
+        <region class="unknown" id="25" page="6" column="1">Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="26" confidence="possible" page="6" column="1">iv</h1>
+        <region class="DoCO:TextChunk" id="27" confidence="possible" page="7" column="1">Lesson 16: Physical and Chemical Changes Lesson 17: Indicators of Physical and Chemical Changes Assignment 2.4: Chemical and Physical Change Experiments Lesson 18: Atoms and Elements Review Module 2 Learning Activity Answer Key</region>
+        <region class="DoCO:TextChunk" id="28" page="7" column="1">115 119 121 127 137</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="29" confidence="possible" page="7" column="1">Module 3: The Nature of Electricity</h1>
+        <region class="DoCO:TextChunk" id="30" confidence="possible" page="7" column="1">Introduction Lesson 1: What Is Electricity? Lesson 2: Charging by Contact Assignment 3.1: Understanding Electricity Lesson 3: Electron Model and Atomic Structure Lesson 4: Testing the Model Lesson 5: The Electroscope Assignment 3.2: Create Your Own Electroscope Lesson 6: Electric Cell Lesson 7: Electric Current Lesson 8: Electric Potential Lesson 9: Producing Electricity Assignment 3.3: Producing Electricity Lesson 10: Simple Circuits Lesson 11: Series and Parallel Circuits Assignment 3.4: Circuits Review Lesson 12: Simple Circuits Lab Assignment 3.5: Simple Circuits Lab Lesson 13: Using Electricity Safely Lesson 14: Power and Energy in the Home Lesson 15: Conserving Energy in the Home Assignment 3.6: Electricity Project Lesson 16: Electricity Review Module 3 Learning Activity Answer Key</region>
+        <region class="DoCO:TextChunk" id="31" page="7" column="1">1 3 7 15 27 29 35 41 45 49 55 69 77 83 87 97 105 109 111 119 127 135 143 151 161</region>
+        <region class="unknown" id="32" page="7" column="1">contents</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="33" confidence="possible" page="7" column="1">v</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="34" confidence="possible" page="8" column="1">Module 4: Exploring the Universe</h1>
+        <region class="unknown" id="35" page="8" column="1">1 Introduction 3 Lesson 1: A Brief History of Astronomical Science 7 Lesson 2: The Astrolabe 15 Assignment 4.1: Measuring Altitude 25 Lesson 3: Applying Coordinates to Celestial Objects 27 Assignment 4.2: Locating Celestial Objects Using a System of Coordinates 31 Lesson 4: Collecting Data from Celestial Objects over a Period of Time 37 Assignment 4.3: Path of the Sun and the Moon 45 Lesson 5: Copernicus, Kepler, Galileo, and Newton—The Heliocentric Cosmos 51 Lesson 6: Modern Astronomy 63 Lesson 7: Celestial Navigation 75 Lesson 8: Motions of Celestial Objects 87 Assignment 4.4: Monitoring the Retrograde Motion of the Planet Mars 91 Assignment 4.5: Life on Mars 97 Lesson 9: Measuring Space 99 Assignment 4.6: Measuring in Space 107 Lesson 10: Objects Found in Our Solar System 109 Lesson 11: Nebulae, Stars, and Galaxies 127 Assignment 4.7: Stars 137 Lesson 12: Space Technologies 141 Lesson 13: Canada’s Involvement in Space 153 Lesson 14: The Impact of Space Science and Technologies on Humans and the Environment 161 Assignment 4.8: Mars Colony Project 169 Lesson 15: Exploring the Universe Review 171 Module 4 Learning Activity Answer Key 179</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="36" confidence="possible" page="8" column="1">Bibliography</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref class="deo:BibliographicReference" id="37" page="8" column="1">1</ref>
+        </ref-list>
+        <region class="unknown" id="38" page="8" column="1">Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="39" confidence="possible" page="8" column="1">vi</h1>
+        <region class="unknown" id="40" page="9" column="1">a cknoWlEdGEMEntS Manitoba Education gratefully acknowledges the contributions of the following educators the development of Grade 9 Science (10F): A Course for Independent Study . Course Writer Garth Martin Benito, Manitoba Independent Consultant Members of the George D. Bush Winnipeg, Manitoba Development Team Independent Consultant Paul D. Cuthbert Evergreen S.D. #22 Curriculum and ICT Coordinator Betty Anne Kiddell Acadia Junior High School Teacher Fort Garry S. D. #5 Sherri Mackie St. James Collegiate Science Department Head St. James-Assiniboia, S.D. #2 Gerald S. Smerchanski Teulon, Manitoba Independent Consultant Jerrold Wiebe Laidlaw School Teacher Assiniboine South S.D. #3 Manitoba Education Staff Louise Boissonneault Document Production Services Unit School Programs division Coordinator Educational Resources Branch Jackson Duong Document Production Services Unit Desktop Publisher Educational Resources Branch Marianne Fenn Distance Learning Unit Consultant Instruction, Curriculum and Assessment Branch Kristin Grapentine Document Production Services Unit Desktop Publisher Educational Resources Branch Myrna Klassen Distance Learning Unit Consultant Instruction, Curriculum and Assessment Branch Adam Kowalski Development Unit Instructional Design Instruction, Curriculum and Assessment Branch Analyst Gilles Landry Development Unit Project Manager Instruction, Curriculum and Assessment Branch</region>
+        <region class="unknown" id="41" page="9" column="1">acknowledgements</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="42" page="9" column="3">in</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="43" confidence="possible" page="9" column="3">vii</h1>
+        <region class="DoCO:TextChunk" id="44" confidence="possible" page="10" column="1">Susan Lee Distance Learning Unit Coordinator Instruction, Curriculum and Assessment Branch John Murray Development Unit Project Leader Instruction, Curriculum and Assessment Branch Tim Pohl Document Production Services Unit Desktop Publisher Educational Resources Branch Marjorie Poor Document Production Services Unit Publications Editor Educational Resources Branch Lindsay Walker Document Production Services Unit Desktop Publisher Educational Resources Branch Murielle White Document Production Services Unit Desktop Publisher Educational Resources Branch</region>
+        <region class="unknown" id="45" page="10" column="1">Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="46" confidence="possible" page="10" column="1">viii</h1>
+        <region class="unknown" id="47" page="11" column="1">i ntroduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="48" page="11" column="1">overview</h1>
+        <region class="DoCO:TextChunk" id="49" confidence="possible" page="11" column="1">Welcome to Grade 9 Science: A Course for Independent Study ! In this course, you will examine the very atoms that make up all matter on Earth, discover how electricity has been harnessed to operate machinery, uncover how our body tissues grow and regenerate, and explore the far-off stars and planets of our galaxy. By enrolling in an independent study course, you take on the roles and responsibilities of both student and teacher. As a student, you are responsible for mastering the lessons and completing the learning activities and assignments. As a teacher, you are responsible for checking your work carefully, noting your areas of weakness, and motivating yourself to succeed.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="50" page="11" column="1">What Will You learn?</h1>
+        <region class="DoCO:TextChunk" id="51" confidence="possible" page="11" column="1">In each lesson, you will read a few pages and then complete a learning activity and/or assignment. Some lessons will have hands-on experiments for you to perform, while others may require you to do some investigative research or observation work in the community. There are four modules in this course: n Module 1: Reproduction n Module 2: Atoms and Elements n Module 3: The Nature of Electricity n Module 4: Exploring the Universe The modules in this course are not cumulative; in fact, feel free to approach the modules in any order you prefer. Keep in mind that the astronomy module, “Exploring the Universe,” will require you to observe planets and constellations in the night sky. You may wish to schedule this module for the fall and winter months when you will have the most nighttime hours at your disposal.</region>
+        <region class="unknown" id="52" page="11" column="3">introduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="53" confidence="possible" page="11" column="3">ix</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="54" page="12" column="1">What Will You need?</h1>
+        <region class="DoCO:TextChunk" id="55" confidence="possible" page="12" column="1">n A learning partner should be available to help you to complete some learning activities (see page xvi for a further description of your learning partner). An adult should also be available to supervise certain assignments that involve hands-on experiments. n Each module has a list of equipment required for completing its learning activities (LA) and assignments (A). Plan out the order in which you will complete each module and make a point of having your materials ready when you begin a new module. n The supply list below identifies the items required for the hands-on experiments found in either Learning Activities (LA) or Assignments (A) for the whole course. In some circumstances you have a choice of experiments (e.g., in Module 2, Assignment 2.4; in Module 3, Assignment 3.2, Learning Activity 3.7, Learning Activity 3.12, and Learning Activity 3.13). Item Required Module 1 Module 2 Module 3 Module 4 masking tape la 1.14 la 3.13, option 2 4 pennies la 1.14 salt a 2.4, option 1 water a 2.4, option 1 teaspoon a 2.4, option 1 glass tumbler a 2.4, option 1 la 3.3 stir stick a 2.4, option 1 magnifying glass a 2.4, options 1 and 2 1 effervescent tablet a 2.4, option 2 scraping tool a 2.4, option 2 candle a 2.4, option 3 candle holder a 2.4, option 3 matches a 2.4, option 3 steel wool pad a 2.4, option 4 thermometer a 2.4, option 4 vinegar a 2.4, option 4 continued</region>
+        <region class="unknown" id="56" page="12" column="1">Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="57" confidence="possible" page="12" column="1">x</h1>
+        <region class="DoCO:TextChunk" id="58" confidence="possible" page="13" column="1">Item Required Module 1 airtight jar small cup plastic straw paper bits wool cloth/fabric transparent tape (packing tape) 15 cm of copper tubing (1 cm in diameter) 30 cm string thread pith ball or piece of foam foam cup aluminum foil soda can with pull tab lemon copper wire neon bulb, ammeter, galvanometer, or multimeter iron nail, plus welding rods, wires, or other metals 2 d cell batteries 2 small flashlight bulbs insulated copper wire</region>
+        <region class="DoCO:TextChunk" id="59" confidence="possible" page="13" column="2">Module 2 Module 3 Module 4 a 2.4, option 4 a 2.4, option 4 la 3.1, 3.3, 3.5 a 3.2, option 1 la 3.1, 3.5 la 3.1, 3.3, 3.5 la 3.1; 3.3; 3.12, option 2; a 3.13, 3.2, option options 2 1 la 4.2 and 2; a 3.5, option 2 la 3.3 la 3.3 la 3.5 a 3.2, option 1 la 3.3 a 3.2, options 1 and 2 a 3.2, options 1 and 2 a 3.2, option 2 la 3.7, option 1 la 3.7, option 1 la 3.7, option 1 la 3.7, option 1 la 3.12, option 2 la 3.13, option 2 a 3.5, option 2 la 3.12, option 2 la 3.13, option 2 a 3.5, option 2 la 3.13, option 2 a 3.5, option 2 continued</region>
+        <region class="unknown" id="60" page="13" column="2">introduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="61" confidence="possible" page="13" column="2">xi</h1>
+        <region class="DoCO:TextChunk" id="62" confidence="possible" page="14" column="1">Item Required Module 1 Module 2 Module 3 Module 4 light gauge wire la 3.12, option 2 thick cardboard corrugated la 4.2 scissors la 4.2 20 coloured cm of fishing thin string line or la 4.2 small washer, weight nickel) (e.g., la 4.2 large least .5 drinking cm in diameter straw at la 4.2 glue stick la 4.2 orienteering-type compass la 4.5, a 4.2 metre stick la 4.10 small protractor la 4.10, a 4.6 centimetre ruler la 4.10, a 4.6 is access to the internet required? n Internet access is required to download Crocodile Clips software from &lt;www.yenka.com/en/Free_student_home_licences/&gt;, which is needed if you choose Option 1 of Learning Activities 3.7, 3.12, and/or 3.13 and/or Assignment 3.5. n In Module 3, Lesson 15, you will require a home hydro bill. If you do not have one, a sample Manitoba Hydro bill is available online at &lt;www.hydro.mb.ca/mybill/sample_bill.pdf&gt;. n Internet access is required to attain a simplified star chart or planisphere online for Assignment 4.2 and Learning Activity 4.5. Please contact your tutor/marker if you are unable to obtain one. n A computer with Internet access would be beneficial throughout the course. Additional support materials for the course are provided on websites that are listed. A note about Internet sites: All of the URLs listed in this course were working when this course was written, but, since Internet sites come and go, you might find that some of these sites are no longer active or appropriate. If that happens, you could use a search engine (e.g., &lt;www.google.ca&gt;) to find the information that you are looking for.</region>
+        <region class="unknown" id="63" page="14" column="1">Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="64" confidence="possible" page="14" column="1">xii</h1>
+        <outsider class="DoCO:TextBox" type="sidenote" id="65" page="15" column="1">so</outsider>
+        <region class="unknown" id="66" page="15" column="1">What optional resources are recommended? Access to the following resources would be beneficial in completing this course: n a computer and word processing software like Microsoft Word, which you can use to write your assignments electronically, and then you can attach them to your email to send in for assessment n a computer and an email account , which will allow you to email your assignments to the Independent Study option office (more instructions on how to email assignments to your tutor marker will be explained later in this Introduction) n local resource people such as teachers, school counsellors, librarians, and on, who can help you complete the course n a photocopier so that you can photocopy assignments before mailing them to the Independent Study Option office</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="67" page="15" column="1">How Will You know How You are doing?</h1>
+        <region class="DoCO:FigureBox" id="Fx68">
+          <image class="DoCO:Figure" src="143d.page_015.image_02.png" thmb="143d.page_015.image_02-thumb.png"/>
+          <image class="DoCO:Figure" src="143d.page_015.image_03.png" thmb="143d.page_015.image_03-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="69" confidence="possible" page="15" column="1">You will know how well you are learning by your assessment of the following: learning activities One of the easiest and fastest ways to find out how much you have learned is by completing the learning activities. These have been designed to let you assess yourself by comparing your answers with the answer keys at the end of each module. Some lessons have more than one learning activity. You will need a notebook to write down your answers. Besides giving you feedback, the learning activities will help you practise what you have learned and prepare you to successfully complete your assignments and exam. Many of the questions on the exam will be similar to the questions in the learning activities. Remember that you do not mail learning activities to your tutor/marker . assignments Some lessons contain assignments that you will be sending to your tutor/marker for assessment. The assignment component of this course is worth 75 percent of your final mark. In order to do well on each assignment, you should complete all learning activities first and check your answers in the answer key provided. Remember to keep all assignments that have been marked and returned to you, as you will need to review them for the exam.</region>
+        <region class="unknown" id="70" page="15" column="1">introduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="71" confidence="possible" page="15" column="1">xiii</h1>
+        <region class="DoCO:FigureBox" id="Fx72">
+          <image class="DoCO:Figure" src="143d.page_016.image_04.png" thmb="143d.page_016.image_04-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="73" confidence="possible" page="16" column="1">Plagiarism Plagiarism is taking someone’s ideas or words as if they you’re your own, without giving credit where credit is due. Some examples include the following: n downloading material in whole or part from the Internet and submitting it as your own n copying word-for-word from published or unpublished work n paraphrasing, or using ideas from, published or unpublished work without giving credit How can you avoid plagiarism? 1. Begin early because research takes time. In addition to the time needed to search for, evaluate, and read sources, you also need to remember to allow time to get help if you need it. Always document your sources immediately. 2. Incorporate information using quotations or paraphrases. A quotation uses exactly the same words and puts them in quotation marks. A paraphrase uses an author's idea, but expresses it in your own words—without quotation marks, since it is no longer a word-for-word quotation. And just changing a few words from the original does not count. 3. Discover how to use various citation styles like MLA to cite your sources. 4. Give credit where credit is due! The above is not a complete list because using citations could be a lesson in itself. This is a quick guide to help you research ethically and efficiently. When in doubt, talk to your tutor/marker, your librarian, a family member, or a teacher. Final Exam The final exam is based on all four modules and is worth 25 percent of the final mark of the course. In order to do well on the final exam, you should review all of the work that you have completed from Modules 1 to 4, including all learning activities and assignments. You should also complete and check your answers for the Final Practice Exam (more about this below). You are responsible for applying for your exam and making arrangements to have the exam sent to your proctor from the Independent Study Option office. You should make arrangements to write your exam before you finish the final module. When you write your exam, you will be supervised by a proctor. Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="74" confidence="possible" page="16" column="1">xiv</h1>
+        <region class="DoCO:TextChunk" id="75" confidence="possible" page="17" column="1">n If you are attending school , ask your school’s Independent Study Option (ISO) school facilitator to add your name to the ISO examination eligibility list. n If you are not attending school , check the Examination Request Form for options available to you. The form was mailed to you with this course. Three weeks before you are ready to write the final examination, fill in the Examination Request Form and mail or fax it to ISO Registration 555 Main Street Winkler MB R6W 1C4 Fax: 204-325-1719 Telephone: 1-800-465-9915 Final Practice Exam and answer key To help you succeed in your final exam, you need to write the Final Practice Exam that is found at &lt;www.edu.gov.mb.ca/k12/dl/downloads/index.html&gt;. This practice exam is very similar to the actual final exam that you will be writing. An answer key is also provided so that you can check your answers when you have finished writing it. This will give you the confidence that you need to do well on your exam. If you do not have access to the Internet, contact the Independent Study Option at 1-800-465-9915 to get a copy of the practice exam.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="76" page="17" column="1">What is a typical lesson like?</h1>
+        <outsider class="DoCO:TextBox" type="sidenote" id="77" page="17" column="1">of</outsider>
+        <region class="unknown" id="78" page="17" column="1">Each module in this course is made up of several lessons, which are organized as follows: n Introduction: Each lesson begins by outlining what you will be learning. n Lesson Focus: Each lesson focuses on learning outcomes which are goals you should have accomplished by the end of the lesson as prescribed by Manitoba Education. n Lesson: The main body of the lesson is made up of the content that you need to learn. It contains explanations, diagrams, and fully completed examples. n Summary: Each lesson ends with a brief review of what you just learned. n Learning Activities: Most lessons have a learning activity. These include questions that you should complete in order to help you practise or review what you have just learned. Once you have completed a learning activity, you should check your answers with the answer key provided at the end the module.</region>
+        <region class="unknown" id="79" page="17" column="1">introduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="80" confidence="possible" page="17" column="1">xv</h1>
+        <region class="DoCO:TextChunk" id="81" confidence="possible" page="18" column="1">n Assignments: Assignments are found at the end of lessons. In all, the assignments will be worth a total of 75 percent of your final mark. You will mail or email all of your completed assignments to your tutor/marker for assessment.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="82" page="18" column="1">Who can Help You with this course?</h1>
+        <region class="DoCO:FigureBox" id="Fx83">
+          <image class="DoCO:Figure" src="143d.page_018.image_05.png" thmb="143d.page_018.image_05-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="84" confidence="possible" page="18" column="1">There are at least two people who can help you to succeed in this course: Your tutor/Marker Tutor/markers are experienced educators who tutor independent students and mark assignments and examinations. When you are having difficulty with something in this course, be sure to contact your tutor/marker, who is there to help you. Your tutor/marker’s name and contact information were sent to you with this course. If you are not sure how to contact your tutor/marker, phone the ISO office at 1-800-465-9915. Your learning Partner(s) A learning partner is someone you choose who will help you learn. It may be someone who knows something about science, but it doesn’t have to be. A learning partner could be someone else who is taking this course, a teacher, a parent or guardian, a sibling, a friend, or anybody else who can help you. Most importantly, a learning partner should be someone with whom you feel comfortable, and who will support you as you work through this course. Your learning partner can help you keep on schedule, check your work, help you make sense of assignments, read the course with you, or look at your learning activities and respond to them. You may even study for your exam with your learning partner. If you like, you may choose more than one learning partner—sometimes one person may have more of an interest in a particular topic than your usual learning partner or sometimes one person may have more time available when you need help. If your learning partner is not an adult, you will also need an adult available to supervise some of the hands-on learning activities.</region>
+        <region class="unknown" id="85" page="18" column="1">Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="86" confidence="possible" page="18" column="1">xvi</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="87" page="19" column="1">How Much time Will You need?</h1>
+        <region class="DoCO:TextChunk" id="88" confidence="possible" page="19" column="1">Learning through independent study has several advantages over learning in the classroom. You are in charge of how you learn and can choose how quickly you will complete the course. You do not have to wait for you teacher or classmates, and can read as many lessons as you wish in a single session. Read the next few pages to get a recommendation on how to pace yourself. chart a: Semester 1 Here is a suggested timeline that you can follow if you start your course in September and need to complete it by the end of January. Module completion date Module 1 late September Module 2 early november Module 3 early december Module 4 and Final Exam mid January chart B: Semester 2 Here is a suggested timeline that you can follow if you start your course in January and need to complete it by June. Module completion date Module 1 late February Module 2 early april Module 3 early May Module 4 and Final Exam late May</region>
+        <region class="unknown" id="89" page="19" column="1">introduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="90" confidence="possible" page="19" column="1">xvii</h1>
+        <region class="DoCO:TextChunk" id="91" confidence="possible" page="20" column="1">chart c: Full School Year (not Semestered) Here is a suggested timeline that you can follow if you start your course in September and need to complete it by June. Module completion date Module 1 late october Module 2 mid January Module 3 mid March Module 4 and Final Exam late May Do not wait until the last minute to complete your work, since your tutor/marker may not be available to mark it immediately. Make sure that you leave enough time for your work to travel through the mail, as it might take over a week. It may also take a few weeks for your tutor/marker to mark everything and send the marks to your school. If you need this course to graduate this school year, remember to schedule and complete your final exam by the end of May.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="92" page="20" column="1">How and When do You Send assignments to Your tutor/Marker?</h1>
+        <region class="DoCO:TextChunk" id="93" confidence="possible" page="20" column="1">When to Submit assignments While working on this course, you will mail or email completed assignments to your tutor/marker four times. Each time you send an assignment, you must include the Module Cover Sheet, which you will find at the end of this Introduction. The following chart shows you exactly what you will be mailing in at the end of each module. Assignments Mailing Modules You Will Mail In Mailing 1 Module 1 assignments 1.1 – 1.4 Mailing 2 Module 2 assignments 2.1 – 2.4 Mailing 3 Module 3 assignments 3.1 – 3.6 Mailing 4 Module 4 assignments 4.1 – 4.8 Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="94" confidence="possible" page="20" column="1">xviii</h1>
+        <region class="DoCO:FigureBox" id="Fx95">
+          <image class="DoCO:Figure" src="143d.page_021.image_06.png" thmb="143d.page_021.image_06-thumb.png"/>
+          <image class="DoCO:Figure" src="143d.page_021.image_07.png" thmb="143d.page_021.image_07-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="96" confidence="possible" page="21" column="1">How to Submit assignments? In this course, you have the choice of either mailing or emailing your assignments. n Each time that you mail something, you must include the print version of the applicable Module Cover Sheet (found at the end of this Introduction). n Each time that you email something, you must include the electronic version of the applicable Module Cover Sheet (found at &lt;www.edu.gov.mb.ca/k12/dl/downloads/index.html&gt;). Complete the information at the top of the Module Cover Sheet before mailing or emailing it along with your assignments. Mailing Your Assignments If you choose to mail your completed assignments, please photocopy all of the materials first so you will have a copy in case your package goes missing. You will need to place the applicable Module Cover Sheet and assignments in an envelope and address it to ISO Tutor/Marker 555 Main Street Winkler MB R6W 1C4 Your tutor/marker will mark your work and return it to you by mail. Emailing Your Assignments If you choose to email your assignments, make sure you have saved copies of them before you send them. That way, you can refer to your assignments when you discuss them with your tutor/marker. To email your completed assignments, you will first need to do one of the following: n If you are attending school , please ask your ISO school facilitator (the person who signed your ISO Registration/Admission Form) for permission to email your assignments and to determine your school’s procedure for emailing assignments/unsupervised tests. Contact your tutor/marker to confirm that the course material can be marked electronically. n If you are not attending school , please obtain permission directly from your tutor/marker to submit your assignments electronically.</region>
+        <region class="unknown" id="97" page="21" column="3">introduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="98" confidence="possible" page="21" column="3">xix</h1>
+        <region class="DoCO:TextChunk" id="101" confidence="possible" page="22" column="1">How to Submit Your Work (files must not exceed 5 MB) Please submit your work in the file types shown below: n Written work: Microsoft Word files (doc) or RTF files n Spreadsheets: Microsoft Excel files (xls) n Pictures and graphics: JPEG or GIF files n Scanned work: PDF files (save multiple pages on one file) How to Send Your Email 1. Use the following format to compose your email. To: <email id="99">distance.learning@gov.mb.ca</email> Cc: [your iSo school facilitator’s email address if you attend school ] Subject: [your name] Grade 9 Science Attach: assignment 1.1.doc, assignment 1.2.doc, assignment 1.3.doc, assignment 1.4.doc Message: assignments 1.1, 1.2, 1.3, and 1.4 tutor/marker __________________________________________________ School _______________________________________________________ 2. Attach your files (files must not exceed 5 MB). 3. Email your assignments to <email id="100">&lt;distance.learning@gov.mb.ca&gt;</email> only. Do not email your assignments directly to your tutor/marker. Emails sent directly to tutor/markers will be returned unread. Your tutor/marker will mark your work and return it to you by email.</region>
+        <region class="unknown" id="102" page="22" column="1">Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="103" confidence="possible" page="22" column="1">xx</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="104" page="23" column="1">What are Guide Graphics For?</h1>
+        <region class="DoCO:TextChunk" id="105" confidence="possible" page="23" column="1">Guide graphics are used throughout this course to identify and guide you in specific tasks. Each graphic has a specific purpose, as described below.</region>
+        <region class="DoCO:TextChunk" id="106" confidence="possible" page="23" column="1">Learning Outcomes: This graphic appears at the beginning of each lesson, indicating the specific learning outcomes targeted for the lesson.</region>
+        <region class="DoCO:FigureBox" id="Fx107">
+          <image class="DoCO:Figure" src="143d.page_023.image_08.png" thmb="143d.page_023.image_08-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="108" confidence="possible" page="23" column="1">Key Words: This graphic also appears at the beginning of each lesson, listing the new words and terms that will be defined within. Internet: If you have access to the Internet, you can use it to get more information. Internet access is optional.</region>
+        <region class="DoCO:FigureBox" id="Fx109">
+          <image class="DoCO:Figure" src="143d.page_023.image_09.png" thmb="143d.page_023.image_09-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="110" confidence="possible" page="23" column="1">Learning Partner: Ask your learning partner to help you with this task.</region>
+        <region class="DoCO:FigureBox" id="Fx111">
+          <image class="DoCO:Figure" src="143d.page_023.image_10.png" thmb="143d.page_023.image_10-thumb.png"/>
+          <image class="DoCO:Figure" src="143d.page_023.image_11.png" thmb="143d.page_023.image_11-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="112" confidence="possible" page="23" column="1">Learning Activity: Complete this learning activity to help you review or practise what you have learned and to prepare for your assignment or examination. You will not send learning activities to your tutor/marker. Check Your Work: This graphic reminds you to check your work using the answer key. Assignment: This guide graphic tells you that there is an assignment you must complete.</region>
+        <region class="DoCO:FigureBox" id="Fx113">
+          <image class="DoCO:Figure" src="143d.page_023.image_12.png" thmb="143d.page_023.image_12-thumb.png"/>
+        </region>
+        <region class="unknown" id="114" page="23" column="1">introduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="115" confidence="possible" page="23" column="1">xxi</h1>
+        <region class="DoCO:TextChunk" id="116" confidence="possible" page="24" column="1">File Assignment: File your completed assignments in a safe place until you have finished the next module of this course. Submit Assignment: It is now time to submit your assignment for tutor/marker assessment. Exam: Prepare to write your final exam.</region>
+        <region class="DoCO:FigureBox" id="Fx117">
+          <image class="DoCO:Figure" src="143d.page_024.image_13.png" thmb="143d.page_024.image_13-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="118" confidence="possible" page="24" column="1">Good luck with the course! Remember: If you need help at any point during this course, contact your tutor/marker.</region>
+        <region class="unknown" id="119" page="24" column="1">Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="120" confidence="possible" page="24" column="1">xxii</h1>
+        <region class="unknown" id="121" page="25" column="1">G rade 9 S cience (10F) Module 1</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="122" page="25" column="1">reproduction</h1>
+        <region class="DoCO:TextChunk" id="123" confidence="possible" page="25" column="1">This module contains the following: n introduction n Lesson 1: introduction to the cell n Lesson 2: cell division n Lesson 3: asexual reproduction n Lesson 4: Sexual reproduction n Lesson 5: Sexual reproduction in Plants and animals n Lesson 6: reproductive Success n Lesson 7: Human reproduction—The Male reproductive System n Lesson 8: Human reproduction—The Female reproductive System n Lesson 9: conception through Birth n Lesson 10: Single Trait inheritance n Lesson 11: Single Trait inheritance—a closer Look n Lesson 12: inheritance of Sex-Linked Traits n Lesson 13: Sex-Linked Traits and Your Pedigree n Lesson 14: Genetic Mutation—choices and environmental Factors n Lesson 15: canadian and international contributions to Genetics and reproduction n Lesson 16: Potential applications and implications of Biotechnology n Lesson 17: reproduction review</region>
+      </section>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="124" page="27" column="1">introduction</h1>
+        <region class="DoCO:FigureBox" id="Fx125">
+          <image class="DoCO:Figure" src="143d.page_027.image_14.png" thmb="143d.page_027.image_14-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="126" confidence="possible" page="27" column="1">When you think about how a plant begins to grow, or how your baby brother came to be, you are thinking about reproduction. There are different types of reproduction used by different species. It is difficult to really understand how the reproductive cycles work, since it all begins in the cells of the organism. You first began learning about cells and systems in Grade 8. You will carry on this work with this module. You may want to go back to your notes from Grade 8 Science to refresh your memory. In this module, you will be using your understanding about cells and applying it to the reproduction of cells. You will learn about the reproductive system, conception through birth, and inheritance of traits. You will need the following materials to complete this module: n masking tape n four pennies You will notice that some of the lessons are accompanied by learning activities and assignments for you to complete. Complete the learning activities to help you learn about the information from the module and check the answer key in order to assess your understanding. Complete the assignments and hand them into your tutor/marker according to the instructions at the end of this module. Learning activities There are several learning activities placed throughout this module, which will help you practise using the information you will learn. The answer keys for each of these learning activities are found in Module 1 Learning Activity Answer Key. Check the answer key carefully and make corrections to your work.</region>
+        <region class="unknown" id="127" page="27" column="2">M oduLe 1 r eProducTion</region>
+        <region class="unknown" id="128" page="27" column="3">Module 1: reproduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="129" confidence="possible" page="27" column="3">3</h1>
+        <region class="DoCO:FigureBox" id="Fx130">
+          <image class="DoCO:Figure" src="143d.page_028.image_15.png" thmb="143d.page_028.image_15-thumb.png"/>
+          <image class="DoCO:Figure" src="143d.page_028.image_16.png" thmb="143d.page_028.image_16-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="131" confidence="possible" page="28" column="1">A computer with Internet access would be beneficial throughout the course. Additional support materials for the course are provided on websites that are listed. All of the URLs listed in this course were working when this course was written, but, since Internet sites come and go, you might find that some of these sites are no longer active or appropriate. If that happens, you could use a search engine (e.g., &lt;www.google.ca&gt;) to find the information that you are looking for. assignments You will also find assignments throughout this module. Assignments need to be completed and handed in to your tutor/marker once you have completed this module. The following assignments will need to be completed during your study of Module 1:</region>
+        <region class="unknown" id="132" page="28" column="1">Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="133" confidence="possible" page="28" column="1">4</h1>
+        <region class="DoCO:TextChunk" id="134" confidence="possible" page="29" column="1">Assessment Checklist q Lesson 1 There is no assignment in this lesson. q Lesson 2 There is no assignment in this lesson. q Lesson 3 There is no assignment in this lesson. q Lesson 4 There is no assignment in this lesson. q Lesson 5 There is no assignment in this lesson. q Lesson 6 assignment 1.1: dual option assignment (30 marks) q Lesson 7 There is no assignment in this lesson. q Lesson 8 There is no assignment in this lesson. q Lesson 9 assignment 1.2: From conception to Birth (40 marks) q Lesson 10 There is no assignment in this lesson. q Lesson 11 There is no assignment in this lesson. q Lesson 12 There is no assignment in this lesson. q Lesson 13 There is no assignment in this lesson. q Lesson 14 assignment 1.3: Mutagens investigation (24 marks) q Lesson 15 There is no assignment in this lesson. q Lesson 16 assignment 1.4: research into Genetics (14 marks) q Lesson 17 There is no assignment in this lesson. You will find instructions on how to hand in these assignments at the end of the module. These assignments will be worth a portion of the 75 percent of the total marks you will receive for assignments in this course.</region>
+        <region class="unknown" id="135" page="29" column="3">Module 1: reproduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="136" confidence="possible" page="29" column="3">5</h1>
+        <region class="unknown" id="137" page="30" column="1">Notes</region>
+        <region class="unknown" id="138" page="30" column="1">Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="139" confidence="possible" page="30" column="1">6</h1>
+        <region class="unknown" id="140" page="31" column="1">L eSSon 1: i nTroducTion</region>
+        <region class="unknown" id="141" page="31" column="1">Lesson Focus</region>
+        <region class="DoCO:FigureBox" id="Fx142">
+          <image class="DoCO:Figure" src="143d.page_031.image_17.png" thmb="143d.page_031.image_17-thumb.png"/>
+        </region>
+        <region class="unknown" id="143" page="31" column="1">After completing this lesson, you will be able to q list the three main parts of plant and animal cells q describe the function of the cell membrane q describe the function of cell organelles Key Words</region>
+        <region class="unknown" id="144" page="31" column="1">n</region>
+        <region class="DoCO:FigureBox" id="Fx145">
+          <image class="DoCO:Figure" src="143d.page_031.image_18.png" thmb="143d.page_031.image_18-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="146" confidence="possible" page="31" column="1">cell membrane n nucleus n cytoplasm n organelles n cellulose n DNA n genes n nuclear envelope n nucleoplasm n chromosomes n nucleolus n ribosomes n Golgi body n lysosomes</region>
+        <region class="DoCO:TextChunk" id="147" confidence="possible" page="31" column="2">To THe c eLL</region>
+        <region class="unknown" id="148" page="31" column="2">Module 1: reproduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="149" confidence="possible" page="31" column="2">7</h1>
+      </section>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="150" page="32" column="1">introduction</h1>
+        <region class="DoCO:TextChunk" id="151" confidence="possible" page="32" column="1">You have already learned about the structure of the cell. This section will serve as a review. The cell is the basic unit of life. The individual cell performs the same life functions as a whole organism. In fact, some organisms are made of only one cell. Every cell goes about the functions of n using food for energy n getting rid of waste n reproducing itself n creating material for growth and repair In this lesson, you will learn about the cell structures that allow these functions to take place.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="152" page="32" column="1">Basic Building Blocks</h1>
+        <region class="DoCO:TextChunk" id="153" confidence="possible" page="32" column="1">Cells are the basic building blocks of all life. Some organisms are composed of a single cell whereas others contain millions of cells. A typical cell is made of three main parts. n A cell membrane surrounds the cell. This membrane has small openings that provide places where the cell has contact with the environment outside. n The nucleus directs the activities of the cell. n The cytoplasm is a thick fluid inside the cell that, with the nucleus, makes up its total contents. The cytoplasm in turn is filled with organelles (little organs) that perform cell activities. These common elements are found in most cells. Cells exist in many different shapes, however, and have many different functions.</region>
+        <region class="unknown" id="154" page="32" column="1">Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="155" confidence="possible" page="32" column="1">8</h1>
+        <region class="DoCO:TextChunk" id="156" confidence="possible" page="33" column="1">The diagrams that follow show the structures present in plant and animal cells. Can you see any differences between the two diagrams?</region>
+        <region class="DoCO:FigureBox" id="F1.1">
+          <caption class="deo:Caption" id="157" page="33" column="1">Figure 1.1</caption>
+        </region>
+        <region class="unknown" id="158" page="33" column="1">Plant Cell cell wall cell membrane</region>
+        <region class="unknown" id="159" page="33" column="1">chloroplast vacuole</region>
+        <region class="unknown" id="160" page="33" column="1">endoplasmic reticulum</region>
+        <region class="DoCO:FigureBox" id="Fx161">
+          <image class="DoCO:Figure" src="143d.page_033.image_19.png" thmb="143d.page_033.image_19-thumb.png"/>
+        </region>
+        <region class="unknown" id="162" page="33" column="1">nucleolus mitochondrion</region>
+        <region class="unknown" id="163" page="33" column="1">Module 1: reproduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="164" confidence="possible" page="33" column="3">9</h1>
+        <region class="DoCO:FigureBox" id="F1.2">
+          <caption class="deo:Caption" id="165" page="34" column="1">Figure 1.2</caption>
+        </region>
+        <region class="unknown" id="166" page="34" column="1">Animal Cell cell membrane nucleus</region>
+        <region class="DoCO:TextChunk" id="167" confidence="possible" page="34" column="1">Golgi lysosome</region>
+        <region class="DoCO:FigureBox" id="Fx168">
+          <image class="DoCO:Figure" src="143d.page_034.image_20.png" thmb="143d.page_034.image_20-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="169" confidence="possible" page="34" column="1">centriole Plant and animal cells have many similar parts. Plant cells, however, have chloroplasts and cell walls. Animal cells do not have these features. The previous cell drawings contain the standard parts of the two cell types. When looking at cells through a microscope, they will not be identical to the drawings. The parts in the drawing have been clarified and are easy to see and identify. Structures in real cells are harder to see. Some structures can only be seen with an electron microscope. The organelles help the cell perform life functions including taking in food for energy and growth, eliminating waste, and adjusting to the environment.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="170" page="34" column="1">cell Membrane</h1>
+        <region class="DoCO:TextChunk" id="171" confidence="possible" page="34" column="1">The cell membrane is the thin, flexible material that surrounds the contents of the cell and allows it to make contact with its surroundings. The cell membrane consists of two layers of fat, with proteins located throughout the fat layers. The cell is able to control what substances pass through the membrane, allowing it to keep materials that are necessary for growth and survival, while eliminating materials that are harmful. The cell membrane is considered to be selectively permeable; that is, it lets some materials pass through but not others. A cell wall found in plant cells but not in animal cells is composed of a non-living material called cellulose . Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="172" confidence="possible" page="34" column="1">10</h1>
+        <region class="DoCO:TextChunk" id="173" confidence="possible" page="35" column="1">The cellulose is quite rigid and supports the shape of the plant cells. Cell walls allow the passage of all materials and are considered to be permeable.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="174" page="35" column="1">Parts of the cell</h1>
+        <region class="DoCO:TextChunk" id="175" confidence="possible" page="35" column="1">A cell can be an independent unit or it can be part of a system that has a specific function in a more complex organism. In this lesson, you will first study the nucleus and various organelles, all of which have specific functions within the cell.</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="176" page="35" column="1">for</outsider>
+        <region class="unknown" id="177" page="35" column="1">nucleus The nucleus is the largest of the cell organelles and acts as the cell’s command centre. The nucleus uses DNA (deoxyribonucleic acid) to command the activities of the cell. DNA is located in the nucleus and is used when a cell reproduces itself. DNA also builds proteins which allow the cell to adjust according to its surroundings. Packages of DNA are called genes . The three parts to a nucleus are: 1. Nuclear Envelope The nuclear envelope is similar to the cell membrane except it covers the nucleus. It contains many selectively permeable pores that allow only certain proteins to pass through into the nucleus. The fluid material inside the nucleus is called the nucleoplasm . 2. Chromosomes Chromosomes contain all the information the cell needs to reproduce itself and produce proteins. Chromosomes are made of genes. Chromosomes replicate themselves prior to cell reproduction. Most cells are able to reproduce. A notable exception is red blood cells. Red blood cells are without a nucleus and are the only cells that can survive any length of time without a nucleus. Their survival time is about two months. 3. Nucleolus There are several nucleoli in the nucleoplasm. These structures are not fully understood. Some scientists feel they are responsible for producing some proteins and ribosomes that pass out through the nuclear membrane into the cytoplasm.</region>
+        <region class="unknown" id="178" page="35" column="1">Module 1: reproduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="179" confidence="possible" page="35" column="1">11</h1>
+        <region class="DoCO:TextChunk" id="180" confidence="possible" page="36" column="1">cell organelles Cell organelles are located in the cytoplasm of the cell. endoplasmic reticulum The endoplasmic reticulum (ER) is responsible for moving proteins throughout the cell. It is a series of tubes and flattened sacs that connect to the nuclear envelope. Some of the ER is smooth and some is rough and dotted with ribosomes. Ribosomes are produced by the nucleus and settle onto the rough ER in order to build proteins.</region>
+        <region class="DoCO:FigureBox" id="F1.3">
+          <caption class="deo:Caption" id="181" page="36" column="1">Figure 1.3</caption>
+        </region>
+        <region class="unknown" id="182" page="36" column="1">Golgi Body</region>
+        <region class="unknown" id="183" page="36" column="1">Vesicles Nuclear Rough ER Envelope</region>
+        <region class="DoCO:FigureBox" id="Fx184">
+          <image class="DoCO:Figure" src="143d.page_036.image_21.png" thmb="143d.page_036.image_21-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="186" confidence="possible" page="36" column="1">Golgi Body The Golgi body is responsible for the packaging and storage of proteins transported by the endoplasmic reticulum. The Golgi body looks like a series of folds, one on top of the other (see <xref ref-type="fig" rid="F1.3" id="185" class="deo:Reference">Figure 1.3</xref> above). It is both structurally and functionally connected to the nucleus and the endoplasmic reticulum. The Golgi body wraps the protein in packages. These packages are stored until needed or transported out of the cell if not needed. The Golgi body also packages certain enzymes into separate organelles called lysosomes .</region>
+        <region class="unknown" id="187" page="36" column="1">Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="188" confidence="possible" page="36" column="1">12</h1>
+        <region class="unknown" id="189" page="37" column="1">Learning Activity 1.1</region>
+        <region class="DoCO:FigureBox" id="Fx190">
+          <image class="DoCO:Figure" src="143d.page_037.image_22.png" thmb="143d.page_037.image_22-thumb.png"/>
+        </region>
+        <region class="unknown" id="191" page="37" column="1">1. describe the path of a protein molecule from the place where they are produced to the place where they are used in the cytoplasm. 2. if the endoplasmic reticulum is the transportation system, then the Golgi complex is the warehousing and packaging system. explain this statement. 3. What part of the nucleus replicates itself as part of the reproductive process? 4. Why is the packaging of proteins in the Golgi complex an important part of the cell’s function? Check the answer key.</region>
+        <region class="DoCO:FigureBox" id="Fx192">
+          <image class="DoCO:Figure" src="143d.page_037.image_23.png" thmb="143d.page_037.image_23-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="193" confidence="possible" page="37" column="1">Summary When viewing cells under a simple microscope, the nucleus can easily be seen as a dark spot in the cell. The nucleus is held together by the nuclear envelope. Within the nucleus there are other structures: the chromosomes, which contain all the information the cell needs to reproduce itself, and the nucleolus, which is not fully understood. Be careful not to confuse the nucleus with the nucleolus. Other important organelles are the endoplasmic reticulum, which is responsible for protein manufacturing, and the Golgi body, which packages and stores protein.</region>
+        <region class="unknown" id="194" page="37" column="3">Module 1: reproduction</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="195" confidence="possible" page="37" column="3">13</h1>
+        <region class="unknown" id="196" page="38" column="1">Notes</region>
+        <region class="unknown" id="197" page="38" column="1">Grade 9 Science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="198" confidence="possible" page="38" column="1">14</h1>
+        <region class="DoCO:TextChunk" id="199" confidence="possible" page="40" column="1">Released 2011</region>
+        <outsider class="DoCO:TextBox" type="footer" id="200" page="40" column="1">Printed in Canada Imprimé au Canada</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

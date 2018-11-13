@@ -2,6 +2,8 @@ import xml.etree.ElementTree as ET
 import re
 from xml.dom.minidom import parse, Node
 from test2 import sim
+from sum import summary
+
 import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 from gensim.summarization.textcleaner import split_sentences
@@ -243,8 +245,8 @@ def findAnswer(XmlDocumentset,keywords):
                                         # getInfo(XmlDocument,r,idNumber,no)                    
                                 for node1 in xmlFile.nodeName:
                                     txt2=x[j].getAttribute('id')
-                                    if(txt2=='6'):
-                                         print("pawi") 
+                                    # if(txt2=='6'):
+                                    #      print("pawi") 
                 j=j+1
 
         # if(xmlFile.getElementsByTagName("region")!=[]):   
@@ -290,7 +292,7 @@ def findAnswer(XmlDocumentset,keywords):
             # jk=filtered_sentence1
         jk=' '.join(filtered_sentence1)
             # print(jk)           
-        return summarizationProcess(jk)
+        return summary(jk)
 def getInfo(XmlDocument,r,idNumber,no):
     xmlFile = parse(XmlDocument) 
     for f in xmlFile.getElementsByTagName("region"):
@@ -312,7 +314,7 @@ def summarizationProcess(extractedInfo):
     for line in sentence:
         sentCount=sentCount+1
     print("Count : zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",sentCount)    
-    if(sentCount>10):
+    if(sentCount>60):
         print 'Input text:'
         print extractedInfo
 
@@ -323,5 +325,5 @@ def summarizationProcess(extractedInfo):
     else:
         print('Summarized information',extractedInfo)
         return extractedInfo
-# findAnswer(['Data Communication Networking.xml','SRSDocument-Learning tool.xml'],['Network Topologies' ,'asadadass'])
+findAnswer(['AI For Undergraduate Students.xml','SRSDocument-Learning tool.xml'],['Semi Supervised Learning' ,'asd'])
 
